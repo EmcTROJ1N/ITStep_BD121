@@ -2,6 +2,7 @@
 #include <time.h>
 #include <vector>
 #include <algorithm>
+#include <set>
 
 using namespace std;
 
@@ -29,17 +30,32 @@ int isPerm (long num1, long num2) {
     return true;                  // All count identical, was a permutation.
 }
 
+bool isRepeat(int number) {
+    std::set<int> d;
+    int counter = 0;
+    
+    while (number != 0) {
+        d.insert(number % 10);
+        number /= 10;
+        counter++;
+    }
+    
+    return counter != d.size();
+}
+
 int main()
 {
     srand(time(0));
+    int counter = 1;
 
     vector<int> numbers;
 
-    for (int i = 1000, j = 0; j < 8999; j++, i++)
+    for (int i = 1000, j = 0; j < 5040; j++, i++) // Заполнение вектора
     {
-        numbers.push_back(i);
+        if (isRepeat(i) == false)
+            numbers.push_back(i);
     }
-
+   
     for (int i = 1111; i < 9999; i += 1111)
     {
         numbers.erase(remove(numbers.begin(), numbers.end(), i), numbers.end());
@@ -49,7 +65,7 @@ int main()
     int number[4]; //Генерация случайного числа
     //int numb = rand() % (9999 - 1000 + 1) + 1000;
 
-    int numb = 1984;
+    int numb = 1254;
 
     int tmpVarNumb = numb;
     for (int i = 3; i >= 0; i--)
@@ -58,12 +74,42 @@ int main()
         tmpVarNumb /= 10;
     }
 
+    int sumCountCoincidences = 0;
+    int sumCountCoincidencesPos = 0;
+
     int countCoincidencesPos;
     int countCoincidences;
     int numbTwo;
     while (true)
     {
-        cin >> numbTwo;
+        if (counter == 1) numbTwo = 1234;
+        if (counter == 2) numbTwo = 5678; 
+        if (counter == 3)
+        {
+            if (sumCountCoincidencesPos + sumCountCoincidences >= 4)
+            {
+                int tmpVar;
+                int lDigit;
+                for (int i = 0; i < numbers.size(); i++)
+                {
+                    tmpVar = numbers[i];
+                    while (tmpVar != 0)
+                    {
+                        lDigit = tmpVar % 10;
+                        tmpVar /= 10;
+                        if (lDigit == 9 || lDigit == 0)
+                        {
+                            numbers.erase(remove(numbers.begin(), numbers.end(), numbers[i]), numbers.end());
+                            i--;
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        if (counter == 4)
+            cin >> numbTwo;
+        //cin >> numbTwo;
 
         int numberTwo[4];
         tmpVarNumb = numbTwo;
@@ -73,12 +119,6 @@ int main()
         {
             numberTwo[i] = tmpVarNumb % 10; 
             tmpVarNumb /= 10;
-        }
-
-        if ((numberTwo[0] == numberTwo[1]) && (numberTwo[2] == numberTwo[3]) && (numberTwo[0] == numberTwo[2]))
-        {
-            cout << "Вы ввели неверное число..."; // Проверка числа
-            break;
         }
 
         countCoincidencesPos = 0;
@@ -99,7 +139,7 @@ int main()
             }
         }
 
-        cout << countCoincidences << " " << countCoincidencesPos << endl; // Вывод результатов
+        cout << numbTwo << " " << countCoincidences << " " << countCoincidencesPos << endl; // Вывод результатов
         
         // Проверка на угаданное число
         if (countCoincidencesPos == 4)
@@ -124,7 +164,6 @@ int main()
             }
         }
 
-
         if ((countCoincidences == 2 && countCoincidencesPos == 2) || (countCoincidences == 3 && countCoincidencesPos == 1))
         {
             numbers.erase(remove(numbers.begin(), numbers.end(), numbTwo), numbers.end());
@@ -137,7 +176,31 @@ int main()
                     i--;
                 }
             }
+
+            bool flag = false;
+            for (int i = 0; i < numbers.size(); i++)
+            {
+                if (numbers[i] == numb)
+                {
+                    cout << "Krasavcheg.";
+                    flag = true;
+                    break;
+                }
+            }
+            if (flag)
+            {
+                break;
+            }
         }
-        cout << numbers.size() << endl;
+        
+
+        if (counter <= 2)
+        {
+            sumCountCoincidencesPos += countCoincidencesPos;
+            sumCountCoincidences += countCoincidences;
+        }
+        
+        counter++;
+        cout << "Vector size: " << numbers.size() << endl;
     } 
 }
