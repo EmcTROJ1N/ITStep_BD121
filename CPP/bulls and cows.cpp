@@ -3,6 +3,7 @@
 #include <vector>
 #include <algorithm>
 #include <set>
+#include <string>
 
 using namespace std;
 
@@ -67,6 +68,8 @@ int main()
 
     vector<int> numbers;
     vector<int> lNumbers;
+    vector<int> unUsedNumbers;
+    vector<int> usedNumbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
     for (int i = 1000, j = 0; j < 5040; j++, i++) // Заполнение вектора
     {
@@ -88,21 +91,20 @@ int main()
     int sumCountCoincidences = 0;
     int sumCountCoincidencesPos = 0;
 
-    int lcountCoincidencesPos;
-    int lcountCoincidences;
     int countCoincidencesPos;
     int countCoincidences;
     int numbTwo;
     int lNumb;
     int index;
     bool flager = false;
+    bool flagerTwo = false;
 
     while (true)
     {
         counter++;
         if (counter == 1) numbTwo = 1234;
         if (counter == 2) numbTwo = 5678;
-       if (counter >= 3)
+        if (counter >= 3) // Генерация числа
         {
             if (flager == false)
             {
@@ -115,8 +117,16 @@ int main()
             }
             else
             {
-                index = rand() % numbers.size();
-                numbTwo = numbers[index];
+                if (flagerTwo == false)
+                {
+                    string sNumb = "" + to_string(unUsedNumbers[0]) + to_string(unUsedNumbers[1]) + to_string(usedNumbers[rand() % usedNumbers.size()]) + to_string(usedNumbers[rand() % usedNumbers.size()]);
+                    numbTwo = stoi(sNumb);
+                }
+                else
+                {
+                    index = rand() % numbers.size();
+                    numbTwo = numbers[index];
+                }
             }
         }
         
@@ -167,10 +177,15 @@ int main()
         // Отчечение неверных вариантов
         if (countCoincidencesPos == 0 && countCoincidences == 0)
         {
+            flager = true;
+            if (flager == true)
+                flagerTwo = true;
+            
             for (int j = 0, k = 1000; j < 4; j++, k /= 10)
             {
                 for (int i = 0; i < numbers.size(); i++)
                 {
+                    usedNumbers.erase(remove(usedNumbers.begin(), usedNumbers.end(), numberTwo[j]), usedNumbers.end());
                     if (numberTwo[j] == (numbers[i] / k) % 10)
                     {
                         numbers.erase(remove(numbers.begin(), numbers.end(), numbers[i]), numbers.end());
@@ -181,7 +196,6 @@ int main()
 
         if ((countCoincidences == 2 && countCoincidencesPos == 2) || (countCoincidences == 3 && countCoincidencesPos == 1) || (countCoincidences == 4))
         {
-            numbers.erase(remove(numbers.begin(), numbers.end(), numbTwo), numbers.end());
             for (int i = 0; i < numbers.size(); i++)
             {
                 bool flag = isPerm(numbTwo, numbers[i]); 
@@ -230,6 +244,8 @@ int main()
                         tmpVar /= 10;
                         if (find(lNumbers.begin(), lNumbers.end(), lDigit) != lNumbers.end() == false)
                         {
+                            if (find(unUsedNumbers.begin(), unUsedNumbers.end(), lDigit) != unUsedNumbers.end() == false)
+                                unUsedNumbers.push_back(lDigit);
                             flag = false;
                             break;
                         }
@@ -242,6 +258,7 @@ int main()
                 }
 
         } 
+        
         if (counter % 2 == 0)
         {
             lNumbers.clear();
@@ -255,10 +272,8 @@ int main()
             sumCountCoincidencesPos = 0;
         }
         cout << "Vector size: " << numbers.size() << " " << endl;
-        
+
         lNumb = numbTwo;
-        lcountCoincidences = countCoincidences;
-        lcountCoincidencesPos = lcountCoincidencesPos;
     } 
 
     cout << "Counter: " << counter << endl << endl;
