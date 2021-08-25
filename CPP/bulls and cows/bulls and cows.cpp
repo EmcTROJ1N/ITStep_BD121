@@ -119,8 +119,11 @@ int main()
             {
                 if (flagerTwo == false)
                 {
-                    string sNumb = "" + to_string(unUsedNumbers[0]) + to_string(unUsedNumbers[1]) + to_string(usedNumbers[rand() % usedNumbers.size()]) + to_string(usedNumbers[rand() % usedNumbers.size()]);
-                    numbTwo = stoi(sNumb);
+                    do
+                    {
+                        string sNumb = "" + to_string(unUsedNumbers[0]) + to_string(unUsedNumbers[1]) + to_string(usedNumbers[rand() % usedNumbers.size()]) + to_string(usedNumbers[rand() % usedNumbers.size()]);
+                        numbTwo = stoi(sNumb);
+                    } while (isRepeatNumb(numbTwo));
                 }
                 else
                 {
