@@ -38,7 +38,6 @@ int calc(int a, int b, char symb)
     return res;
 }
 
-
 bool isValid(string N)
 {
     bool flag = true;
@@ -55,7 +54,7 @@ bool isValid(string N)
     }
     for (int i = 0; i < N.size(); i++)
     {
-        if (!((int)N[i] > 48 && (int)N[i] < 57 && N[i] != '*' && N[i] != '/' && N[0] != '-' && N[0] != '+'))
+        if (!(((int)N[i] >= 48 && (int)N[i] <= 57) || N[i] == '*' || N[i] == '/' || N[0] == '-' || N[0] == '+'))
             flag = false;
     }
     if (N.size() == 1)
@@ -71,12 +70,10 @@ bool isValid(string N)
 }
 
 
-void task_1()
+int calcNumbs(string N)
 {
-    string N;
     vector<string> numbers;
     vector<char> symbols;
-    getline(cin, N);
     
     if (N.size() == 1)
     {
@@ -104,7 +101,7 @@ void task_1()
     {
         if (symbols[i] == '/' || symbols[i] == '*')
         {
-            if (isValid(numbers[i]) && isValid(numbers[i + 1]))
+            if (!(isValid(numbers[i]) && isValid(numbers[i + 1])))
             {
                 cout << "Invalid input";
                 exit(0);
@@ -156,12 +153,10 @@ void task_1()
             exit(0);
         }
     }
-    
-    cout << sum;
+    return sum;
 }
 
 int main()
 {
-    task_1();
     return 0;
 }
