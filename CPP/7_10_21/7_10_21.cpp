@@ -3,9 +3,14 @@
 
 using namespace std;
 
-void task_1()
+int task_1(int N, int i = 0, int sum = 0)
 {
-
+    sum += i;
+    if (i != N)
+    {
+        sum = task_1(N, ++i, sum);
+    }
+    return sum;
 }
 
 int task_2(char* str, int i = 0, int k = 0)
@@ -20,7 +25,6 @@ int task_2(char* str, int i = 0, int k = 0)
     return k;
 
 }
-
 
 char* task_3(char* str, int i = 0)
 {
@@ -37,9 +41,8 @@ char* task_3(char* str, int i = 0)
 
 int main()
 {
-    char str[20];
-    cin >> str;
-    cout << task_3(str);
-
+    int N;
+    cin >> N;
+    cout << task_1(N);
     return 0;
 }
