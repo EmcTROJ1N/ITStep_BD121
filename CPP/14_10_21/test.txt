@@ -1,29 +1,18 @@
-File: Снимок экрана от 2021-09-22 15-53-04.png Size is 1693725
-File: base_b5d9f8d555.gif Size is 99038
-File: 4k-ganyu.jpg Size is 1852600
-File: rabstol_net_sword_art_online_03.jpg Size is 1236552
-File: thumb-1920-224783.jpg Size is 325978
-File: anime-demon-slayer--kimetsu-no-yaiba-kli-1548395.jpg Size is 817384
-File: devochka-prizrak-bog-smerti-sushchnost-dvizhenie-chulki-dlin.jpg Size is 449595
-File: Снимок экрана от 2021-09-22 15-53-07.png Size is 1697667
-File: mikuFvd.jpg Size is 568509
-File: tokyo-ghoul-tokiiskii-gul-gul-ghoul-dead-inside-dead-ded-ins.jpg Size is 633855
-File: igra-personazh-krasivaia-devochka-most-anime-art-nimb-nier-a.jpg Size is 831379
-File: d19_bus_escape.jpg Size is 76160
-File: art-jjune-anime-tokiyskiy.jpg Size is 431507
-File: devushka-ulybka-vzgliad-tsvetok-anime-art.jpg Size is 371379
-File: ahpuzp4dogq03esl.jpg Size is 124635
-File: Снимок экрана от 2021-10-01 21-32-20.png Size is 664324
-File: Снимок экрана от 2021-10-14 13-06-02.png Size is 274227
-File: Снимок экрана от 2021-10-01 21-03-25.png Size is 271752
-File: girlhun.jpg Size is 329035
-File: ОбоиFile: d3ed6e19df_kurokos-basketball.jpg Size is 419456
-File: art-saihate-vocaloid-hatsune-4867.jpg Size is 347131
-File: honkai-impact-3rd-igra-anime-devushka.jpg Size is 659962
-File: wallpapersden.com_76057-5120x2880.jpg Size is 8934192
-File: Крутые-и-классные-обои-Токийский-гуль-на-рабочий-стол-подборка-18.jpg Size is 769362
-File: Снимок экрана от 2021-09-22 15-53-06.png Size is 1693725
-File: Снимок экрана от 2021-10-10 16-16-45.png Size is 509138
-File: anime-tokyo-ghoul-7393.jpg Size is 1887168
-File: 749448.jpg Size is 1395964
-File: avengers-infinity-war-mstiteli-voina-beskonechnosti-film--14.jpg Size is 732709
+File: .python_history Size is 7
+File: ВидеоFile: .zcompdump Size is 49279
+File: ФотоВыпускнойFile: boost_1_60_0File: .oh-my-zshFile: snapFile: .hi Size is 1115
+File: .zshrc Size is 3774
+File: gitToken.txt Size is 41
+File: test.py Size is 86
+File: .configFile: .zcompdump-omon-pc-5.8 Size is 50640
+File: .vimFile: .bashrc Size is 3771
+File: .sshFile: .javaFile: ОбщедоступныеFile: .zsh-syntax-highlightingFile: Ege_RusFile: EGE_InfFile: .zshrc.pre-oh-my-zsh Size is 29
+File: .bash_history Size is 651
+File: ИзображенияFile: .bash_logout Size is 220
+File: .wget-hsts Size is 251
+File: .pkiFile: .mozillaFile: .vscodeFile: ITStep_BD121File: .cacheFile: МузыкаFile: .zoomFile: .profile Size is 807
+File: ДокументыFile: .gitconfig Size is 52
+File: .zsh_history Size is 45297
+File: .gnupgFile: .localFile: Рабочий столFile: ЗагрузкиFile: .viminfo Size is 14020
+File: .sudo_as_admin_successful Size is 0
+File: Шаблоны
