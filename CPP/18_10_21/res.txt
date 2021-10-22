@@ -1,7 +1,0 @@
-hello
-HELLO
-hello world
-vim helloEPt
-TEST123
-FILE 1
-FILE 2
