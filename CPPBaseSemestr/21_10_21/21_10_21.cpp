@@ -84,7 +84,6 @@ bool loadData(const char* filename, Car* &cars, size_t size)
     return true;
 }
 
-
 int main()
 {
     int switcher;
