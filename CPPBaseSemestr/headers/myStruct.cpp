@@ -99,7 +99,6 @@ bool loadData(const char* filename, Car* &cars, size_t size)
     {
         strcpy(str, "");
         fgets(str, 66, file);
-        cout << str;
         sscanf(str, "%s %s %s %d %d", &cars[i].owner, &cars[i].brand, &cars[i].model, &cars[i].price, &cars[i].volume);
         i++;
         }
