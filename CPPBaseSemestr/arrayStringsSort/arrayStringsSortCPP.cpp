@@ -6,12 +6,6 @@
 
 using namespace std;
 
-string charToString(char* word)
-{
-    string str(word);
-    return str;
-}
-
 int main()
 {
     char filename[666];
@@ -23,7 +17,7 @@ int main()
     {
         strcpy(str, "");
         fgets(str, 66, file);
-        arr.push_back(charToString(str));
+        arr.push_back(string(str));
     }
     fclose(file);
     sort(arr.begin(), arr.end());
