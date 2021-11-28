@@ -8,7 +8,7 @@ public:
     double square() { return 2. *  M_PI * _radius * (_radius + _height);}
     double volume() { return M_PI * _radius * _radius * _height; }
 
-    Cylinder(): _radius(0), _height(0) {}
+    Cylinder(): _radius(1), _height(1) {}
     Cylinder(double radius, double height): _radius(radius), _height(height) {}
     ~Cylinder(){ cout << "Cylinder are destroyed " << endl; }
 
@@ -38,4 +38,15 @@ public:
     
     double getRadius() { return _radius; }
     double getHeight() { return _height; }
+
+    Cylinder operator-(Cylinder &cyl)
+    {
+        return Cylinder(_radius - cyl._radius, _height - cyl._height);
+    }
+    
+    Cylinder operator+(Cylinder &cyl)
+    {
+        return Cylinder(_radius + cyl._radius, _height + cyl._height);
+    }
+
 };
