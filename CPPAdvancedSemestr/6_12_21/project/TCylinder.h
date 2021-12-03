@@ -5,7 +5,7 @@ class Cylinder
     double _radius;
     double _height;
 public:
-    double square() { return 2. *  M_PI * _radius * (_radius + _height);}
+    double square() { return 2. * M_PI * _radius * (_radius + _height);}
     double volume() { return M_PI * _radius * _radius * _height; }
 
     Cylinder(): _radius(1), _height(1) {}

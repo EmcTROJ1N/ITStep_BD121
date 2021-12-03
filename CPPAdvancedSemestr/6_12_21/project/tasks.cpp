@@ -1,13 +1,13 @@
 #include "pch.h"
 #include "TCylinder.h"
 
-Cylinder &operator/(double value, Cylinder &cyl)
+Cylinder operator/(double value, Cylinder &cyl)
 {
     Cylinder c(value / cyl.getRadius(), value / cyl.getHeight());
     return c;
 }
 
-Cylinder &operator+(double value, Cylinder &cyl)
+Cylinder operator+(double value, Cylinder &cyl)
 {
     Cylinder c(value + cyl.getRadius(), value + cyl.getHeight());
     return c;
@@ -30,7 +30,7 @@ ostream &operator<<(ostream &os, Cylinder &cyl)
        << " x " << cyl.getRadius();
 
     return os;
-} // не передается в utils
+}
 
 void task_1()
 {
@@ -63,5 +63,7 @@ void task_1()
     cout << cylinders[0] << endl;
     cout << cylinders[1] << endl;
     Cylinder c = cylinders[0] + cylinders[1];
+    cout << c << endl;
+    c = 1. + cylinders[0];
     cout << c << endl;
 }
