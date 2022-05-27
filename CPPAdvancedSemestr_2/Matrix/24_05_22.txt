@@ -1,0 +1,72 @@
+1. Разработать класс MyString, имеющий следующие поля:
+- char* Str (указатель на строку)
+- MaxSize - (максимальный размер строки)
+
+методы класса
+- контструкторы (по умолчанию, или принимает С-строку)
+- деструктор
+- void Print()
+- Set("test") - изменение строки в классе
+- char* Get() - возвращает строку из класса
+- int GetLength() - получить текущий размер строки
+- int GetVowelsCount() - получить количество гласных
+- void ToUpper() - перевести строку в верхний регистр
+- void ToLower() - перевести строку в нижний регистр
+- void RemoveDigits() - удаляет все цифры из строки
+
+Пример:
+MyString str("Hello world!!!!");
+str.Print();
+char* tst = str.Get();
+int len = str.GetLength();
+
+2. Разработать класс Matrix, имеющий следующие поля:
+- int** matrix
+- Width - длина массива
+- Height - высота массива
+
+Методы:
+- конструкторы (без параметров, копирования, с размерами)
+- деструктор
+- void Print() - печать массива
+- void Set(x, y, value) - сеттер значения
+- int Get(x, y) - геттер значения
+- int Min()
+- bool Save(char* filename)
+- bool Load(char* filename)
+
+Операторы:
+- operator(x, y) - чтение/запись значения по координатам (геттер)
+- operator== - сравнение с Matrix
+- operator!=
+- operator>= - сравнение по сумме элементов
+- operator<= - сравнение по сумме элементов
+- Rotate90() - метод, который поворачивает матрицу на 90 градусов
+
+- operator= - оператор присваивания
+
+- operator+ (int)
+- operator+ (Array)
+
+- operator- (int)
+- operator- (Array)
+
+// по желанию
+- Surface() - возвращает площадь наибольшего участка в матрице, занятого нулями, находящимися рядом
+
+11111110
+11001001
+11101001
+11111111
+
+Пример:
+
+Matrix matrix(4, 5);
+matrix.Set(3, 4, 23);
+cout << matrix(1, 2) << endl;
+
+matrix.Save("file.dat");
+matrix.Load("file.dat");
+
+Matrix m2;
+Matrix m3 = m + m2;

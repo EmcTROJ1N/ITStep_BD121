@@ -17,7 +17,6 @@
   "C_Cpp_Runner.enableWarnings": true,
   "C_Cpp_Runner.warningsAsError": false,
   "files.associations": {
-    "*.cpp": "cpp",
-    "new": "cpp"
+      "*.cpp": "cpp" //все cpp файлы
   },
 }

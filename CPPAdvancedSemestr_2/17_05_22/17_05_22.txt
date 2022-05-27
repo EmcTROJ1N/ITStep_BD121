@@ -1,0 +1,33 @@
+1. Разработать класс Array, имеющий следующие поля:
+- int* arr;
+- size
+
+методы:
+- конструкторы
+- деструктор
+
+- void set(position, value) - занесение значения в массив
+- int get(position)
+- print() - печать массива
+- int sum() - вычисление суммы массива
+- int min()
+- int max()
+- bool save(filename) - сохрание массива в файл
+- bool load(filename) - загрузка массива из файла
+
+Пример:
+
+void main()
+{
+	Array arr(5); // передать размер
+	arr.set(0, 10);
+	cout << arr.get(3);
+	cout << arr.sum() << endl;
+	arr.print();
+	
+	arr.save("c:\\test.dat")
+	
+	Array arr2;
+	arr2.load("c:\\test.dat");
+	arr2.print();
+}

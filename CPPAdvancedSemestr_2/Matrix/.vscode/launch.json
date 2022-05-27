@@ -17,16 +17,18 @@
             "name": "C++ Debug (gdb)",
             "type": "cppdbg",
             "request": "launch",
+            // "program": "${workspaceFolder}/main", //указал место где лежит мой собранный исходник
             "program": "${fileDirname}/main",
             "preLaunchTask": "Build C++ project", //указал что перед запуском мы должны предварительно пересобрать проект
             "args": [],
             "stopAtEntry": false,
+            // "cwd": "${workspaceFolder}",
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "/usr/bin/gdb",
-            // "miDebuggerPath": "/usr/share/gdb",
+            // "miDebuggerPath": "/usr/bin/gdb",
+            "miDebuggerPath": "/usr/bin/gdbus",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
