@@ -1,0 +1,40 @@
+1. Разработать класс Person, имеющий следующие поля:
+- char* FirstName
+- char* Lastname
+- unsigned Age;
+
+- конструкторы (без параметров, копирования, с размерами)
+- деструктор
+- void Print() - печать информации о человеке
+
+- сеттеры / геттеры
+
+2. Разработать класс Group, имеющий следующие поля:
+- Person** people
+- MaxLength - максимальная длина группы
+- CurrentLength - текущий размер группы
+
+Методы:
+- конструкторы (без параметров, копирования, с размерами)
+- деструктор
+- void Print() - печать группы
+- Add(Person*)
+- bool Save(char* filename)
+- bool Load(char* filename)
+
+Операторы:
+- operator== - сравнение групп друг с другом
+- operator= - оператор присваивания групп
+
+- operator+ (Person*) - добавление человека в группу
+- operator+= (Person*) - добавление человека в группу
+
+Пример:
+
+Group group(5);
+group.Add(new Person(....));
+
+group+=(new Person(....));
+
+group.Save("file.dat");
+group.Load("file.dat");
