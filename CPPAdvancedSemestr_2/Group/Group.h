@@ -16,9 +16,15 @@ public:
     void Add(Person* person);
     bool Save();
     bool Load();
+    void Remove(unsigned index);
+    void Remove(Person* person);
 
     bool operator==(const Group& source);
-    Group operator=(const Group& source);
+    Group& operator=(const Group& source);
     Group operator+ (Person* person);
-    Group operator+= (Person* person);
+    Group& operator+= (Person* person);
+    
+    Group& operator-= (Person* person);
+    Group operator- (Person* person);
+    Group operator+ (const Group& source);
 };

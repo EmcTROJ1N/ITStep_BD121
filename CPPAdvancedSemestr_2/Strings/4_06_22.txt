@@ -1,0 +1,36 @@
+1. Разработать класс Strings, позволяющий хранить массив строк и имеющий следующие поля:
+- char** str - массив строк
+- MaxRows - максимальное количество строк
+- CurrentRows - текущее количество строк
+
+Методы класса:
+- конструкторы (без параметров, принимающий начальное количество строк, копирования)
+- деструктор
+
+- Print() - печать строки
+- Add(char*) - добавление строки
+- Remove(size_t index) - удаление строки по индексу (по позиции)
+- Strings operator+ (char*) - добавление строки
+- Strings operator+ (const Strings& source) - объединение двух контейнеров со строками (Strings)
+
+- Strings& operator-= (char* str) - удаляет все вхождения строки в контейнере
+- Strings& operator-= (const Strings& source) - удаляет все строки, которые есть во втором контейнере sourse
+- bool operator == (const Strings& source) - построчно сравнивает 2 контейнера
+- RemoveDuplicates() - удаление повторяющихся строк в контейнере
+- Sort() - сортировка строк в контейнере в алфавитном порядке
+- bool AddStrings(const char*, ...) - добавление неопределённого количества строк в контейнер
+пример:
+Strigs str(5);
+str.Add("Hello");
+str.Add("world");
+str.Add("!!!");
+
+Strigs str2(5);
+str2.Add("world");
+str2.Add("!!!");
+
+str-=str2;
+str.Print(); // Hello
+
+- Save(char* filename) - сохранение в файл средствами C++
+- Load(char* filename) - загрузка из файла средствами C++

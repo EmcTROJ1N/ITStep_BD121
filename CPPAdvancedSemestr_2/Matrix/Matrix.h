@@ -22,7 +22,6 @@ public:
     bool Load();      // 4 5 6  1,0 1,1 1,2  8 5 2  2,1 1,1 0,1
     void Rotate90();  // 7 8 9  2,0 2,1 2,2  9 6 3  2,2 1,2 0,2
     void Sort();
-    int Surface();
 
     int operator()(int i, int j);
     bool operator==(Matrix mat);
