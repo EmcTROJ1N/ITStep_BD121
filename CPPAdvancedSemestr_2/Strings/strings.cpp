@@ -188,18 +188,18 @@ bool Strings::operator==(const Strings& source)
     return true;
 }
 
-bool Strings::Save()
-{
-    ofstream out("data.log");
-    if (out.is_open())
-    {
-        out << CurrentRows << " " << MaxRows << " ";
-        for (int i = 0; i < CurrentRows; i++)
-            out << Strs[i] << " ";
-        return true;
-    }
-    else return false;
-}
+// bool Strings::Save()
+// {
+//     ofstream out("data.log");
+//     if (out.is_open())
+//     {
+//         out << CurrentRows << " " << MaxRows << " ";
+//         for (int i = 0; i < CurrentRows; i++)
+//             out << Strs[i] << " ";
+//         return true;
+//     }
+//     else return false;
+// }
 
 bool Strings::Load()
 {
@@ -220,4 +220,40 @@ bool Strings::Load()
         return true;
     }
     else return false;
+}
+
+ostream& operator<<(ostream& os, Strings &strs)
+{
+    for (int i = 0; i < strs.CurrentRows; i++)
+        os << strs.Strs[i];
+    os << endl;
+    return os;
+}
+
+istream& operator>>(istream& is, Strings &strs)
+{
+    if (strs.MaxRows < strs.CurrentRows + 7)
+    {
+        for (int i = strs.CurrentRows; i < strs.CurrentRows + 7; i++)
+            is >> strs.Strs[i];
+    }
+    return is;
+}
+
+ofstream& operator<<(ofstream& os, Strings &strs)
+{
+    for (int i = 0; i < strs.CurrentRows; i++)
+        os << strs.Strs[i];
+    os << endl;
+    return os;
+}
+
+ifstream& operator>>(ifstream& is, Strings &strs)
+{
+    if (strs.MaxRows < strs.CurrentRows + 7)
+    {
+        for (int i = strs.CurrentRows; i < strs.CurrentRows + 7; i++)
+            is >> strs.Strs[i];
+    }
+    return is;
 }

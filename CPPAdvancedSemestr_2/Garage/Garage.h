@@ -16,6 +16,7 @@ public:
 
 	bool Add(Car* car);
 	void Print();
+	void PrintOwners(char* owner);
 	void Remove(unsigned idx);
 	bool Save();
 	bool Load();

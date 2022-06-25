@@ -2,6 +2,7 @@
 #include <iostream>
 #include "Garage.h"
 #include <fstream>
+#include <cstring>
 
 using namespace std;
 
@@ -55,6 +56,14 @@ void Garage::Print()
     {
 		Cars[i]->Print();
         cout << endl;
+    }
+}
+void Garage::PrintOwners(char* owner)
+{
+	for (int i = 0; i < CurrentSize; i++)
+    {
+        if (strcmp(Cars[i]->getOwner(), owner) == 0)
+            Cars[i]->Print();
     }
 }
 

@@ -9,6 +9,6 @@ protected:
 public:
     User(char* log, char* pass);
     ~User();
-    virtual void ShowMenu();
+    virtual void ShowMenu() = 0;
 
 };

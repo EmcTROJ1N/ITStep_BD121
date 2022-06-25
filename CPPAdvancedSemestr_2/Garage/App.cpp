@@ -5,6 +5,7 @@
 #include <cstring>
 #include "DefaultUser.h"
 #include "Admin.h"
+#include "Moder.h"
 
 using namespace std;
 
@@ -46,17 +47,24 @@ void App::run()
         cout << "Invalid Log/Pass";
         exit(0);
     }
-    if (level == 0)
+    
+    User* user;
+    switch (level)
     {
-        DefaultUser user(log, pass);
-        user.ShowMenu();
-    }
-    if (level == 1)
-    {
-        Admin user(log, pass);
-        user.ShowMenu();
+        case 1: 
+            user = new Admin(log, pass);
+            break;
+        case 0: 
+            user = new DefaultUser(log, pass);
+            break;
+        case 3:
+            user = new Moderator(log, pass);
+
     }
 
     delete[] log;
     delete[] pass;
+    
+    user->ShowMenu();
+
 }

@@ -16,5 +16,5 @@ User::~User()
 {
     delete[] Login;
     delete[] Password;
+    delete this;
 }
-void User::ShowMenu() { cout << "Menu base class"; }

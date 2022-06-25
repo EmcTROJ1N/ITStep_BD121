@@ -12,13 +12,12 @@ void DefaultUser::ShowMenu()
     garage.Load();
 
     int counter = 0;
-    garage.Load();
     while (true)
     {
         if (counter == 0)
             cout << "Welcome to the our garage. What do you want to do?" << endl;
         cout << "1 - Add car" << endl
-            << "2 - See all cars" << endl
+            << "2 - See your cars" << endl
             << "3 - Remove car (just your car)" << endl
             << "4 - exit" << endl;
         int num;
@@ -50,7 +49,7 @@ void DefaultUser::ShowMenu()
             break;
         }
         case 2:
-            garage.Print();
+            garage.PrintOwners(Login);
             break;
         case 3:
             cout << "Enter idx of car: ";
@@ -69,5 +68,4 @@ void DefaultUser::ShowMenu()
         }
         counter++;
     }
-    garage.Save();
 }
