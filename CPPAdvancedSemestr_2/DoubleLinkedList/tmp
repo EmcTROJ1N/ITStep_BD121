@@ -1,0 +1,52 @@
+#pragma once
+
+#include <iostream>
+
+using namespace std;
+
+struct Element
+{
+	char* Str;
+	Element* next = 0;
+	Element* prev = 0;
+
+public:
+	Element(const char* str);
+	~Element();
+};
+
+class DoubleLinkedList
+{
+	Element* First;
+	Element* Last;
+	size_t count;
+public:
+	DoubleLinkedList();
+	~DoubleLinkedList();
+	void Add(const char* str);
+	void Add(const Element* elem);
+	void AddFirst(const char* str);
+	bool Insert(unsigned index, const char* str);
+	void Print();
+	void PrintBack();
+	size_t GetSize();
+	Element* operator[](int index);
+	bool ReverseEquals(DoubleLinkedList& lsd);
+	friend ostream& operator<< (ostream& os, const DoubleLinkedList& lst);
+
+	bool Contains(char* str);
+	int GetCount(char* str);
+	void Insert(size_t pos, char* str);
+    DoubleLinkedList& operator= (const DoubleLinkedList &source);
+    bool operator== (DoubleLinkedList &lsd);
+    friend DoubleLinkedList operator+=(DoubleLinkedList& lsd, char* str);
+    bool Remove(unsigned idx);
+    bool RemoveAll(char* str);
+	void Reverse();
+	void BubbleSort();
+	void MergeSort(int first, int last, int comparator);
+	void InsSort();
+	int begin() { return 0; }
+	int end() { return GetSize(); }
+	void Clear();
+};

@@ -17,6 +17,7 @@ class LinkedList
 {
         Element* First;
         Element* Last;
+        size_t Size;
 public:
         LinkedList();
         ~LinkedList();

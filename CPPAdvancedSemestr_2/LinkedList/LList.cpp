@@ -11,12 +11,11 @@ Element::Element(const char* str)
 }
 
 Element::~Element() { delete[] Str; }
-LinkedList::LinkedList() { First = Last = 0; }
+LinkedList::LinkedList() { First = Last = nullptr; Size = 0; }
 
 LinkedList::LinkedList(const LinkedList& source)
 {
     Element* currentSource = source.First;
-
     while (currentSource != nullptr)
     {
         this->Add(currentSource->Str);
@@ -49,6 +48,7 @@ void LinkedList::Add(const char* str)
         Last->next = elem;
         Last = elem;
     }
+    Size++;
 }
 
 void LinkedList::Print()
@@ -61,20 +61,7 @@ void LinkedList::Print()
         current = current->next;
     }
 } 
-
-int LinkedList::GetSize()
-{
-    Element* current = First;
-    int k = 0;
-
-    while (current != nullptr)
-    {
-        k++;
-        current = current->next;
-    }
-    return k;
-}
-
+int LinkedList::GetSize() { return Size; }
 bool LinkedList::Contains(char* str)
 {
     Element* current = First;
@@ -117,6 +104,7 @@ void LinkedList::Insert(size_t pos, char *str)
         current = current->next;
         k++;
     }
+    Size++;
 }
 
 LinkedList LinkedList::operator=(const LinkedList& source)
@@ -169,10 +157,6 @@ bool LinkedList::Remove(unsigned idx)
         First = First->next;
         delete tmp;
     }
-    if (idx == GetSize() - 1)
-    {
-
-    }
 
     Element* current = First;
     int k = 0;
@@ -189,6 +173,7 @@ bool LinkedList::Remove(unsigned idx)
         k++;
     }
     Last = current;
+    Size--;
 }
 
 bool LinkedList::RemoveAll(char* str)
@@ -208,6 +193,7 @@ bool LinkedList::RemoveAll(char* str)
             Element* tmp = current->next;
             current->next = current->next->next;
             delete tmp;
+            Size--;
         }
         current = current->next;
         k++;
@@ -215,7 +201,6 @@ bool LinkedList::RemoveAll(char* str)
     Last = current;
     return true;
 }
-
 
 ostream& operator<< (ostream& os, LinkedList &lst)
 {
@@ -227,8 +212,4 @@ ostream& operator<< (ostream& os, LinkedList &lst)
         current = current->next;
     }
 }
-
-LinkedList operator+=(LinkedList& lsd, char* str)
-{
-    lsd.Add(str);
-}
+LinkedList operator+=(LinkedList& lsd, char* str) { lsd.Add(str); }
