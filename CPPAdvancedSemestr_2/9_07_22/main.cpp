@@ -6,26 +6,8 @@
 
 using namespace std;
 
-void task1()
-{
-    string filename;
-    cin >> filename;
-    ifstream is(filename);
-    set<string> st;
 
-    string tmpStr;
-    is >> tmpStr;
-    for (; !is.eof(); is >> tmpStr)
-        st.insert(tmpStr);
-    is.close();
-
-    ofstream os("res.txt");
-    for (set<string>::iterator it = st.begin(); it != st.end(); it++)
-        os << *it << endl;
-    os.close();
-}
-
-void task2()
+int main()
 {
     string filename;
     cin >> filename;
