@@ -1,37 +1,16 @@
-// {
-//   "configurations": [
-//     {
-//       "name": "linux-gcc-x64",
-//       "includePath": [
-//         "${workspaceFolder}/**"
-//       ],
-//       "compilerPath": "gcc",
-//       "cStandard": "${default}",
-//       "cppStandard": "${default}",
-//       "intelliSenseMode": "linux-gcc-x64",
-//       "compilerArgs": [
-//         "-Wall",
-//         "-Wextra",
-//         "-Wpedantic"
-//       ]
-//     }
-//   ],
-//   "version": 4
-// }
-
 {
-  "configurations": [
-      {
-          "name": "Linux",
-          "includePath": [
-              "${workspaceFolder}/**" 
-              // "${workspaceFolder}/include" //дополнительно указал где мои heder файлы
-          ],
-          "defines": [],
-          "compilerPath": "/usr/bin/gcc",
-          "cStandard": "c11",
-          "intelliSenseMode": "clang-x64"
-      }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "intelliSenseMode": "clang-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
 }

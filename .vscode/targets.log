@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri May 27 10:52:11 2022
+# Make data base, printed on Fri Jul 22 20:55:38 2022
 
 # Variables
 
@@ -21,7 +21,7 @@ NO_AT_BRIDGE = 1
 # environment
 GTK_RC_FILES = /etc/gtk/gtkrc:/home/omon/.gtkrc:/home/omon/.config/gtkrc
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-eab07e1a-760d-4ab7-85ff-bd579ffbe607.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-110a7aa1-77d8-465f-a2a4-08e507966989.sock
 # environment
 LC_NAME = ru_RU.UTF-8
 # environment
@@ -55,7 +55,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/omon/.config/Code - OSS/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
+VSCODE_CODE_CACHE_PATH = /home/omon/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
 # environment
@@ -73,7 +73,7 @@ CURDIR := /home/omon/ITStep_PD111
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -99,23 +99,23 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 2226
+VSCODE_PID = 16102
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/omon-pc:@/tmp/.ICE-unix/1151,unix/omon-pc:/tmp/.ICE-unix/1151
+SESSION_MANAGER = local/omon-pc:@/tmp/.ICE-unix/866,unix/omon-pc:/tmp/.ICE-unix/866
 # automatic
 *F = $(notdir $*)
 # environment
-CHROME_DESKTOP = code-oss.desktop
+CHROME_DESKTOP = code-url-handler.desktop
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{"*":"ru"},"_languagePackId":"6c87e287770fa80b3245e0a037b935fb.ru","_translationsConfigFile":"/home/omon/.config/Code - OSS/clp/6c87e287770fa80b3245e0a037b935fb.ru/tcf.json","_cacheRoot":"/home/omon/.config/Code - OSS/clp/6c87e287770fa80b3245e0a037b935fb.ru","_resolvedLanguagePackCoreLocation":"/home/omon/.config/Code - OSS/clp/6c87e287770fa80b3245e0a037b935fb.ru/57fd6d0195bb9b9d1b49f6da5db789060795de47","_corruptedFile":"/home/omon/.config/Code - OSS/clp/6c87e287770fa80b3245e0a037b935fb.ru/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{"*":"ru"},"_languagePackId":"6c87e287770fa80b3245e0a037b935fb.ru","_translationsConfigFile":"/home/omon/.config/Code/clp/6c87e287770fa80b3245e0a037b935fb.ru/tcf.json","_cacheRoot":"/home/omon/.config/Code/clp/6c87e287770fa80b3245e0a037b935fb.ru","_resolvedLanguagePackCoreLocation":"/home/omon/.config/Code/clp/6c87e287770fa80b3245e0a037b935fb.ru/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"/home/omon/.config/Code/clp/6c87e287770fa80b3245e0a037b935fb.ru/corrupted.info","_languagePackSupport":true}
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # makefile
@@ -129,7 +129,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /home/omon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+PATH = /home/omon/.local/bin:/home/omon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
 # default
 MAKEFILES := 
 # environment
@@ -154,6 +154,8 @@ KDE_APPLICATIONS_AS_SCOPE = 1
 XDG_SEAT = seat0
 # environment
 XDG_CURRENT_DESKTOP = KDE
+# environment
+LS_COLORS = 
 # automatic
 +F = $(notdir $+)
 # environment
@@ -171,7 +173,7 @@ XDG_VTNR = 1
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 1041
+SYSTEMD_EXEC_PID = 756
 # environment
 DISPLAY = :0
 # environment
@@ -201,7 +203,7 @@ HOME = /home/omon
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-0fcb05f2-1.67.0-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-032edaff-1.67.2-main.sock
 # environment
 XDG_SESSION_ID = 2
 # environment
@@ -215,10 +217,6 @@ SUFFIXES :=
 # environment
 QT_AUTO_SCREEN_SCALE_FACTOR = 0
 # environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# environment
 KDE_SESSION_VERSION = 5
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
@@ -227,7 +225,7 @@ KDE_FULL_SESSION = true
 # environment
 LC_IDENTIFICATION = ru_RU.UTF-8
 # variable set hash-table stats:
-# Load=107/1024=10%, Rehash=0, Collisions=5/134=4%
+# Load=106/1024=10%, Rehash=0, Collisions=5/133=4%
 
 # Pattern-specific Variable Values
 
@@ -293,6 +291,6 @@ GNUmakefile:
 # strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
 # Load=16/8192=0%, Rehash=0, Collisions=0/19=0%
-# Finished Make data base on Fri May 27 10:52:11 2022
+# Finished Make data base on Fri Jul 22 20:55:38 2022
 
  
