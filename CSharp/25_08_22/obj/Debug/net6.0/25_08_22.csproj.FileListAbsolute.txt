@@ -1,0 +1,15 @@
+/home/omon/ITStep_PD111/CSharp/25_08_22/bin/Debug/net6.0/25_08_22
+/home/omon/ITStep_PD111/CSharp/25_08_22/bin/Debug/net6.0/25_08_22.deps.json
+/home/omon/ITStep_PD111/CSharp/25_08_22/bin/Debug/net6.0/25_08_22.runtimeconfig.json
+/home/omon/ITStep_PD111/CSharp/25_08_22/bin/Debug/net6.0/25_08_22.dll
+/home/omon/ITStep_PD111/CSharp/25_08_22/bin/Debug/net6.0/ref/25_08_22.dll
+/home/omon/ITStep_PD111/CSharp/25_08_22/bin/Debug/net6.0/25_08_22.pdb
+/home/omon/ITStep_PD111/CSharp/25_08_22/obj/Debug/net6.0/25_08_22.csproj.AssemblyReference.cache
+/home/omon/ITStep_PD111/CSharp/25_08_22/obj/Debug/net6.0/25_08_22.GeneratedMSBuildEditorConfig.editorconfig
+/home/omon/ITStep_PD111/CSharp/25_08_22/obj/Debug/net6.0/25_08_22.AssemblyInfoInputs.cache
+/home/omon/ITStep_PD111/CSharp/25_08_22/obj/Debug/net6.0/25_08_22.AssemblyInfo.cs
+/home/omon/ITStep_PD111/CSharp/25_08_22/obj/Debug/net6.0/25_08_22.csproj.CoreCompileInputs.cache
+/home/omon/ITStep_PD111/CSharp/25_08_22/obj/Debug/net6.0/25_08_22.dll
+/home/omon/ITStep_PD111/CSharp/25_08_22/obj/Debug/net6.0/ref/25_08_22.dll
+/home/omon/ITStep_PD111/CSharp/25_08_22/obj/Debug/net6.0/25_08_22.pdb
+/home/omon/ITStep_PD111/CSharp/25_08_22/obj/Debug/net6.0/25_08_22.genruntimeconfig.cache
