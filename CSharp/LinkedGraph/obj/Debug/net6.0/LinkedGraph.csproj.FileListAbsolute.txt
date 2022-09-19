@@ -1,0 +1,15 @@
+/home/omon/ITStep_PD111/CSharp/LinkedGraph/bin/Debug/net6.0/LinkedGraph
+/home/omon/ITStep_PD111/CSharp/LinkedGraph/bin/Debug/net6.0/LinkedGraph.deps.json
+/home/omon/ITStep_PD111/CSharp/LinkedGraph/bin/Debug/net6.0/LinkedGraph.runtimeconfig.json
+/home/omon/ITStep_PD111/CSharp/LinkedGraph/bin/Debug/net6.0/LinkedGraph.dll
+/home/omon/ITStep_PD111/CSharp/LinkedGraph/bin/Debug/net6.0/ref/LinkedGraph.dll
+/home/omon/ITStep_PD111/CSharp/LinkedGraph/bin/Debug/net6.0/LinkedGraph.pdb
+/home/omon/ITStep_PD111/CSharp/LinkedGraph/obj/Debug/net6.0/LinkedGraph.csproj.AssemblyReference.cache
+/home/omon/ITStep_PD111/CSharp/LinkedGraph/obj/Debug/net6.0/LinkedGraph.GeneratedMSBuildEditorConfig.editorconfig
+/home/omon/ITStep_PD111/CSharp/LinkedGraph/obj/Debug/net6.0/LinkedGraph.AssemblyInfoInputs.cache
+/home/omon/ITStep_PD111/CSharp/LinkedGraph/obj/Debug/net6.0/LinkedGraph.AssemblyInfo.cs
+/home/omon/ITStep_PD111/CSharp/LinkedGraph/obj/Debug/net6.0/LinkedGraph.csproj.CoreCompileInputs.cache
+/home/omon/ITStep_PD111/CSharp/LinkedGraph/obj/Debug/net6.0/LinkedGraph.dll
+/home/omon/ITStep_PD111/CSharp/LinkedGraph/obj/Debug/net6.0/ref/LinkedGraph.dll
+/home/omon/ITStep_PD111/CSharp/LinkedGraph/obj/Debug/net6.0/LinkedGraph.pdb
+/home/omon/ITStep_PD111/CSharp/LinkedGraph/obj/Debug/net6.0/LinkedGraph.genruntimeconfig.cache

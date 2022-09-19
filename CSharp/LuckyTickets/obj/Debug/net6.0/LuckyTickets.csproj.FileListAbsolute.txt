@@ -1,0 +1,15 @@
+/home/omon/ITStep_PD111/CSharp/LuckyTickets/bin/Debug/net6.0/LuckyTickets
+/home/omon/ITStep_PD111/CSharp/LuckyTickets/bin/Debug/net6.0/LuckyTickets.deps.json
+/home/omon/ITStep_PD111/CSharp/LuckyTickets/bin/Debug/net6.0/LuckyTickets.runtimeconfig.json
+/home/omon/ITStep_PD111/CSharp/LuckyTickets/bin/Debug/net6.0/LuckyTickets.dll
+/home/omon/ITStep_PD111/CSharp/LuckyTickets/bin/Debug/net6.0/ref/LuckyTickets.dll
+/home/omon/ITStep_PD111/CSharp/LuckyTickets/bin/Debug/net6.0/LuckyTickets.pdb
+/home/omon/ITStep_PD111/CSharp/LuckyTickets/obj/Debug/net6.0/LuckyTickets.csproj.AssemblyReference.cache
+/home/omon/ITStep_PD111/CSharp/LuckyTickets/obj/Debug/net6.0/LuckyTickets.GeneratedMSBuildEditorConfig.editorconfig
+/home/omon/ITStep_PD111/CSharp/LuckyTickets/obj/Debug/net6.0/LuckyTickets.AssemblyInfoInputs.cache
+/home/omon/ITStep_PD111/CSharp/LuckyTickets/obj/Debug/net6.0/LuckyTickets.AssemblyInfo.cs
+/home/omon/ITStep_PD111/CSharp/LuckyTickets/obj/Debug/net6.0/LuckyTickets.csproj.CoreCompileInputs.cache
+/home/omon/ITStep_PD111/CSharp/LuckyTickets/obj/Debug/net6.0/LuckyTickets.dll
+/home/omon/ITStep_PD111/CSharp/LuckyTickets/obj/Debug/net6.0/ref/LuckyTickets.dll
+/home/omon/ITStep_PD111/CSharp/LuckyTickets/obj/Debug/net6.0/LuckyTickets.pdb
+/home/omon/ITStep_PD111/CSharp/LuckyTickets/obj/Debug/net6.0/LuckyTickets.genruntimeconfig.cache

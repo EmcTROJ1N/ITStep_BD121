@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wpwKl46WglYtsc6hbxOd8Dc/mg5acKBuy8yYA8DegmFQphmX26NpQC7iB9v7UvSZI85iIn6PEHzvDu4X+HV0ig==",
+  "success": true,
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharp/partsSpeech/partsSpeech.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

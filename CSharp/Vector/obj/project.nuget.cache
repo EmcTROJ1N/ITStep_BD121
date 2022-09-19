@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LSKRntxNYig/3gOkJMA2F4sDuz/5+o3x0HSShF+4Xbktp4dH2c/iQWcLDPo6aCyex/5A4jExaY5LYVwZURl/1g==",
+  "success": true,
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharp/Vector/1_09_22.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

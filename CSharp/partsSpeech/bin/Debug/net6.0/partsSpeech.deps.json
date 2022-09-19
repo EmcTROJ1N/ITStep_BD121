@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "partsSpeech/1.0.0": {
+        "runtime": {
+          "partsSpeech.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "partsSpeech/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

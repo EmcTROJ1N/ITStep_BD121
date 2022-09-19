@@ -77,8 +77,8 @@ namespace CSharp
             void task4()
             {
                 int num;
-                // string? str = Console.ReadLine();
-                string str = "156456";
+                string? str = Console.ReadLine();
+                // string str = "51564";
                 string resNum = "";
                 Int32.TryParse(str, out num);
 
@@ -88,6 +88,7 @@ namespace CSharp
                     "четыре", "пять", "шесть",
                     "семь", "восемь", "девять"
                 };
+
                 
                 string[] oneNineS =
                 {
@@ -140,7 +141,7 @@ namespace CSharp
                         }
                         break;
                     case 4:
-                        resNum += oneNine[(num / 1000) - 1];
+                        resNum += oneNineS[(num / 1000) - 1];
                         resNum += " тысяч ";
                         num %= 1000;
 
@@ -208,6 +209,9 @@ namespace CSharp
                 System.Console.WriteLine(resNum);
             }
 
+            task1();
+            task2();
+            task3();
             task4();
         }
     }

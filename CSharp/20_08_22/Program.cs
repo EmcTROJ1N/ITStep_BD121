@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharp
 {
@@ -10,6 +6,7 @@ namespace CSharp
     {
         static void Main(string[] args)
         {
+
             int n, k = 1;
             string? num;
 
@@ -47,7 +44,7 @@ namespace CSharp
         //         str = Console.ReadLine();
         //         if (flag == true)
         //         {
-        //             if (Int33.TryParse(str, out N))
+        //             if (Int32.TryParse(str, out N))
         //             {
         //                 if (llN + lN != N)
         //                     flag = false;

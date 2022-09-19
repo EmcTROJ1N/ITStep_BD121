@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8FKH5hvFASK+9XbCbnDeIbWUnLyfihFp5prLdhK+aRrU3Orao9Pl+m0yz5gNZZlcPTdqBytZU4a5rIeamVTDBQ==",
+  "success": true,
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharp/LinkedList/LinkedList.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

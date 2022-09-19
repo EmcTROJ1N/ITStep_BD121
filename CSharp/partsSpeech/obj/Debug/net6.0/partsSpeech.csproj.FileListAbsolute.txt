@@ -1,0 +1,15 @@
+/home/omon/ITStep_PD111/CSharp/partsSpeech/obj/Debug/net6.0/partsSpeech.csproj.AssemblyReference.cache
+/home/omon/ITStep_PD111/CSharp/partsSpeech/obj/Debug/net6.0/partsSpeech.GeneratedMSBuildEditorConfig.editorconfig
+/home/omon/ITStep_PD111/CSharp/partsSpeech/obj/Debug/net6.0/partsSpeech.AssemblyInfoInputs.cache
+/home/omon/ITStep_PD111/CSharp/partsSpeech/obj/Debug/net6.0/partsSpeech.AssemblyInfo.cs
+/home/omon/ITStep_PD111/CSharp/partsSpeech/obj/Debug/net6.0/partsSpeech.csproj.CoreCompileInputs.cache
+/home/omon/ITStep_PD111/CSharp/partsSpeech/bin/Debug/net6.0/partsSpeech
+/home/omon/ITStep_PD111/CSharp/partsSpeech/bin/Debug/net6.0/partsSpeech.deps.json
+/home/omon/ITStep_PD111/CSharp/partsSpeech/bin/Debug/net6.0/partsSpeech.runtimeconfig.json
+/home/omon/ITStep_PD111/CSharp/partsSpeech/bin/Debug/net6.0/partsSpeech.dll
+/home/omon/ITStep_PD111/CSharp/partsSpeech/bin/Debug/net6.0/ref/partsSpeech.dll
+/home/omon/ITStep_PD111/CSharp/partsSpeech/bin/Debug/net6.0/partsSpeech.pdb
+/home/omon/ITStep_PD111/CSharp/partsSpeech/obj/Debug/net6.0/partsSpeech.dll
+/home/omon/ITStep_PD111/CSharp/partsSpeech/obj/Debug/net6.0/ref/partsSpeech.dll
+/home/omon/ITStep_PD111/CSharp/partsSpeech/obj/Debug/net6.0/partsSpeech.pdb
+/home/omon/ITStep_PD111/CSharp/partsSpeech/obj/Debug/net6.0/partsSpeech.genruntimeconfig.cache

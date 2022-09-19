@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PlxeUJ97ZN97g95Fhq3UMvNefhEXb2nBBlG3xEZ3PbDbuFSH5wWZGtQiL8l27N9w2DkKEV8lVhYe7cRk5OOlAg==",
+  "success": true,
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharp/TableGraph/TableGraph.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

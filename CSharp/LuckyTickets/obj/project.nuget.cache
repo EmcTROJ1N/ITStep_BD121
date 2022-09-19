@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6nuVU1qR9XXkdm5yDNbUXhv7sb5MTsIxh4e9AK+tew0B8TJYdPNxFoVwM4J6z9uvgS6Azh+W3PEnvcfRwRKd0w==",
+  "success": true,
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharp/LuckyTickets/LuckyTickets.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

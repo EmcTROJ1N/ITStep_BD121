@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8ctVmWtxru3bKXufn4nT8zzl6ZmLTduK+XzPJrxc2ugmikyMg6c6fYkMsnNrvtM8DjcvtMvtpfL9RKTlqoIDkw==",
+  "success": true,
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharp/Strategy/Strategy.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

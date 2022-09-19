@@ -20,6 +20,7 @@ int main()
 
 	graph.DeleteVertex("EEE");
 	graph.AddVertex("X");
+	graph.AddLink("X", "A", 1.0);
 	cout << endl;
 	graph.Print();
 

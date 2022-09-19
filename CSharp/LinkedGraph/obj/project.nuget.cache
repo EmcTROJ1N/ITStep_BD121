@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8SWIvPc0zyiagVqvRkHPZ9eSTOG1QQBg6ATZerrFjIxk/psA3aoPK/UbjJGpMprVYa1SQzXBWSnk02gzlC7Qag==",
+  "success": true,
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharp/LinkedGraph/LinkedGraph.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

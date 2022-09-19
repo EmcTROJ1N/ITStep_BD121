@@ -1,0 +1,15 @@
+/home/omon/ITStep_PD111/CSharp/LinkedList/obj/Debug/net6.0/LinkedList.csproj.AssemblyReference.cache
+/home/omon/ITStep_PD111/CSharp/LinkedList/obj/Debug/net6.0/LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+/home/omon/ITStep_PD111/CSharp/LinkedList/obj/Debug/net6.0/LinkedList.AssemblyInfoInputs.cache
+/home/omon/ITStep_PD111/CSharp/LinkedList/obj/Debug/net6.0/LinkedList.AssemblyInfo.cs
+/home/omon/ITStep_PD111/CSharp/LinkedList/obj/Debug/net6.0/LinkedList.csproj.CoreCompileInputs.cache
+/home/omon/ITStep_PD111/CSharp/LinkedList/bin/Debug/net6.0/LinkedList
+/home/omon/ITStep_PD111/CSharp/LinkedList/bin/Debug/net6.0/LinkedList.deps.json
+/home/omon/ITStep_PD111/CSharp/LinkedList/bin/Debug/net6.0/LinkedList.runtimeconfig.json
+/home/omon/ITStep_PD111/CSharp/LinkedList/bin/Debug/net6.0/LinkedList.dll
+/home/omon/ITStep_PD111/CSharp/LinkedList/bin/Debug/net6.0/ref/LinkedList.dll
+/home/omon/ITStep_PD111/CSharp/LinkedList/bin/Debug/net6.0/LinkedList.pdb
+/home/omon/ITStep_PD111/CSharp/LinkedList/obj/Debug/net6.0/LinkedList.dll
+/home/omon/ITStep_PD111/CSharp/LinkedList/obj/Debug/net6.0/ref/LinkedList.dll
+/home/omon/ITStep_PD111/CSharp/LinkedList/obj/Debug/net6.0/LinkedList.pdb
+/home/omon/ITStep_PD111/CSharp/LinkedList/obj/Debug/net6.0/LinkedList.genruntimeconfig.cache
