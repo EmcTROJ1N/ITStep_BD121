@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y1z4skvQq27PDkBV8VSSu+55z8qTGnYHOe7SrsXOxjcsgZ1XEDQcsN/7Rns1vvG+MxtuaGFX7ZdO81QFX8P0ng==",
+  "success": true,
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharp/Army/Army.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

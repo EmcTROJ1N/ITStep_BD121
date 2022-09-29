@@ -94,7 +94,7 @@ namespace CSharp
 
                         break;
                     case Operation.TranslateSent:
-                        List<string> lst = Console.ReadLine().Split(new string[] { ",", ".", " ", "!", "?", "—", ";" }, StringSplitOptions.RemoveEmptyEntries).ToList();
+                        List<string> lst = Console.ReadLine()?.Split(new string[] { ",", ".", " ", "!", "?", "—", ";" }, StringSplitOptions.RemoveEmptyEntries).ToList();
                         foreach (var item in lst)
                             System.Console.Write($"{dict[item]} ");
                         System.Console.WriteLine();

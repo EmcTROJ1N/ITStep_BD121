@@ -84,6 +84,7 @@ namespace Console_RexEx
             }
 
             task2();
+            task1();
         }
     }
 }

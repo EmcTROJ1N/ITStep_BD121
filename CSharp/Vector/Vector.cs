@@ -4,10 +4,17 @@ using System.IO;
 using System.Text;
 using System.Collections;
 
+// interface ISortStrategable
+// {
+//     public SortStrategy Strategy { get; set; }
+//     public Comparator Comp { get; set; }
+//     public bool Sort();
+// }
+
 class Vector
 {
-    SortStrategy Strategy;
-    Comparator Comp;
+    public SortStrategy Strategy { get; set; }
+    public Comparator Comp { get; set; }
 
     int[] Arr;
     public int Size { get; set; }
@@ -124,33 +131,33 @@ class Vector
 
     public static explicit operator int(Vector vec) { return vec.Size; }
 
-    public static bool operator ==(Vector vec, Vector vec2)
-    {
-        if (vec.Size != vec2.Size)
-            return false;
+    // public static bool operator ==(Vector vec, Vector vec2)
+    // {
+    //     if (vec.Size != vec2.Size)
+    //         return false;
 
-        for (int i = 0; i < vec.Size; i++)
-        {
-            if (vec[i] != vec2[i])
-                return false;
-        }
+    //     for (int i = 0; i < vec.Size; i++)
+    //     {
+    //         if (vec[i] != vec2[i])
+    //             return false;
+    //     }
 
-        return true;
-    }
+    //     return true;
+    // }
 
-    public static bool operator !=(Vector vec, Vector vec2)
-    {
-        if (vec.Size != vec2.Size)
-            return true;
+    // public static bool operator !=(Vector vec, Vector vec2)
+    // {
+    //     if (vec.Size != vec2.Size)
+    //         return true;
 
-        for (int i = 0; i < vec.Size; i++)
-        {
-            if (vec[i] != vec2[i])
-                return true;
-        }
+    //     for (int i = 0; i < vec.Size; i++)
+    //     {
+    //         if (vec[i] != vec2[i])
+    //             return true;
+    //     }
 
-        return false;
-    }
+    //     return false;
+    // }
 
     public bool Save()
     {

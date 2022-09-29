@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yVULk8dsFpSR509Kr3KS8JfAaCz96mDNqoApec5Md3aP+fShIsLewJA1SKUVR1KamK0fgEC6pqErMPo2PkKIig==",
+  "success": true,
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/ConsoleCSharpExam.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

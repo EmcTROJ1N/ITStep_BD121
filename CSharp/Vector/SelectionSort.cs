@@ -1,6 +1,12 @@
 public class SelectionSort : SortStrategy
 {
-    public override void Sort(int[] arr, Comparator comp)
+    void Swap(ref int el1, ref int el2)
+    {
+        var temp = el1;
+        el1 = el2;
+        el2 = temp;
+    }
+    public void Sort(int[] arr, Comparator comp)
     {
         int idx;
         for (int i = 0; i < arr.Length; i++)

@@ -1,0 +1,15 @@
+/home/omon/ITStep_PD111/CSharp/Army/obj/Debug/net6.0/Army.csproj.AssemblyReference.cache
+/home/omon/ITStep_PD111/CSharp/Army/obj/Debug/net6.0/Army.GeneratedMSBuildEditorConfig.editorconfig
+/home/omon/ITStep_PD111/CSharp/Army/obj/Debug/net6.0/Army.AssemblyInfoInputs.cache
+/home/omon/ITStep_PD111/CSharp/Army/obj/Debug/net6.0/Army.AssemblyInfo.cs
+/home/omon/ITStep_PD111/CSharp/Army/obj/Debug/net6.0/Army.csproj.CoreCompileInputs.cache
+/home/omon/ITStep_PD111/CSharp/Army/bin/Debug/net6.0/Army
+/home/omon/ITStep_PD111/CSharp/Army/bin/Debug/net6.0/Army.deps.json
+/home/omon/ITStep_PD111/CSharp/Army/bin/Debug/net6.0/Army.runtimeconfig.json
+/home/omon/ITStep_PD111/CSharp/Army/bin/Debug/net6.0/Army.dll
+/home/omon/ITStep_PD111/CSharp/Army/bin/Debug/net6.0/ref/Army.dll
+/home/omon/ITStep_PD111/CSharp/Army/bin/Debug/net6.0/Army.pdb
+/home/omon/ITStep_PD111/CSharp/Army/obj/Debug/net6.0/Army.dll
+/home/omon/ITStep_PD111/CSharp/Army/obj/Debug/net6.0/ref/Army.dll
+/home/omon/ITStep_PD111/CSharp/Army/obj/Debug/net6.0/Army.pdb
+/home/omon/ITStep_PD111/CSharp/Army/obj/Debug/net6.0/Army.genruntimeconfig.cache

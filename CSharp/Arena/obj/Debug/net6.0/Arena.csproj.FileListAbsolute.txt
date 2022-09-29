@@ -1,0 +1,15 @@
+/home/omon/ITStep_PD111/CSharp/Arena/bin/Debug/net6.0/Arena
+/home/omon/ITStep_PD111/CSharp/Arena/bin/Debug/net6.0/Arena.deps.json
+/home/omon/ITStep_PD111/CSharp/Arena/bin/Debug/net6.0/Arena.runtimeconfig.json
+/home/omon/ITStep_PD111/CSharp/Arena/bin/Debug/net6.0/Arena.dll
+/home/omon/ITStep_PD111/CSharp/Arena/bin/Debug/net6.0/ref/Arena.dll
+/home/omon/ITStep_PD111/CSharp/Arena/bin/Debug/net6.0/Arena.pdb
+/home/omon/ITStep_PD111/CSharp/Arena/obj/Debug/net6.0/Arena.csproj.AssemblyReference.cache
+/home/omon/ITStep_PD111/CSharp/Arena/obj/Debug/net6.0/Arena.GeneratedMSBuildEditorConfig.editorconfig
+/home/omon/ITStep_PD111/CSharp/Arena/obj/Debug/net6.0/Arena.AssemblyInfoInputs.cache
+/home/omon/ITStep_PD111/CSharp/Arena/obj/Debug/net6.0/Arena.AssemblyInfo.cs
+/home/omon/ITStep_PD111/CSharp/Arena/obj/Debug/net6.0/Arena.csproj.CoreCompileInputs.cache
+/home/omon/ITStep_PD111/CSharp/Arena/obj/Debug/net6.0/Arena.dll
+/home/omon/ITStep_PD111/CSharp/Arena/obj/Debug/net6.0/ref/Arena.dll
+/home/omon/ITStep_PD111/CSharp/Arena/obj/Debug/net6.0/Arena.pdb
+/home/omon/ITStep_PD111/CSharp/Arena/obj/Debug/net6.0/Arena.genruntimeconfig.cache

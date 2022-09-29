@@ -12,8 +12,8 @@ class Element
 
 class LinkedList
 {
-    Element First;
-    Element Last;
+    Element? First;
+    Element? Last;
     int Count;
 
     public int _Count { get; }
@@ -35,7 +35,7 @@ class LinkedList
         }
         else
         {
-            Last.next = elem;
+            Last!.next = elem;
             elem.prev = Last;
             Last = elem;
         }
@@ -59,14 +59,14 @@ class LinkedList
             Count++;
         }
 
-        Element current = First;
-        Element prev = null;
+        Element? current = First;
+        Element? prev = null;
         int currIdx = 0;
         while (current != null)
         {
             if (currIdx == idx)
             {
-                prev.next = elem;
+                prev!.next = elem;
                 elem.prev = prev;
                 elem.next = current;
                 current.prev = elem;
@@ -82,14 +82,14 @@ class LinkedList
 
     public void Print()
     {
-        for (Element elem = First; elem != null; elem = elem.next)
+        for (Element? elem = First; elem != null; elem = elem.next)
             System.Console.Write($"{elem.Elem} ");
         System.Console.WriteLine();
     }
 
     public void PrintBack()
     {
-        for (Element elem = Last; elem != null; elem = elem.prev)
+        for (Element? elem = Last; elem != null; elem = elem.prev)
             System.Console.Write($"{elem.Elem} ");
         System.Console.WriteLine();
     }
@@ -100,20 +100,20 @@ class LinkedList
             return false;
         if (idx == 0)
         {
-            Element tmp = First;
-            First = First.next;
-            First.prev = null;
+            Element? tmp = First;
+            First = First?.next;
+            First!.prev = null;
         }
 
-        Element current = First;
+        Element? current = First;
         int k = 0;
-        while (current.next != null)
+        while (current?.next != null)
         {
             if (k + 1 == idx)
             {
-                Element tmp = current.next;
+                Element? tmp = current.next;
                 current.next = current.next.next;
-                current.next.prev = current;
+                current.next!.prev = current;
             }
             current = current.next;
             k++;

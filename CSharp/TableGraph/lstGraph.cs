@@ -40,7 +40,7 @@ class Graph : ICloneable
         CurrentVertexCount = source.CurrentVertexCount;
         Vertices = new SortedDictionary<string, int>(source.Vertices);
         IndexVertices = new SortedDictionary<int, string>(source.IndexVertices);
-        Array.Copy(source.Links, Links, source.Links.Length);
+        Array.Copy(source.Links, Links!, source.Links.Length);
     }
 
     public bool Addstring(string str)

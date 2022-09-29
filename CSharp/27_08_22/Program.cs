@@ -80,7 +80,7 @@ namespace CSharp
                 foreach (var str in lst)
                 {
                     string spaces = "";
-                    if (str.Contains("{"))
+                    if (str != null && str.Contains("{"))
                     {
                         for (int i = 0; i < countSpace; i++)
                             spaces += " ";
@@ -88,7 +88,7 @@ namespace CSharp
                         writer.WriteLine(spaces + str);
                         continue;
                     }
-                    if (str.Contains("}"))
+                    if (str != null && str.Contains("}"))
                     {
                         countSpace -= 4;
                         for (int i = 0; i < countSpace; i++)
@@ -108,6 +108,8 @@ namespace CSharp
             }
 
             task3();
+            task2();
+            task1();
         }
     }
 }

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/hVsK0jo0A1ZwzkoYm9NN/bkh9nyHsdKsQxdcIL5IW1B7nhQ+wcZrPSBI4EgpRAubFP8rx2vz7N/RPBnKww9rw==",
+  "success": true,
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharp/Arena/Arena.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

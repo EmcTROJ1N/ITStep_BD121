@@ -124,7 +124,7 @@ namespace CSharp
 
                 Array.Reverse(txtNums);
 
-                switch (str.Length)
+                switch (str?.Length)
                 {
                     case 1:
                         resNum = oneNine[num - 1];

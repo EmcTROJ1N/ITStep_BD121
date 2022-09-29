@@ -1,0 +1,15 @@
+/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/bin/Debug/net6.0/ConsoleCSharpExam
+/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/bin/Debug/net6.0/ConsoleCSharpExam.deps.json
+/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/bin/Debug/net6.0/ConsoleCSharpExam.runtimeconfig.json
+/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/bin/Debug/net6.0/ConsoleCSharpExam.dll
+/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/bin/Debug/net6.0/ref/ConsoleCSharpExam.dll
+/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/bin/Debug/net6.0/ConsoleCSharpExam.pdb
+/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/obj/Debug/net6.0/ConsoleCSharpExam.csproj.AssemblyReference.cache
+/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/obj/Debug/net6.0/ConsoleCSharpExam.GeneratedMSBuildEditorConfig.editorconfig
+/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/obj/Debug/net6.0/ConsoleCSharpExam.AssemblyInfoInputs.cache
+/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/obj/Debug/net6.0/ConsoleCSharpExam.AssemblyInfo.cs
+/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/obj/Debug/net6.0/ConsoleCSharpExam.csproj.CoreCompileInputs.cache
+/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/obj/Debug/net6.0/ConsoleCSharpExam.dll
+/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/obj/Debug/net6.0/ref/ConsoleCSharpExam.dll
+/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/obj/Debug/net6.0/ConsoleCSharpExam.pdb
+/home/omon/ITStep_PD111/CSharp/ConsoleCSharpExam/obj/Debug/net6.0/ConsoleCSharpExam.genruntimeconfig.cache

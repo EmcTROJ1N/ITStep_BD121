@@ -16,11 +16,9 @@ class Program
 
     public static void Main(string[] args)
     {
-        Vector vec = new Vector(100, new QuickSort(), new Increasing());
+        Vector vec = new Vector(100, new QuickSort(), new Decreasing());
         vec.PutRands();
         vec.Sort();
         System.Console.WriteLine(vec);
     }
-
-
 }

@@ -1,0 +1,15 @@
+/home/omon/ITStep_PD111/CSharp/ServerClient/bin/Debug/net6.0/ServerClient
+/home/omon/ITStep_PD111/CSharp/ServerClient/bin/Debug/net6.0/ServerClient.deps.json
+/home/omon/ITStep_PD111/CSharp/ServerClient/bin/Debug/net6.0/ServerClient.runtimeconfig.json
+/home/omon/ITStep_PD111/CSharp/ServerClient/bin/Debug/net6.0/ServerClient.dll
+/home/omon/ITStep_PD111/CSharp/ServerClient/bin/Debug/net6.0/ref/ServerClient.dll
+/home/omon/ITStep_PD111/CSharp/ServerClient/bin/Debug/net6.0/ServerClient.pdb
+/home/omon/ITStep_PD111/CSharp/ServerClient/obj/Debug/net6.0/ServerClient.csproj.AssemblyReference.cache
+/home/omon/ITStep_PD111/CSharp/ServerClient/obj/Debug/net6.0/ServerClient.GeneratedMSBuildEditorConfig.editorconfig
+/home/omon/ITStep_PD111/CSharp/ServerClient/obj/Debug/net6.0/ServerClient.AssemblyInfoInputs.cache
+/home/omon/ITStep_PD111/CSharp/ServerClient/obj/Debug/net6.0/ServerClient.AssemblyInfo.cs
+/home/omon/ITStep_PD111/CSharp/ServerClient/obj/Debug/net6.0/ServerClient.csproj.CoreCompileInputs.cache
+/home/omon/ITStep_PD111/CSharp/ServerClient/obj/Debug/net6.0/ServerClient.dll
+/home/omon/ITStep_PD111/CSharp/ServerClient/obj/Debug/net6.0/ref/ServerClient.dll
+/home/omon/ITStep_PD111/CSharp/ServerClient/obj/Debug/net6.0/ServerClient.pdb
+/home/omon/ITStep_PD111/CSharp/ServerClient/obj/Debug/net6.0/ServerClient.genruntimeconfig.cache
