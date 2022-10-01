@@ -7,9 +7,10 @@ class Program
     {
         Console.Clear();
         Collection collec = new Collection();
-        collec += new Interval(1.1, 2.0);
-        collec += new Interval(2.0, 3.5);
-        collec += new Interval(3.4, 4.2);
+        collec += new Interval(1, 3);
+        collec += new Interval(5, 6);
+        collec += new Interval(1, 3);
+        collec += new Interval(4, 5);
 
         System.Console.WriteLine(collec.HasHoles);
 

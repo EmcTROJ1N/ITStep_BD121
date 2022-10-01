@@ -54,13 +54,16 @@ class Collection : IEnumerable
 
         for (int i = 0; i < tmpLst.Count - 1; i++)
         {
-            currEnd = tmpLst[i].End;
-            currStart = tmpLst[i + 1].Start;
-            // if (currStart < tmpLst[i].End)
-            if (currEnd < currStart)
-                return true;
-            // if (tmpLst[i].End < tmpLst[i + 1].Start)
-            //     return true;
+            if (tmpLst[i].End < tmpLst[i + 1].Start)
+            {
+                bool flag = false;
+                for (int j = 0; j < tmpLst.Count - 1; j++)
+                {
+                    if (tmpLst[j].Start > tmpLst[j].Start && tmpLst[j].End < tmpLst[i].End)
+                        flag = true;
+                }
+                if (flag == false) return true;
+            }
         }
         return false;
     }
