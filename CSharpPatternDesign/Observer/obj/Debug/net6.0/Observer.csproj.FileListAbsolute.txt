@@ -1,0 +1,15 @@
+/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/bin/Debug/net6.0/Observer
+/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/bin/Debug/net6.0/Observer.deps.json
+/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/bin/Debug/net6.0/Observer.runtimeconfig.json
+/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/bin/Debug/net6.0/Observer.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/bin/Debug/net6.0/ref/Observer.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/bin/Debug/net6.0/Observer.pdb
+/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/obj/Debug/net6.0/Observer.csproj.AssemblyReference.cache
+/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/obj/Debug/net6.0/Observer.GeneratedMSBuildEditorConfig.editorconfig
+/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/obj/Debug/net6.0/Observer.AssemblyInfoInputs.cache
+/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/obj/Debug/net6.0/Observer.AssemblyInfo.cs
+/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/obj/Debug/net6.0/Observer.csproj.CoreCompileInputs.cache
+/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/obj/Debug/net6.0/Observer.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/obj/Debug/net6.0/ref/Observer.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/obj/Debug/net6.0/Observer.pdb
+/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/obj/Debug/net6.0/Observer.genruntimeconfig.cache

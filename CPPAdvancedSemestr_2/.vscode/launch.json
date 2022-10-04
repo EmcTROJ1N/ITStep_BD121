@@ -5,15 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Текущий файл",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": true
-        },
-
-        {
             "name": "C++ Debug (gdb)",
             "type": "cppdbg",
             "request": "launch",
@@ -26,7 +17,6 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
-            // "miDebuggerPath": "/usr/share/gdb",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -34,8 +24,6 @@
                     "ignoreFailures": true
                 }
             ]
-        }
-
-
+        },
     ]
 }

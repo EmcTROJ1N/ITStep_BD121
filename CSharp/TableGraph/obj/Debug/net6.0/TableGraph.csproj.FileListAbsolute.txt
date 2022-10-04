@@ -1,0 +1,15 @@
+/home/omon/ITStep_PD111/CSharp/TableGraph/bin/Debug/net6.0/TableGraph
+/home/omon/ITStep_PD111/CSharp/TableGraph/bin/Debug/net6.0/TableGraph.deps.json
+/home/omon/ITStep_PD111/CSharp/TableGraph/bin/Debug/net6.0/TableGraph.runtimeconfig.json
+/home/omon/ITStep_PD111/CSharp/TableGraph/bin/Debug/net6.0/TableGraph.dll
+/home/omon/ITStep_PD111/CSharp/TableGraph/bin/Debug/net6.0/ref/TableGraph.dll
+/home/omon/ITStep_PD111/CSharp/TableGraph/bin/Debug/net6.0/TableGraph.pdb
+/home/omon/ITStep_PD111/CSharp/TableGraph/obj/Debug/net6.0/TableGraph.csproj.AssemblyReference.cache
+/home/omon/ITStep_PD111/CSharp/TableGraph/obj/Debug/net6.0/TableGraph.GeneratedMSBuildEditorConfig.editorconfig
+/home/omon/ITStep_PD111/CSharp/TableGraph/obj/Debug/net6.0/TableGraph.AssemblyInfoInputs.cache
+/home/omon/ITStep_PD111/CSharp/TableGraph/obj/Debug/net6.0/TableGraph.AssemblyInfo.cs
+/home/omon/ITStep_PD111/CSharp/TableGraph/obj/Debug/net6.0/TableGraph.csproj.CoreCompileInputs.cache
+/home/omon/ITStep_PD111/CSharp/TableGraph/obj/Debug/net6.0/TableGraph.dll
+/home/omon/ITStep_PD111/CSharp/TableGraph/obj/Debug/net6.0/ref/TableGraph.dll
+/home/omon/ITStep_PD111/CSharp/TableGraph/obj/Debug/net6.0/TableGraph.pdb
+/home/omon/ITStep_PD111/CSharp/TableGraph/obj/Debug/net6.0/TableGraph.genruntimeconfig.cache

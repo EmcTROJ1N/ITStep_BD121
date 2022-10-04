@@ -1,6 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/omon/ITStep_PD111'
-make: Leaving directory '/home/omon/ITStep_PD111'
- 
-make: *** No targets specified and no makefile found.  Stop.
-

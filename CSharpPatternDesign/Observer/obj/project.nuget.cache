@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0B8k25fkx9/6GncI3JttWo1xmzhTWAAev/ihtB/vnEXQEtuwRJDUmcwIIzNN2V6dMQP+t8wrQVKZyau+Qh9Tkg==",
+  "success": true,
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharpPatternDesign/Observer/Observer.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

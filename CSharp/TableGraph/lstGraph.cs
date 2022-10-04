@@ -3,51 +3,47 @@ using System.Collections.Generic;
 using System.Collections;
 using System.IO;
 
-class Graph : ICloneable
+class Graph<Vertex, Weight> : ICloneable
 {
     public int MaxVertexCount { get; set; }
     public int CurrentVertexCount { get; set; }
-    string[][] Links;
+    Weight[][] Links;
 
 
 
-    SortedDictionary<string, int> Vertices;
-    SortedDictionary<int, string> IndexVertices;
+    public SortedDictionary<Vertex, int> Vertices { get; private set; }
+    public SortedDictionary<int, Vertex> IndexVertices { get; private set; }
 
-    public SortedDictionary<string, int> GetVertices() { return Vertices; }
-    public SortedDictionary<int, string> GetIndexVertices() { return IndexVertices; }
-
-
-    public Graph(int maxstringCount)
+    public Graph(int maxVertexCount)
     {
-        MaxVertexCount = maxstringCount;
+        MaxVertexCount = maxVertexCount;
         CurrentVertexCount = 0;
-        Vertices = new SortedDictionary<string, int>();
-        IndexVertices = new SortedDictionary<int, string>();
-        Links = new string[MaxVertexCount][];
+        Vertices = new SortedDictionary<Vertex, int>();
+        IndexVertices = new SortedDictionary<int, Vertex>();
+        Links = new Weight[MaxVertexCount][];
         for (int i = 0; i < Links.Length; i++)
         {
-            Links[i] = new string[MaxVertexCount];
+            Links[i] = new Weight[MaxVertexCount];
 
-            // for (int j = 0; j < MaxstringCount; j++)
-            //     Links[i][j] = "0";
+            for (int j = 0; j < MaxVertexCount; j++)
+                Links[i][j] = default(Weight);
         }
     }
 
-    public Graph(Graph source)
+    public Graph(Graph<Vertex, Weight> source)
     {
         MaxVertexCount = source.MaxVertexCount;
         CurrentVertexCount = source.CurrentVertexCount;
-        Vertices = new SortedDictionary<string, int>(source.Vertices);
-        IndexVertices = new SortedDictionary<int, string>(source.IndexVertices);
+        Vertices = new SortedDictionary<Vertex, int>(source.Vertices);
+        IndexVertices = new SortedDictionary<int, Vertex>(source.IndexVertices);
         Array.Copy(source.Links, Links!, source.Links.Length);
     }
 
-    public bool Addstring(string str)
+    public bool AddVertex(Vertex vert)
     {
-        if (Vertices.ContainsKey(str))
+        if (Vertices.ContainsKey(vert))
         {
-            // System.Console.WriteLine("string already exist");
+            System.Console.WriteLine("string already exist");
             return false;
         }
 
@@ -57,8 +53,8 @@ class Graph : ICloneable
             return false;
         }
 
-        Vertices.Add(str, CurrentVertexCount);
-        IndexVertices.Add(CurrentVertexCount++, str);
+        Vertices.Add(vert, CurrentVertexCount);
+        IndexVertices.Add(CurrentVertexCount++, vert);
         return true;
     }
 
@@ -68,16 +64,16 @@ class Graph : ICloneable
             System.Console.WriteLine($"{item.Key} -> {item.Value}");
     }
 
-    public bool AddLink(string string1, string string2, string weight)
+    public bool AddLink(Vertex vert1, Vertex vert2, Weight weight)
     {
-        if (!Vertices.ContainsKey(string1) || !Vertices.ContainsKey(string2))
+        if (!Vertices.ContainsKey(vert1) || !Vertices.ContainsKey(vert2))
         {
             System.Console.WriteLine("Wrong string name");
             return false;
         }
 
-        int frstVertIdx = Vertices[string1];
-        int secdVertIdx = Vertices[string2];
+        int frstVertIdx = Vertices[vert1];
+        int secdVertIdx = Vertices[vert2];
 
         Links[frstVertIdx][secdVertIdx] = weight;
         Links[secdVertIdx][frstVertIdx] = weight;
@@ -85,48 +81,48 @@ class Graph : ICloneable
         return true;
     }
 
-    public bool RemoveLink(string string1, string string2)
+    public bool RemoveLink(Vertex vert1, Vertex vert2)
     {
-        if (!Vertices.ContainsKey(string1) || !Vertices.ContainsKey(string2))
+        if (!Vertices.ContainsKey(vert1) || !Vertices.ContainsKey(vert2))
         {
             System.Console.WriteLine("Wrong string name");
             return false;
         }
 
-        int frstVertIdx = Vertices[string1];
-        int secdVertIdx = Vertices[string2];
+        int frstVertIdx = Vertices[vert1];
+        int secdVertIdx = Vertices[vert2];
 
-        Links[frstVertIdx][secdVertIdx] = "0";
-        Links[secdVertIdx][frstVertIdx] = "0";
+        Links[frstVertIdx][secdVertIdx] = default(Weight);
+        Links[secdVertIdx][frstVertIdx] = default(Weight);
 
         return true;
     }
-    public string GetLink(string string1, string string2)
+    public Weight GetLink(Vertex vert1, Vertex vert2)
     {
-        if (!Vertices.ContainsKey(string1) || !Vertices.ContainsKey(string2))
+        if (!Vertices.ContainsKey(vert1) || !Vertices.ContainsKey(vert2))
         {
             System.Console.WriteLine("Wrong string name");
-            return "None";
+            return default(Weight);
         }
         else
         {
-            int frstVertIdx = Vertices[string1];
-            int secdVertIdx = Vertices[string2];
+            int frstVertIdx = Vertices[vert1];
+            int secdVertIdx = Vertices[vert2];
 
             return Links[frstVertIdx][secdVertIdx];
         }
     }
 
-    public bool PrintLinks(string str)
+    public bool PrintLinks(Vertex vert)
     {
-        if (!Vertices.ContainsKey(str))
+        if (!Vertices.ContainsKey(vert))
         {
             System.Console.WriteLine("Wrong string name");
             return false;
         }
 
-        System.Console.WriteLine($"{str} links: ");
-        int vertIdx = Vertices[str];
+        System.Console.WriteLine($"{vert} links: ");
+        int vertIdx = Vertices[vert];
 
         bool isFirststring = false;
         for (int i = 0; i < CurrentVertexCount; i++)
@@ -149,17 +145,17 @@ class Graph : ICloneable
 
     public object Clone()
     {
-        Graph source = new Graph(this.MaxVertexCount);
+        Graph<Vertex, Weight> source = new Graph<Vertex, Weight>(this.MaxVertexCount);
 
         source.CurrentVertexCount = this.CurrentVertexCount;
-        source.Vertices = new SortedDictionary<string, int>(this.Vertices);
-        source.IndexVertices = new SortedDictionary<int, string>(this.IndexVertices);
+        source.Vertices = new SortedDictionary<Vertex, int>(this.Vertices);
+        source.IndexVertices = new SortedDictionary<int, Vertex>(this.IndexVertices);
         Array.Copy(this.Links, source.Links, this.Links.Length);
 
         return source;
     }
 
-    public bool Renamestring(string oldVert, string newVert)
+    public bool RenameVertex(Vertex oldVert, Vertex newVert)
     {
         if (!Vertices.ContainsKey(oldVert))
         {
@@ -177,36 +173,36 @@ class Graph : ICloneable
         return true;
     }
 
-    public bool Deletestring(string str)
+    public bool DeleteVertex(Vertex vert)
     {
 
-        if (!Vertices.ContainsKey(str))
+        if (!Vertices.ContainsKey(vert))
         {
-            System.Console.WriteLine("Wrong string");
+            System.Console.WriteLine("Wrong vertex");
             return false;
         }
 
-        int idx = Vertices[str];
+        int idx = Vertices[vert];
 
         for (int i = 0; i < CurrentVertexCount; i++)
-            Links[i][idx] = null;
+            Links[i][idx] = default(Weight);
         for (int i = 0; i < CurrentVertexCount; i++)
-            Links[idx][i] = null;
+            Links[idx][i] = default(Weight);
 
-        Vertices.Remove(str);
+        Vertices.Remove(vert);
         IndexVertices.Remove(idx);
 
-        IEnumerator<KeyValuePair<string, int>> vertIt = Vertices.GetEnumerator();
-        IEnumerator<KeyValuePair<int, string>> idxIt = IndexVertices.GetEnumerator();
+        IEnumerator<KeyValuePair<Vertex, int>> vertIt = Vertices.GetEnumerator();
+        IEnumerator<KeyValuePair<int, Vertex>> idxIt = IndexVertices.GetEnumerator();
 
-        SortedDictionary<string, int> tmpVertices = new SortedDictionary<string, int>(Vertices);
-        SortedDictionary<int, string> tmpIndexVertices = new SortedDictionary<int, string>(IndexVertices);
+        SortedDictionary<Vertex, int> tmpVertices = new SortedDictionary<Vertex, int>(Vertices);
+        SortedDictionary<int, Vertex> tmpIndexVertices = new SortedDictionary<int, Vertex>(IndexVertices);
 
         Vertices.Clear();
         IndexVertices.Clear();
 
-        IEnumerator<KeyValuePair<string, int>> tmpVertIt = tmpVertices.GetEnumerator();
-        IEnumerator<KeyValuePair<int, string>> tmpIdxIt = tmpIndexVertices.GetEnumerator();
+        IEnumerator<KeyValuePair<Vertex, int>> tmpVertIt = tmpVertices.GetEnumerator();
+        IEnumerator<KeyValuePair<int, Vertex>> tmpIdxIt = tmpIndexVertices.GetEnumerator();
 
         for (int i = 0; tmpVertIt.MoveNext() && tmpIdxIt.MoveNext(); i++)
         {
@@ -234,7 +230,7 @@ class Graph : ICloneable
         }
     }
 
-    public int FindstringIdx(string source)
+    public int FindVertexIdx(Vertex source)
     {
         if (Vertices.ContainsKey(source) == false)
             throw new Exception("This string is not exist in graph");
@@ -242,20 +238,9 @@ class Graph : ICloneable
         return Vertices[source];
     }
 
-    public bool Contains(string vert)
+    public bool Contains(Vertex vert)
     {
         return Vertices.ContainsKey(vert);
-    }
-
-    public string Findstring(string str)
-    {
-        foreach (string vert in Vertices.Keys)
-        {
-            if (vert.Equals(str))
-                return vert;
-        }
-
-        throw new Exception("Invalid string name");
     }
 
     public override string ToString()
