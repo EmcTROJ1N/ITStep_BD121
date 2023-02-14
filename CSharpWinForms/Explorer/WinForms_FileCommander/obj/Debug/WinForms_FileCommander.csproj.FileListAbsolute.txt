@@ -1,0 +1,11 @@
+C:\Users\19et7\Desktop\Explorer\WinForms_FileCommander\bin\Debug\WinForms_FileCommander.exe.config
+C:\Users\19et7\Desktop\Explorer\WinForms_FileCommander\bin\Debug\WinForms_FileCommander.exe
+C:\Users\19et7\Desktop\Explorer\WinForms_FileCommander\bin\Debug\WinForms_FileCommander.pdb
+C:\Users\19et7\Desktop\Explorer\WinForms_FileCommander\obj\Debug\WinForms_FileCommander.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Explorer\WinForms_FileCommander\obj\Debug\WinForms_FileCommander.Form1.resources
+C:\Users\19et7\Desktop\Explorer\WinForms_FileCommander\obj\Debug\WinForms_FileCommander.Properties.Resources.resources
+C:\Users\19et7\Desktop\Explorer\WinForms_FileCommander\obj\Debug\WinForms_FileCommander.csproj.GenerateResource.cache
+C:\Users\19et7\Desktop\Explorer\WinForms_FileCommander\obj\Debug\WinForms_FileCommander.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Explorer\WinForms_FileCommander\obj\Debug\WinForms_FileCommander.exe
+C:\Users\19et7\Desktop\Explorer\WinForms_FileCommander\obj\Debug\WinForms_FileCommander.pdb
+C:\Users\19et7\Desktop\Explorer\WinForms_FileCommander\obj\Debug\WinForms_FileCommander.Form2.resources

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YXqKatXhSYAQsh97Bz5zK6DpH0VISZoaSirwdGIE1EZuUbrdvVmUKls06dVDExfjRzIVG6eabi5bpWwbedN8DA==",
+  "success": true,
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharpPatternDesign/Antivirus/Antivirus.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.9/microsoft.aspnetcore.app.ref.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

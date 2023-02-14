@@ -1,0 +1,15 @@
+/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/obj/Debug/net6.0/Vim.csproj.AssemblyReference.cache
+/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/obj/Debug/net6.0/Vim.GeneratedMSBuildEditorConfig.editorconfig
+/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/obj/Debug/net6.0/Vim.AssemblyInfoInputs.cache
+/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/obj/Debug/net6.0/Vim.AssemblyInfo.cs
+/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/obj/Debug/net6.0/Vim.csproj.CoreCompileInputs.cache
+/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/bin/Debug/net6.0/Vim
+/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/bin/Debug/net6.0/Vim.deps.json
+/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/bin/Debug/net6.0/Vim.runtimeconfig.json
+/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/bin/Debug/net6.0/Vim.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/bin/Debug/net6.0/ref/Vim.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/bin/Debug/net6.0/Vim.pdb
+/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/obj/Debug/net6.0/Vim.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/obj/Debug/net6.0/ref/Vim.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/obj/Debug/net6.0/Vim.pdb
+/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/obj/Debug/net6.0/Vim.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\19et7\Desktop\PhotoViewer\WPF_MovingObjects\bin\Debug\WPF_MovingObjects.exe.config
+C:\Users\19et7\Desktop\PhotoViewer\WPF_MovingObjects\bin\Debug\WPF_MovingObjects.exe
+C:\Users\19et7\Desktop\PhotoViewer\WPF_MovingObjects\bin\Debug\WPF_MovingObjects.pdb
+C:\Users\19et7\Desktop\PhotoViewer\WPF_MovingObjects\obj\Debug\WPF_MovingObjects.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\PhotoViewer\WPF_MovingObjects\obj\Debug\MainWindow.g.cs
+C:\Users\19et7\Desktop\PhotoViewer\WPF_MovingObjects\obj\Debug\App.g.cs
+C:\Users\19et7\Desktop\PhotoViewer\WPF_MovingObjects\obj\Debug\WPF_MovingObjects_MarkupCompile.cache
+C:\Users\19et7\Desktop\PhotoViewer\WPF_MovingObjects\obj\Debug\WPF_MovingObjects_MarkupCompile.lref
+C:\Users\19et7\Desktop\PhotoViewer\WPF_MovingObjects\obj\Debug\MainWindow.baml
+C:\Users\19et7\Desktop\PhotoViewer\WPF_MovingObjects\obj\Debug\WPF_MovingObjects.g.resources
+C:\Users\19et7\Desktop\PhotoViewer\WPF_MovingObjects\obj\Debug\WPF_MovingObjects.Properties.Resources.resources
+C:\Users\19et7\Desktop\PhotoViewer\WPF_MovingObjects\obj\Debug\WPF_MovingObjects.csproj.GenerateResource.cache
+C:\Users\19et7\Desktop\PhotoViewer\WPF_MovingObjects\obj\Debug\WPF_MovingObjects.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\PhotoViewer\WPF_MovingObjects\obj\Debug\WPF_MovingObjects.exe
+C:\Users\19et7\Desktop\PhotoViewer\WPF_MovingObjects\obj\Debug\WPF_MovingObjects.pdb

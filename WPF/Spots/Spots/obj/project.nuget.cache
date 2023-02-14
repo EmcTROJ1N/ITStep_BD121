@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "o+I8QGmf8aW4Rw25HxVfLSmm3ZhCdiDjlyVBD2CIKBCyY9h2QFJ/Jy5PI6VRQikXOh2EWhC6K9ZYDkdJxUnjiA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\19et7\\Desktop\\WPF\\Spots\\Spots\\Spots.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\19et7\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}

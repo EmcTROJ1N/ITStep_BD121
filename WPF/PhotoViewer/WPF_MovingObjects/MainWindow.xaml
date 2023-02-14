@@ -1,0 +1,30 @@
+﻿<Window x:Class="WPF_MovingObjects.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_MovingObjects"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <TabControl x:Name="Tabs" TabStripPlacement="Top">
+        <TabItem IsSelected="true" Header="Canvas">
+            <Canvas x:Name ="FieldCanvas" DragEnter="Field_DragEnter" Drop="Field_Drop" AllowDrop="True" MouseUp="mainCanvas_MouseUp"  MouseMove="mainCanvas_MouseMove" Background="Beige">
+                <Menu Height="25" VerticalAlignment="Top">
+                    <MenuItem Header="Move" Click="MenuItem_Move"/>
+                    <MenuItem Header="Rotate" Click="MenuItem_Rotate"/>
+                    <MenuItem Header="Resize" Click="MenuItem_Resize"/>
+                </Menu>
+            </Canvas>
+        </TabItem>
+        <TabItem Header="Grid">
+            <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                <Grid x:Name="FieldGrid" ShowGridLines="True" Background="Beige">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </ScrollViewer>
+        </TabItem>
+
+    </TabControl>
+</Window>

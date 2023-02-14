@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2psSIYWKkL4w6dwq78q2Vk8v4yekUTtudQhFwkvf+eje4+juR+LDRqfXWUXQZEv7LxDFVApJkRg+p0HZEKuIzw==",
+  "success": true,
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/ExamAntivirus.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.9/microsoft.aspnetcore.app.ref.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BDwTg+jqbwVWNH6Fz2GJKZYNrDuOe2gn6PRJ34Kxr9C1FDS3U5bTQqzDc1nj5c4tvTwOf3TJxUW1KbvocoYBUQ==",
+  "success": true,
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharpPatternDesign/ATM/ATM.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.9/microsoft.aspnetcore.app.ref.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,474 @@
+C:\test\Chess\Chess\bin\Debug\net6.0-windows\Chess.exe
+C:\test\Chess\Chess\bin\Debug\net6.0-windows\Chess.deps.json
+C:\test\Chess\Chess\bin\Debug\net6.0-windows\Chess.runtimeconfig.json
+C:\test\Chess\Chess\bin\Debug\net6.0-windows\Chess.dll
+C:\test\Chess\Chess\bin\Debug\net6.0-windows\Chess.pdb
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\Chess.csproj.AssemblyReference.cache
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\App.g.cs
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.cache
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.lref
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\MainWindow.baml
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\Chess.g.resources
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\Chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfoInputs.cache
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfo.cs
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\Chess.csproj.CoreCompileInputs.cache
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\Chess.dll
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\refint\Chess.dll
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\Chess.pdb
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\Chess.genruntimeconfig.cache
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\ref\Chess.dll
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\chesscom\Window1.g.cs
+C:\test\Chess\Chess\obj\Debug\net6.0-windows\chesscom\Window1.baml
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\Chess.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\chesscom\Window1.g.cs
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.cache
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.lref
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\refint\Chess.dll
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess\Chess\bin\Debug\net6.0-windows\Chess.exe
+C:\Users\19et7\Desktop\Chess\Chess\bin\Debug\net6.0-windows\Chess.deps.json
+C:\Users\19et7\Desktop\Chess\Chess\bin\Debug\net6.0-windows\Chess.runtimeconfig.json
+C:\Users\19et7\Desktop\Chess\Chess\bin\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess\Chess\bin\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\chesscom\Window1.baml
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\Chess.g.resources
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\Chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfoInputs.cache
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfo.cs
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\Chess.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\Chess.genruntimeconfig.cache
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\ref\Chess.dll
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\Menu.g.cs
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\Menu.baml
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\ChessBoardForm.g.cs
+C:\Users\19et7\Desktop\Chess\Chess\obj\Debug\net6.0-windows\ChessBoardForm.baml
+C:\Users\19et7\Desktop\Chess1\Chess\bin\Debug\net6.0-windows\Chess.exe
+C:\Users\19et7\Desktop\Chess1\Chess\bin\Debug\net6.0-windows\Chess.deps.json
+C:\Users\19et7\Desktop\Chess1\Chess\bin\Debug\net6.0-windows\Chess.runtimeconfig.json
+C:\Users\19et7\Desktop\Chess1\Chess\bin\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess1\Chess\bin\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\Chess.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\ChessBoardForm.g.cs
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\chesscom\Window1.g.cs
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\Menu.g.cs
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.cache
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.lref
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\ChessBoardForm.baml
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\chesscom\Window1.baml
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\Menu.baml
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\Chess.g.resources
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\Chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfoInputs.cache
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfo.cs
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\Chess.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\refint\Chess.dll
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\Chess.genruntimeconfig.cache
+C:\Users\19et7\Desktop\Chess1\Chess\obj\Debug\net6.0-windows\ref\Chess.dll
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\bin\Debug\net6.0-windows\Chess.exe
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\bin\Debug\net6.0-windows\Chess.deps.json
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\bin\Debug\net6.0-windows\Chess.runtimeconfig.json
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\bin\Debug\net6.0-windows\Chess.dll
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\bin\Debug\net6.0-windows\Chess.pdb
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\ChessBoardForm.g.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\chesscom\Window1.g.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\Menu.g.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\App.g.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.cache
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.lref
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\ChessBoardForm.baml
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\chesscom\Window1.baml
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\Menu.baml
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.g.resources
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfo.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.dll
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\refint\Chess.dll
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.pdb
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.genruntimeconfig.cache
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_22\Chess\obj\Debug\net6.0-windows\ref\Chess.dll
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\ChessBoardForm.g.cs
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\chesscom\Window1.g.cs
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\Menu.g.cs
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.cache
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.lref
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\refint\Chess.dll
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_22\Chess\bin\Debug\net6.0-windows\Chess.exe
+C:\Users\19et7\Desktop\Chess_22\Chess\bin\Debug\net6.0-windows\Chess.deps.json
+C:\Users\19et7\Desktop\Chess_22\Chess\bin\Debug\net6.0-windows\Chess.runtimeconfig.json
+C:\Users\19et7\Desktop\Chess_22\Chess\bin\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_22\Chess\bin\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\ChessBoardForm.baml
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\chesscom\Window1.baml
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\Menu.baml
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.g.resources
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfoInputs.cache
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfo.cs
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\Chess.genruntimeconfig.cache
+C:\Users\19et7\Desktop\Chess_22\Chess\obj\Debug\net6.0-windows\ref\Chess.dll
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\bin\Debug\net6.0-windows\Chess.exe
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\bin\Debug\net6.0-windows\Chess.deps.json
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\bin\Debug\net6.0-windows\Chess.runtimeconfig.json
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\bin\Debug\net6.0-windows\Chess.dll
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\bin\Debug\net6.0-windows\Chess.pdb
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\ChessBoardForm.g.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\chesscom\Window1.g.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\Menu.g.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\App.g.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.cache
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.lref
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\ChessBoardForm.baml
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\chesscom\Window1.baml
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\Menu.baml
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.g.resources
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfo.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.dll
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\refint\Chess.dll
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.pdb
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.genruntimeconfig.cache
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_26\Chess\obj\Debug\net6.0-windows\ref\Chess.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\ChessBoardForm.g.cs
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Menu.g.cs
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.cache
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.lref
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\refint\Chess.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\Chess.exe
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\Chess.deps.json
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\Chess.runtimeconfig.json
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\ChessBoardForm.baml
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Menu.baml
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.g.resources
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfoInputs.cache
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfo.cs
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.genruntimeconfig.cache
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\ref\Chess.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\Stockfish.NET.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Chess.csproj.CopyComplete
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\bin\Debug\net6.0-windows\Chess.exe
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\bin\Debug\net6.0-windows\Chess.deps.json
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\bin\Debug\net6.0-windows\Chess.runtimeconfig.json
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\bin\Debug\net6.0-windows\Chess.dll
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\bin\Debug\net6.0-windows\Chess.pdb
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\bin\Debug\net6.0-windows\Stockfish.NET.dll
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\ChessBoardForm.g.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\chesscom\Window1.g.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Menu.g.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\App.g.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.cache
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.lref
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\ChessBoardForm.baml
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\chesscom\Window1.baml
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Menu.baml
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.g.resources
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfo.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.csproj.CopyComplete
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.dll
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\refint\Chess.dll
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.pdb
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.genruntimeconfig.cache
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\ref\Chess.dll
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Transformation.g.cs
+\\Mac\Home\Desktop\Учеба\шаг\семестр 3\All_Chess\Chess_29\Chess\obj\Debug\net6.0-windows\Transformation.baml
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\Chess.exe
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\Chess.deps.json
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\Chess.runtimeconfig.json
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\Stockfish.NET.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\ChessBoardForm.g.cs
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Menu.g.cs
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Transformation.g.cs
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.cache
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.lref
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\ChessBoardForm.baml
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Menu.baml
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Transformation.baml
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.g.resources
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfoInputs.cache
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfo.cs
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.csproj.CopyComplete
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\refint\Chess.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Chess.genruntimeconfig.cache
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\ref\Chess.dll
+C:\Users\19et7\Desktop\Chess_14\Chess\bin\Debug\net6.0-windows\Chess.exe
+C:\Users\19et7\Desktop\Chess_14\Chess\bin\Debug\net6.0-windows\Chess.deps.json
+C:\Users\19et7\Desktop\Chess_14\Chess\bin\Debug\net6.0-windows\Chess.runtimeconfig.json
+C:\Users\19et7\Desktop\Chess_14\Chess\bin\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_14\Chess\bin\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_14\Chess\bin\Debug\net6.0-windows\Stockfish.NET.dll
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Chess.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\ChessBoardForm.g.cs
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\chesscom\Window1.g.cs
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Menu.g.cs
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Transformation.g.cs
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.cache
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.lref
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\ChessBoardForm.baml
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\chesscom\Window1.baml
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Menu.baml
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Transformation.baml
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Chess.g.resources
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfoInputs.cache
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfo.cs
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Chess.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Chess.csproj.CopyComplete
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\refint\Chess.dll
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\Chess.genruntimeconfig.cache
+C:\Users\19et7\Desktop\Chess_14\Chess\obj\Debug\net6.0-windows\ref\Chess.dll
+C:\Users\19et7\Desktop\Chess_19\Chess\bin\Debug\net6.0-windows\Chess.exe
+C:\Users\19et7\Desktop\Chess_19\Chess\bin\Debug\net6.0-windows\Chess.deps.json
+C:\Users\19et7\Desktop\Chess_19\Chess\bin\Debug\net6.0-windows\Chess.runtimeconfig.json
+C:\Users\19et7\Desktop\Chess_19\Chess\bin\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_19\Chess\bin\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_19\Chess\bin\Debug\net6.0-windows\Stockfish.NET.dll
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Chess.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\ChessBoardForm.g.cs
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\chesscom\Window1.g.cs
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Menu.g.cs
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Transformation.g.cs
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.cache
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.lref
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\ChessBoardForm.baml
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\chesscom\Window1.baml
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Menu.baml
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Transformation.baml
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Chess.g.resources
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfoInputs.cache
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfo.cs
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Chess.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Chess.csproj.CopyComplete
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\refint\Chess.dll
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\Chess.genruntimeconfig.cache
+C:\Users\19et7\Desktop\Chess_19\Chess\obj\Debug\net6.0-windows\ref\Chess.dll
+C:\Users\19et7\Desktop\Chess_20\Chess\bin\Debug\net6.0-windows\Chess.exe
+C:\Users\19et7\Desktop\Chess_20\Chess\bin\Debug\net6.0-windows\Chess.deps.json
+C:\Users\19et7\Desktop\Chess_20\Chess\bin\Debug\net6.0-windows\Chess.runtimeconfig.json
+C:\Users\19et7\Desktop\Chess_20\Chess\bin\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_20\Chess\bin\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_20\Chess\bin\Debug\net6.0-windows\Stockfish.NET.dll
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Chess.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\ChessBoardForm.g.cs
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\chesscom\Window1.g.cs
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Menu.g.cs
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Transformation.g.cs
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.cache
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.lref
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\ChessBoardForm.baml
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\chesscom\Window1.baml
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Menu.baml
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Transformation.baml
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Chess.g.resources
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfoInputs.cache
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfo.cs
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Chess.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Chess.csproj.CopyComplete
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\refint\Chess.dll
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\Chess.genruntimeconfig.cache
+C:\Users\19et7\Desktop\Chess_20\Chess\obj\Debug\net6.0-windows\ref\Chess.dll
+C:\Users\19et7\Desktop\Chess_23\Chess\bin\Debug\net6.0-windows\Chess.exe
+C:\Users\19et7\Desktop\Chess_23\Chess\bin\Debug\net6.0-windows\Chess.deps.json
+C:\Users\19et7\Desktop\Chess_23\Chess\bin\Debug\net6.0-windows\Chess.runtimeconfig.json
+C:\Users\19et7\Desktop\Chess_23\Chess\bin\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_23\Chess\bin\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_23\Chess\bin\Debug\net6.0-windows\Stockfish.NET.dll
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Chess.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\ChessBoardForm.g.cs
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\chesscom\Window1.g.cs
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Menu.g.cs
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Transformation.g.cs
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.cache
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.lref
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\ChessBoardForm.baml
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\chesscom\Window1.baml
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Menu.baml
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Transformation.baml
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Chess.g.resources
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfoInputs.cache
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfo.cs
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Chess.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Chess.csproj.CopyComplete
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\refint\Chess.dll
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\Chess.genruntimeconfig.cache
+C:\Users\19et7\Desktop\Chess_23\Chess\obj\Debug\net6.0-windows\ref\Chess.dll
+C:\Users\19et7\Desktop\Chess_24\Chess\bin\Debug\net6.0-windows\Chess.exe
+C:\Users\19et7\Desktop\Chess_24\Chess\bin\Debug\net6.0-windows\Chess.deps.json
+C:\Users\19et7\Desktop\Chess_24\Chess\bin\Debug\net6.0-windows\Chess.runtimeconfig.json
+C:\Users\19et7\Desktop\Chess_24\Chess\bin\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_24\Chess\bin\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_24\Chess\bin\Debug\net6.0-windows\Stockfish.NET.dll
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Chess.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\ChessBoardForm.g.cs
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\chesscom\Window1.g.cs
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Menu.g.cs
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Transformation.g.cs
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.cache
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.lref
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\ChessBoardForm.baml
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\chesscom\Window1.baml
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Menu.baml
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Transformation.baml
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Chess.g.resources
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfoInputs.cache
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfo.cs
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Chess.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Chess.csproj.CopyComplete
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\refint\Chess.dll
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\Chess.genruntimeconfig.cache
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\ref\Chess.dll
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\ChooseSettingsBeforeGame.g.cs
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\ChooseSettingsBeforeGame.baml
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\19et7\Desktop\Chess_24\Chess\obj\Debug\net6.0-windows\App.baml
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\ChooseSettingsBeforeGame.g.cs
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Transformation.g.cs
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\App.baml
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\ChooseSettingsBeforeGame.baml
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Transformation.baml
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\Xceed.Wpf.AvalonDock.NET5.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.NET5.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.NET5.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\Xceed.Wpf.AvalonDock.Themes.VS2010.NET5.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\Xceed.Wpf.Toolkit.NET5.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\cs-CZ\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\de\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\es\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\fr\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\hu\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\it\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\ja-JP\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\pt-BR\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\ro\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\ru\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\sv\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\bin\Debug\net6.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Settings.g.cs
+C:\Users\19et7\Desktop\Chess_26\Chess\obj\Debug\net6.0-windows\Settings.baml
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\ChooseSettingsBeforeGame.g.cs
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Settings.g.cs
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\Xceed.Wpf.AvalonDock.NET5.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.NET5.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.NET5.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\Xceed.Wpf.AvalonDock.Themes.VS2010.NET5.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\Xceed.Wpf.Toolkit.NET5.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\cs-CZ\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\de\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\es\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\fr\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\hu\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\it\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\ja-JP\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\pt-BR\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\ro\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\ru\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\sv\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\bin\Debug\net6.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\App.baml
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\ChooseSettingsBeforeGame.baml
+C:\Users\19et7\Desktop\Chess_29\Chess\obj\Debug\net6.0-windows\Settings.baml
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\Chess.exe
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\Chess.deps.json
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\Chess.runtimeconfig.json
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\Xceed.Wpf.AvalonDock.NET5.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.NET5.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.NET5.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\Xceed.Wpf.AvalonDock.Themes.VS2010.NET5.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\Xceed.Wpf.Toolkit.NET5.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\Stockfish.NET.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\cs-CZ\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\de\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\es\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\fr\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\hu\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\it\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\ja-JP\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\pt-BR\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\ro\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\ru\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\sv\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\bin\Debug\net6.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.NET5.resources.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Chess.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\ChessBoardForm.g.cs
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\ChooseSettingsBeforeGame.g.cs
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Menu.g.cs
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Settings.g.cs
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Transformation.g.cs
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.cache
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Chess_MarkupCompile.lref
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\App.baml
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\ChessBoardForm.baml
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\ChooseSettingsBeforeGame.baml
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Menu.baml
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Settings.baml
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Transformation.baml
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Chess.g.resources
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfoInputs.cache
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Chess.AssemblyInfo.cs
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Chess.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Chess.csproj.CopyComplete
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Chess.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\refint\Chess.dll
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Chess.pdb
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\Chess.genruntimeconfig.cache
+C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\ref\Chess.dll

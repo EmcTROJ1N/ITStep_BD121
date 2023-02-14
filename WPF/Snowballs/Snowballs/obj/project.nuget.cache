@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "T0mPzlqJo6+oDN7pb7mcWFFIXVHcVQ/jxtvwtvoF9hSCtUUuWBF8I862JXfOJVUiiN6AzNUDzNYRD2/5VDvyJA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\19et7\\Desktop\\WPF\\Snowballs\\Snowballs\\Snowballs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\19et7\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/obj/Debug/net6.0/ExamAntivirus.csproj.AssemblyReference.cache
+/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/obj/Debug/net6.0/ExamAntivirus.GeneratedMSBuildEditorConfig.editorconfig
+/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/obj/Debug/net6.0/ExamAntivirus.AssemblyInfoInputs.cache
+/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/obj/Debug/net6.0/ExamAntivirus.AssemblyInfo.cs
+/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/obj/Debug/net6.0/ExamAntivirus.csproj.CoreCompileInputs.cache
+/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/bin/Debug/net6.0/ExamAntivirus
+/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/bin/Debug/net6.0/ExamAntivirus.deps.json
+/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/bin/Debug/net6.0/ExamAntivirus.runtimeconfig.json
+/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/bin/Debug/net6.0/ExamAntivirus.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/bin/Debug/net6.0/ref/ExamAntivirus.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/bin/Debug/net6.0/ExamAntivirus.pdb
+/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/obj/Debug/net6.0/ExamAntivirus.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/obj/Debug/net6.0/ref/ExamAntivirus.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/obj/Debug/net6.0/ExamAntivirus.pdb
+/home/omon/ITStep_PD111/CSharpPatternDesign/ExamAntivirus/obj/Debug/net6.0/ExamAntivirus.genruntimeconfig.cache

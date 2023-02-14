@@ -1,0 +1,10 @@
+C:\Users\19et7\Desktop\MouseBall\MouseBall\bin\Debug\MouseBall.exe.config
+C:\Users\19et7\Desktop\MouseBall\MouseBall\bin\Debug\MouseBall.exe
+C:\Users\19et7\Desktop\MouseBall\MouseBall\bin\Debug\MouseBall.pdb
+C:\Users\19et7\Desktop\MouseBall\MouseBall\obj\Debug\MouseBall.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\MouseBall\MouseBall\obj\Debug\MouseBall.Form1.resources
+C:\Users\19et7\Desktop\MouseBall\MouseBall\obj\Debug\MouseBall.Properties.Resources.resources
+C:\Users\19et7\Desktop\MouseBall\MouseBall\obj\Debug\MouseBall.csproj.GenerateResource.cache
+C:\Users\19et7\Desktop\MouseBall\MouseBall\obj\Debug\MouseBall.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\MouseBall\MouseBall\obj\Debug\MouseBall.exe
+C:\Users\19et7\Desktop\MouseBall\MouseBall\obj\Debug\MouseBall.pdb

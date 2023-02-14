@@ -1,0 +1,15 @@
+/home/omon/ITStep_PD111/CSharpPatternDesign/Archive/bin/Debug/net6.0/Archive
+/home/omon/ITStep_PD111/CSharpPatternDesign/Archive/bin/Debug/net6.0/Archive.deps.json
+/home/omon/ITStep_PD111/CSharpPatternDesign/Archive/bin/Debug/net6.0/Archive.runtimeconfig.json
+/home/omon/ITStep_PD111/CSharpPatternDesign/Archive/bin/Debug/net6.0/Archive.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/Archive/bin/Debug/net6.0/ref/Archive.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/Archive/bin/Debug/net6.0/Archive.pdb
+/home/omon/ITStep_PD111/CSharpPatternDesign/Archive/obj/Debug/net6.0/Archive.csproj.AssemblyReference.cache
+/home/omon/ITStep_PD111/CSharpPatternDesign/Archive/obj/Debug/net6.0/Archive.GeneratedMSBuildEditorConfig.editorconfig
+/home/omon/ITStep_PD111/CSharpPatternDesign/Archive/obj/Debug/net6.0/Archive.AssemblyInfoInputs.cache
+/home/omon/ITStep_PD111/CSharpPatternDesign/Archive/obj/Debug/net6.0/Archive.AssemblyInfo.cs
+/home/omon/ITStep_PD111/CSharpPatternDesign/Archive/obj/Debug/net6.0/Archive.csproj.CoreCompileInputs.cache
+/home/omon/ITStep_PD111/CSharpPatternDesign/Archive/obj/Debug/net6.0/Archive.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/Archive/obj/Debug/net6.0/ref/Archive.dll
+/home/omon/ITStep_PD111/CSharpPatternDesign/Archive/obj/Debug/net6.0/Archive.pdb
+/home/omon/ITStep_PD111/CSharpPatternDesign/Archive/obj/Debug/net6.0/Archive.genruntimeconfig.cache

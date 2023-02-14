@@ -3,7 +3,7 @@ abstract class Subject
 {
     public delegate void Delegate();
 
-    Delegate delegates;
+    Delegate? delegates;
     public void Attach(Delegate func) { delegates += func; }
     public void Detach(Delegate func) { delegates -= func; } 
     public void Notify()

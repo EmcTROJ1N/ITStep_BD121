@@ -1,0 +1,15 @@
+/home/omon/ITStep_PD111/CSharp/Analyzer/bin/Debug/net6.0/Analyzer
+/home/omon/ITStep_PD111/CSharp/Analyzer/bin/Debug/net6.0/Analyzer.deps.json
+/home/omon/ITStep_PD111/CSharp/Analyzer/bin/Debug/net6.0/Analyzer.runtimeconfig.json
+/home/omon/ITStep_PD111/CSharp/Analyzer/bin/Debug/net6.0/Analyzer.dll
+/home/omon/ITStep_PD111/CSharp/Analyzer/bin/Debug/net6.0/ref/Analyzer.dll
+/home/omon/ITStep_PD111/CSharp/Analyzer/bin/Debug/net6.0/Analyzer.pdb
+/home/omon/ITStep_PD111/CSharp/Analyzer/obj/Debug/net6.0/Analyzer.csproj.AssemblyReference.cache
+/home/omon/ITStep_PD111/CSharp/Analyzer/obj/Debug/net6.0/Analyzer.GeneratedMSBuildEditorConfig.editorconfig
+/home/omon/ITStep_PD111/CSharp/Analyzer/obj/Debug/net6.0/Analyzer.AssemblyInfoInputs.cache
+/home/omon/ITStep_PD111/CSharp/Analyzer/obj/Debug/net6.0/Analyzer.AssemblyInfo.cs
+/home/omon/ITStep_PD111/CSharp/Analyzer/obj/Debug/net6.0/Analyzer.csproj.CoreCompileInputs.cache
+/home/omon/ITStep_PD111/CSharp/Analyzer/obj/Debug/net6.0/Analyzer.dll
+/home/omon/ITStep_PD111/CSharp/Analyzer/obj/Debug/net6.0/ref/Analyzer.dll
+/home/omon/ITStep_PD111/CSharp/Analyzer/obj/Debug/net6.0/Analyzer.pdb
+/home/omon/ITStep_PD111/CSharp/Analyzer/obj/Debug/net6.0/Analyzer.genruntimeconfig.cache

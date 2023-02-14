@@ -1,0 +1,17 @@
+C:\Users\19et7\Desktop\Sapper\Sapper\bin\Debug\netcoreapp3.1\Sapper.exe
+C:\Users\19et7\Desktop\Sapper\Sapper\bin\Debug\netcoreapp3.1\Sapper.deps.json
+C:\Users\19et7\Desktop\Sapper\Sapper\bin\Debug\netcoreapp3.1\Sapper.runtimeconfig.json
+C:\Users\19et7\Desktop\Sapper\Sapper\bin\Debug\netcoreapp3.1\Sapper.runtimeconfig.dev.json
+C:\Users\19et7\Desktop\Sapper\Sapper\bin\Debug\netcoreapp3.1\Sapper.dll
+C:\Users\19et7\Desktop\Sapper\Sapper\bin\Debug\netcoreapp3.1\Sapper.pdb
+C:\Users\19et7\Desktop\Sapper\Sapper\obj\Debug\netcoreapp3.1\Sapper.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Sapper\Sapper\obj\Debug\netcoreapp3.1\Sapper.Form1.resources
+C:\Users\19et7\Desktop\Sapper\Sapper\obj\Debug\netcoreapp3.1\Sapper.csproj.GenerateResource.cache
+C:\Users\19et7\Desktop\Sapper\Sapper\obj\Debug\netcoreapp3.1\Sapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19et7\Desktop\Sapper\Sapper\obj\Debug\netcoreapp3.1\Sapper.AssemblyInfoInputs.cache
+C:\Users\19et7\Desktop\Sapper\Sapper\obj\Debug\netcoreapp3.1\Sapper.AssemblyInfo.cs
+C:\Users\19et7\Desktop\Sapper\Sapper\obj\Debug\netcoreapp3.1\Sapper.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Sapper\Sapper\obj\Debug\netcoreapp3.1\Sapper.dll
+C:\Users\19et7\Desktop\Sapper\Sapper\obj\Debug\netcoreapp3.1\Sapper.pdb
+C:\Users\19et7\Desktop\Sapper\Sapper\obj\Debug\netcoreapp3.1\Sapper.genruntimeconfig.cache
+C:\Users\19et7\Desktop\Sapper\Sapper\obj\Debug\netcoreapp3.1\Sapper.Form2.resources

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "N2EYOyG0d/Pc9Ef8yZao8lleoZ1LcL4uQ6+s5UeeTASGnvRs+9HZuPruHSL7t3ZfgoP8mXPjrnfLdOtnv0yWtw==",
+  "success": true,
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharpPatternDesign/Vim/Vim.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.9/microsoft.aspnetcore.app.ref.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
