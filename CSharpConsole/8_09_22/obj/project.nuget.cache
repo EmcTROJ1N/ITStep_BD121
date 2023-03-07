@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eO5M+Xh/ujOPlU6GowNj8YBqe/JtMkhoju2IuBytvfagYlDnVK0yBf6bMqYfD8fY/UWbgP2fHAL457XWQR/Urg==",
+  "dgSpecHash": "IOr0OjBEeDPyCbH/FZ2kA6XnWBH4ebnSwuU0YtoEwaig3cGQF9EX3ClJPu1QQUOh9g5SSDiM5OptTyCDR+2LuQ==",
   "success": true,
-  "projectFilePath": "/home/omon/ITStep_PD111/CSharp/8_09_22/8_09_22.csproj",
+  "projectFilePath": "/home/omon/ITStep_PD111/CSharpConsole/8_09_22/8_09_22.csproj",
   "expectedPackageFiles": [
-    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+    "/home/omon/.nuget/packages/microsoft.netcore.app.ref/6.0.13/microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.13/microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "/home/omon/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.13/microsoft.netcore.app.host.linux-x64.6.0.13.nupkg.sha512"
   ],
   "logs": []
 }

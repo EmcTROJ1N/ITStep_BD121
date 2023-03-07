@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="AnimalsDB" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-SQB1TBE5\SQLEXPRESS;Initial Catalog=AnimalsDB;Integrated Security=True" SettingsObjectName="CRUDSQLinq.Properties.Settings" SettingsPropertyName="AnimalsDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Animals" Member="Animals">
+    <Type Name="Animals">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="family" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="species" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="yearsOld" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mass" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

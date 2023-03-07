@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PlanesManufacturesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Manufacturers">
+    <Key>
+      <PropertyRef Name="ManufacturerId" />
+    </Key>
+    <Property Name="ManufacturerId" Type="Int32" Nullable="false" />
+    <Property Name="BrandTitle" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Planes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Model" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Speed" Type="Int32" />
+    <Property Name="ManufacturerId" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="PlanesManufacturesEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Manufacturers" EntityType="Self.Manufacturers" />
+    <EntitySet Name="Planes" EntityType="Self.Planes" />
+    <FunctionImport Name="GetAllPlanesByManufacturer" ReturnType="Collection(PlanesManufacturesModel.GetAllPlanesByManufacturer_Result)">
+      <Parameter Name="ManufacturerName" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="GetAllPlanesByManufacturer_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Model" Nullable="true" MaxLength="255" />
+    <Property Type="Decimal" Name="Price" Nullable="true" Precision="10" Scale="2" />
+    <Property Type="Int32" Name="Speed" Nullable="true" />
+    <Property Type="Int32" Name="ManufacturerId" Nullable="true" />
+  </ComplexType>
+</Schema>

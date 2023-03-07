@@ -1,0 +1,39 @@
+﻿<Window x:Class="CRUDSQLinq.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CRUDSQLinq"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TabControl Grid.Column="0" x:Name="Tabs">
+            <TabItem Header="Animals">
+                <DataGrid x:Name="AnimalsGridView" CanUserDeleteRows="False" CanUserAddRows="False"/>
+            </TabItem>
+        </TabControl>
+        <StackPanel Grid.Column="1">
+            <Border BorderBrush="Red" BorderThickness="2" Margin="3">
+                <StackPanel>
+                    <Button Content="Delete" Margin="3" Click="Button_Click"/>
+                    <TextBox x:Name="TextBoxDelete" Margin="3"/>
+                </StackPanel>
+            </Border>
+            <Border BorderBrush="Red" BorderThickness="2" Margin="3">
+                <StackPanel>
+                    <TextBox x:Name="TextBoxID" Margin="3"/>
+                    <TextBox x:Name="TextBoxFamily" Margin="3"/>
+                    <TextBox x:Name="TextBoxSpecies" Margin="3"/>
+                    <TextBox x:Name="TextBoxYearsOld" Margin="3"/>
+                    <TextBox x:Name="TextBoxMass" Margin="3"/>
+                    <Button Content="Insert" Margin="3" Click="Button_Click_1"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,28 @@
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\CRUDSQL disconnected level.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\CRUDSQL disconnected level_MarkupCompile.cache
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\CRUDSQL disconnected level_MarkupCompile.lref
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\bin\Debug\net6.0-windows\CRUDSQL disconnected level.exe
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\bin\Debug\net6.0-windows\CRUDSQL disconnected level.deps.json
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\bin\Debug\net6.0-windows\CRUDSQL disconnected level.runtimeconfig.json
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\bin\Debug\net6.0-windows\CRUDSQL disconnected level.dll
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\bin\Debug\net6.0-windows\CRUDSQL disconnected level.pdb
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\CRUDSQL disconnected level.g.resources
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\CRUDSQL disconnected level.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\CRUDSQL disconnected level.AssemblyInfoInputs.cache
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\CRUDSQL disconnected level.AssemblyInfo.cs
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\CRUDSQL disconnected level.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\CRUDSQL disconnected level.csproj.CopyComplete
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\CRUDSQL disconnected level.dll
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\refint\CRUDSQL disconnected level.dll
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\CRUDSQL disconnected level.pdb
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\CRUDSQL disconnected level.genruntimeconfig.cache
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQL disconnected level\CRUDSQL disconnected level\obj\Debug\net6.0-windows\ref\CRUDSQL disconnected level.dll

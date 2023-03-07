@@ -1,0 +1,16 @@
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\obj\Debug\CRUDPlanes.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\obj\Debug\CRUDPlanes.csproj.SuggestedBindingRedirects.cache
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\obj\Debug\MainWindow.g.cs
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\obj\Debug\App.g.cs
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\obj\Debug\CRUDPlanes_MarkupCompile.cache
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\obj\Debug\CRUDPlanes_MarkupCompile.lref
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\bin\Debug\CRUDPlanes.exe.config
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\bin\Debug\CRUDPlanes.exe
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\bin\Debug\CRUDPlanes.pdb
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\obj\Debug\MainWindow.baml
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\obj\Debug\CRUDPlanes.g.resources
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\obj\Debug\CRUDPlanes.Properties.Resources.resources
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\obj\Debug\CRUDPlanes.csproj.GenerateResource.cache
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\obj\Debug\CRUDPlanes.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\obj\Debug\CRUDPlanes.exe
+C:\Users\19et7\Desktop\ADO.NET\CRUDPlanes\CRUDPlanes\obj\Debug\CRUDPlanes.pdb

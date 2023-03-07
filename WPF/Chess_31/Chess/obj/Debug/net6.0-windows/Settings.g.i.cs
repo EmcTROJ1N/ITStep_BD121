@@ -118,7 +118,7 @@ namespace Chess {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Chess;component/settings.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Chess;V1.0.0.0;component/settings.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Settings.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

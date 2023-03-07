@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="planes" Class="Planes" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-SQB1TBE5\SQLEXPRESS;Initial Catalog=planes;Integrated Security=True" SettingsObjectName="CRUDPlanes.Properties.Settings" SettingsPropertyName="planesConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.planes" Member="plane">
+    <Type Name="plane">
+      <Column Name="id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="brand" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="model" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="seats" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="volume" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="photo" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/omon/ITStep_PD111/CSharp/8_09_22/8_09_22.csproj": {}
+    "/home/omon/ITStep_PD111/CSharpConsole/8_09_22/8_09_22.csproj": {}
   },
   "projects": {
-    "/home/omon/ITStep_PD111/CSharp/8_09_22/8_09_22.csproj": {
+    "/home/omon/ITStep_PD111/CSharpConsole/8_09_22/8_09_22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/omon/ITStep_PD111/CSharp/8_09_22/8_09_22.csproj",
+        "projectUniqueName": "/home/omon/ITStep_PD111/CSharpConsole/8_09_22/8_09_22.csproj",
         "projectName": "8_09_22",
-        "projectPath": "/home/omon/ITStep_PD111/CSharp/8_09_22/8_09_22.csproj",
+        "projectPath": "/home/omon/ITStep_PD111/CSharpConsole/8_09_22/8_09_22.csproj",
         "packagesPath": "/home/omon/.nuget/packages/",
-        "outputPath": "/home/omon/ITStep_PD111/CSharp/8_09_22/obj/",
+        "outputPath": "/home/omon/ITStep_PD111/CSharpConsole/8_09_22/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/omon/.nuget/NuGet/NuGet.Config"
@@ -43,14 +43,23 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.8, 6.0.8]"
+              "version": "[6.0.13, 6.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.13, 6.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.13, 6.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -58,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

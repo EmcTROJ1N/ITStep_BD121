@@ -1,0 +1,16 @@
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\obj\Debug\CRUDSQLinq.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\obj\Debug\CRUDSQLinq.csproj.SuggestedBindingRedirects.cache
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\obj\Debug\MainWindow.g.cs
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\obj\Debug\App.g.cs
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\obj\Debug\CRUDSQLinq_MarkupCompile.cache
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\obj\Debug\CRUDSQLinq_MarkupCompile.lref
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\bin\Debug\CRUDSQLinq.exe.config
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\bin\Debug\CRUDSQLinq.exe
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\bin\Debug\CRUDSQLinq.pdb
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\obj\Debug\MainWindow.baml
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\obj\Debug\CRUDSQLinq.g.resources
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\obj\Debug\CRUDSQLinq.Properties.Resources.resources
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\obj\Debug\CRUDSQLinq.csproj.GenerateResource.cache
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\obj\Debug\CRUDSQLinq.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\obj\Debug\CRUDSQLinq.exe
+C:\Users\19et7\Desktop\ADO.NET\CRUDSQLinq\CRUDSQLinq\obj\Debug\CRUDSQLinq.pdb

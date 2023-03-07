@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Oprosnik" Class="DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-SQB1TBE5\SQLEXPRESS;Initial Catalog=Oprosnik;Integrated Security=True" SettingsObjectName="OprosnikSQL.Properties.Settings" SettingsPropertyName="OprosnikConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.answers" Member="answers">
+    <Type Name="answers">
+      <Column Name="answer_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="question_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="answer_text" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="points" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="is_correct" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="questions_answers" Member="questions" ThisKey="question_id" OtherKey="question_id" Type="questions" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.questions" Member="questions">
+    <Type Name="questions">
+      <Column Name="question_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="question_text" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Association Name="questions_answers" Member="answers" ThisKey="question_id" OtherKey="question_id" Type="answers" />
+    </Type>
+  </Table>
+</Database>

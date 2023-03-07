@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B9Yupx7kyw9F1WKvSZkYMSz6JU066XnbXeK83vnelHjJIuJvrunGocauW/OCxugUgfe2aVfYD3+788gkTMWOeg==",
+  "dgSpecHash": "ieSgwTct6N5ik8YYckCygS/LKpanHlEEgWta9h6UUx7tEm/WcVf+6p6gfEg92mdhBeR0YV/cIi793tZNvek3nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\19et7\\Desktop\\Chess_31\\Chess\\Chess.csproj",
+  "projectFilePath": "C:\\Users\\19et7\\Desktop\\WPF\\Chess_31\\Chess\\Chess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\19et7\\.nuget\\packages\\extended.wpf.toolkit\\4.5.0\\extended.wpf.toolkit.4.5.0.nupkg.sha512",
     "C:\\Users\\19et7\\.nuget\\packages\\stockfish.net\\1.0.7\\stockfish.net.1.0.7.nupkg.sha512"
