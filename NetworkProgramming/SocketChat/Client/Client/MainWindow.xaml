@@ -1,0 +1,44 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="Chatting client: logout" Height="450" Width="800" x:Name="RootWindow">
+    <DockPanel LastChildFill="True">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Auth" Click="AuthClick"/>
+            <MenuItem Header="Exit" Click="ExitClick"/>
+        </Menu>
+        
+        <StackPanel DockPanel.Dock="Left" Width="250">
+            <TextBox Margin="5" x:Name="ConnectionTextBox"/>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Button Content="Open connection" Click="OpenConnection" Margin="0 0 5 0"/>
+                <Button Content="Close selected" Margin="0" Click="CloseSelectedConnections"/>
+            </StackPanel>
+            
+            <ListView x:Name="ChatsListView" SelectionChanged="ChatsListView_OnSelectionChanged"/>
+        </StackPanel>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <TextBlock Grid.Row="0" x:Name="CurrentInterviewerTextBlock"/>
+            
+            <ListView Grid.Row="1" x:Name="ChatView" />
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Margin="0 3 3 3" x:Name="MessageTextBox"/>
+                <Button Grid.Column="1" Content="=>" Margin="0 3 3 3" Click="SendMessage"/>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</Window>

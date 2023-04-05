@@ -1,0 +1,55 @@
+﻿<Window x:Class="ImageParser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageParser"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid Grid.Row="0" Grid.Column="0" Margin="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text="Enter url: " Margin="0 0 5 0"/>
+            <TextBox x:Name="AddressBox" Grid.Column="1"/>
+        </Grid>
+     
+        
+        <TabControl Grid.Column="0" Grid.Row="1">
+            <TabItem Header="Browser">
+                <ScrollViewer>
+                    <wv2:WebView2 Name="Browser"/>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Gallery">
+                <ScrollViewer>
+                    <ListView x:Name="Gallery" MouseDoubleClick="Gallery_OnMouseDoubleClick"/>
+                </ScrollViewer>
+            </TabItem>
+        </TabControl>
+        
+        <StackPanel Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Margin="5" Width="150">
+            <Button Content="Navigate" Click="NavigateToUrlClick" Margin="5"/>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Depth searching:" Margin="0" VerticalAlignment="Center"/>
+                <TextBox x:Name="Depth" Margin="5 0 0 0" Text="1"/>
+            </StackPanel>
+            <Button Content="Begin download Images" Margin="5" Click="BeginDownloadImages"/>
+        </StackPanel>
+        
+        <ProgressBar x:Name="FileDownloadBar" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Height="30" Margin="10"/>
+    </Grid>
+</Window>

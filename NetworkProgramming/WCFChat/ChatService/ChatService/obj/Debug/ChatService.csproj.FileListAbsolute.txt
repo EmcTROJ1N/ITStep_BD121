@@ -1,0 +1,7 @@
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatService\ChatService\bin\Debug\ChatService.dll.config
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatService\ChatService\bin\Debug\ChatService.dll
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatService\ChatService\bin\Debug\ChatService.pdb
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatService\ChatService\obj\Debug\ChatService.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatService\ChatService\obj\Debug\ChatService.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatService\ChatService\obj\Debug\ChatService.dll
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatService\ChatService\obj\Debug\ChatService.pdb

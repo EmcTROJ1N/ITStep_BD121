@@ -1,0 +1,82 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ImageParser/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.46",
+          "Microsoft.Web.WebView2": "1.0.1724-prerelease"
+        },
+        "runtime": {
+          "ImageParser.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.46": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.46.0",
+            "fileVersion": "1.11.46.0"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2/1.0.1724-prerelease": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "1.0.1724.0",
+            "fileVersion": "1.0.1724.0"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll": {
+            "assemblyVersion": "1.0.1724.0",
+            "fileVersion": "1.0.1724.0"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll": {
+            "assemblyVersion": "1.0.1724.0",
+            "fileVersion": "1.0.1724.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/WebView2Loader.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.0.1724.0"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.1724.0"
+          },
+          "runtimes/win-x86/native/WebView2Loader.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.1724.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ImageParser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dLMn4EVfJBHWmWK4Uh0XGD76FPLHI0qr2Tm0s1m/xmgiHb1JUb9zB8AzO8HtrkBBlMN6JfCUBYddhqC0hZNR+g==",
+      "path": "htmlagilitypack/1.11.46",
+      "hashPath": "htmlagilitypack.1.11.46.nupkg.sha512"
+    },
+    "Microsoft.Web.WebView2/1.0.1724-prerelease": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UjGOchPK1U7aqAuONDokLY/kUl6nxY2Hy5p1JZKPoZ7nqWB4B7Dlk+AHjFcTpm6O0nHJTnvdYz12Fr9Qe2/k5w==",
+      "path": "microsoft.web.webview2/1.0.1724-prerelease",
+      "hashPath": "microsoft.web.webview2.1.0.1724-prerelease.nupkg.sha512"
+    }
+  }
+}

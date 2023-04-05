@@ -1,0 +1,16 @@
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\bin\Debug\ChatClient.exe.config
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\bin\Debug\ChatClient.exe
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\bin\Debug\ChatClient.pdb
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\obj\Debug\ChatClient.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\obj\Debug\ChatClient.csproj.SuggestedBindingRedirects.cache
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\obj\Debug\MainWindow.g.cs
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\obj\Debug\App.g.cs
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\obj\Debug\ChatClient_MarkupCompile.cache
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\obj\Debug\ChatClient_MarkupCompile.lref
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\obj\Debug\MainWindow.baml
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\obj\Debug\ChatClient.g.resources
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\obj\Debug\ChatClient.Properties.Resources.resources
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\obj\Debug\ChatClient.csproj.GenerateResource.cache
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\obj\Debug\ChatClient.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\obj\Debug\ChatClient.exe
+C:\Users\19et7\Desktop\NetworkProgramming\WCFChat\ChatClient\ChatClient\obj\Debug\ChatClient.pdb

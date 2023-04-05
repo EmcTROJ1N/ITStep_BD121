@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zRckXndxm2EF1YNPifquDQc4ACPZTD0pgKS6Kiija15MwA7bmwYj7w8j4wNKEBYBEXN7VfRdAeNvW1HD2RIImQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\19et7\\Desktop\\NetworkProgramming\\ImageParser\\ImageParser\\ImageParser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\19et7\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
+    "C:\\Users\\19et7\\.nuget\\packages\\microsoft.web.webview2\\1.0.1724-prerelease\\microsoft.web.webview2.1.0.1724-prerelease.nupkg.sha512"
+  ],
+  "logs": []
+}
