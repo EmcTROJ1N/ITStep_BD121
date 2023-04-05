@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam", "Exam\Exam.csproj", "{0C2405E8-95F2-4466-B3B6-AFA07C8B97FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindFiles", "FindFiles\FindFiles.csproj", "{A84A32F9-6C3E-47A0-88FC-2AB9C42C585D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C2405E8-95F2-4466-B3B6-AFA07C8B97FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2405E8-95F2-4466-B3B6-AFA07C8B97FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2405E8-95F2-4466-B3B6-AFA07C8B97FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2405E8-95F2-4466-B3B6-AFA07C8B97FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84A32F9-6C3E-47A0-88FC-2AB9C42C585D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84A32F9-6C3E-47A0-88FC-2AB9C42C585D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84A32F9-6C3E-47A0-88FC-2AB9C42C585D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84A32F9-6C3E-47A0-88FC-2AB9C42C585D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

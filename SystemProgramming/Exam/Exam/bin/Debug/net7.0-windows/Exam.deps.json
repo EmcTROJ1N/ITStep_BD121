@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Exam/1.0.0": {
+        "dependencies": {
+          "FindFiles": "1.0.0"
+        },
+        "runtime": {
+          "Exam.dll": {}
+        }
+      },
+      "FindFiles/1.0.0": {
+        "runtime": {
+          "FindFiles.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exam/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FindFiles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

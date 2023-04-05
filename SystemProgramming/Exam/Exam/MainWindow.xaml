@@ -1,0 +1,88 @@
+﻿<Window x:Class="Exam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exam"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" x:Name="Root">
+        
+    <Window.Resources>
+        <Style x:Key="GroupHeaderStyle" TargetType="{x:Type GroupItem}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type GroupItem}">
+                        <Expander x:Name="exp" IsExpanded="True" Background="White" Foreground="Black">
+                            <Expander.Header>
+                                <TextBlock Text="{Binding Name}" />
+                            </Expander.Header>
+                            <ItemsPresenter />
+                        </Expander>
+
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+        
+    <TabControl x:Name="RootTab">
+        <TabItem Header="Files">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+        
+                <StackPanel Orientation="Horizontal">
+                    <TextBox x:Name="MaskTextBox" Margin="5" Width="300"/>
+                    <Button Content="Start search" Margin="5" Click="StartSearchClick"/>
+                    <Button Content="Pause search" Margin="5" Click="PauseFind"/>
+                    <Button Content="Resume search" Margin="5" Click="ResumeFind"/>
+                    <Button Content="Stop search" Margin="5" Click="StopFind"/>
+                    <Button Content="Browse path" Margin="5" Click="BrowsePath"/>
+                </StackPanel>
+                
+                <TextBox Grid.Row="1" x:Name="FolderPath" Text="/dev/home/root" Margin="5"/>
+                
+                <DataGrid Grid.Row="2" IsReadOnly="True" x:Name="FilesDataGrid" AutoGenerateColumns="False" MouseDoubleClick="OpenFile">
+                    <DataGrid.GroupStyle>
+                        <GroupStyle ContainerStyle="{StaticResource GroupHeaderStyle}"/>
+                    </DataGrid.GroupStyle>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="FileName" Binding="{Binding Name}"/>
+                        <DataGridCheckBoxColumn Header ="IsReadOnly" Binding="{Binding IsReadOnly}"/>
+                        <DataGridTextColumn Header="LastAccessTime" Binding="{Binding LastAccessTime}"/>
+                        <DataGridTextColumn Header="LastWriteTime" Binding="{Binding LastWriteTime}"/>
+                        <DataGridTextColumn Header="Length" Binding="{Binding Length}"/>
+                    </DataGrid.Columns>
+                    <DataGrid.RowDetailsTemplate>
+                        <ItemContainerTemplate>
+                            <TextBlock Text="{Binding FullName}"/>
+                        </ItemContainerTemplate>
+                    </DataGrid.RowDetailsTemplate>
+                </DataGrid>
+        
+                <TextBlock Grid.Row="3" x:Name="StatusTextBlock" Margin="3" Text="Bytes checked: 0 / ???"/>
+                <ProgressBar Grid.Row="4" x:Name="FilesProgress" Minimum="100" Value="0" Margin="3" Height="20"/>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Processes">
+                <DataGrid x:Name="ProcesesDataGrid" AutoGenerateColumns="False" IsReadOnly="True">
+                    <DataGrid.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Terminate" Click="TerminateProcess"/>
+                            <MenuItem Header="Suspend" Click="SuspendProcess"/>
+                            <MenuItem Header="Resume" Click="ResumeProcess"/>
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="PID" Binding="{Binding Id}"/>
+                        <DataGridTextColumn Header="Process Name" Binding="{Binding ProcessName}"/>
+                    </DataGrid.Columns>
+                    </DataGrid>
+        </TabItem>
+    </TabControl>
+</Window>

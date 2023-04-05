@@ -1,0 +1,6 @@
+C:\Users\19et7\Desktop\SystemProgramming\Exam\SP_Plugins\bin\Debug\Plug-ins\FindFiles.dll
+C:\Users\19et7\Desktop\SystemProgramming\Exam\SP_Plugins\bin\Debug\Plug-ins\FindFiles.pdb
+C:\Users\19et7\Desktop\SystemProgramming\Exam\FindFiles\obj\Debug\FindFiles.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\SystemProgramming\Exam\FindFiles\obj\Debug\FindFiles.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\SystemProgramming\Exam\FindFiles\obj\Debug\FindFiles.dll
+C:\Users\19et7\Desktop\SystemProgramming\Exam\FindFiles\obj\Debug\FindFiles.pdb

@@ -1,0 +1,6 @@
+C:\Students\SP\SP_Plugins\SP_Plugins\bin\Debug\Plug-ins\GreenPlugin.dll
+C:\Students\SP\SP_Plugins\SP_Plugins\bin\Debug\Plug-ins\GreenPlugin.pdb
+C:\Students\SP\SP_Plugins\GreenPlugin\obj\Debug\GreenPlugin.csproj.AssemblyReference.cache
+C:\Students\SP\SP_Plugins\GreenPlugin\obj\Debug\GreenPlugin.csproj.CoreCompileInputs.cache
+C:\Students\SP\SP_Plugins\GreenPlugin\obj\Debug\GreenPlugin.dll
+C:\Students\SP\SP_Plugins\GreenPlugin\obj\Debug\GreenPlugin.pdb
