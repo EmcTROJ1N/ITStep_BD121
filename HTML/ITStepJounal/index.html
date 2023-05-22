@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+<body>
+    <div id="page">
+        <header>
+            <div id="logo">
+                <p>Журнал <br> учета посещаемости
+            </div>
+
+            <div id="columns">
+                <div>
+                    <p>присутствующие</p>
+                    <p>посещаемость</p>
+                    <p>средний балл</p>
+                    <p>список студентов</p>
+                </div>
+                <div>
+                    <p>расписание</p>
+                    <p>отчитанные часы</p>
+                    <p>мои экзамены</p>
+                    <p>стр. регистрации</p>
+                </div>
+            </div>
+        </header>
+        <hr>
+        <main>
+            <div id="dateDiv">
+                <a href="#">&lt&lt&lt</a>
+                <span> 27-12-2009 -- Воскресенье </span>
+                <a href="#">&gt&gt&gt</a>
+            </div>
+            <input id="dateInput" type="date">
+            <input value="Перейти" id="goTo" type="button">
+            <div id="tapes">
+                <a href="#">0 лента</a>
+                <a href="#">1 лента</a>
+                <a href="#">2 лента</a>
+                <a href="#">3 лента</a>
+                <a href="#">4 лента</a>
+                <br>
+                <a href="#">5 лента</a>
+                <a href="#">6 лента</a>
+                <a href="#">7 лента</a>
+                <a href="#">8 лента</a>
+                <a href="#">9 лента</a>
+            </div>
+            <div>
+                <span id="groupName">ЕКО-08-П11</span>
+                <span id="subjectName">Windows Forms</span>
+                <span id="audienceNumb">Аудитоория № "1"</span>
+            </div>
+            
+            <div id="missing">
+                <p>Отсутствовали на предыдущей паре</p>
+                <div><span>Васильченко</span><input> </div>
+                <div><span>Вилимец</span><input> </div>
+                <div><span>Новиков</span><input> <br></div>
+            </div>
+
+            <div id="admitted">
+                <p>Не допущены учебной частью</p>
+                <div>
+                    <p>Ручка Анатолий Олегович</p>
+                    <p>Гаврилов Андрей Владимирович</p>
+                    <p>Денисов Алексей Анатольевич</p>
+                </div>
+            </div>
+            <input id="write" type="button" value="Записать">
+
+            <table>
+                <tr id="headerTr">
+                    <td>Студент</td>
+                    <td>Отс./Был./Опоздал</td>
+                    <td>Причина отсутствия на сегодня (27-12-2009, лента4)</td>
+                    <td>Оценка</td>
+                    <td></td>
+                </tr>
+                <tr class="blueTr">
+                    <td class="missing">1. Васильченко Филипп Александрович</td>
+                    <td>
+                        <input type="radio" name="studentState" checked> -
+                        <input type="radio" name="studentState"> -
+                        <input type="radio" name="studentState">
+                    </td>
+                    <td><input id="test"></td>
+                    <td>
+                        <select>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </td>
+                    <td class="A">A</td>
+                </tr>
+                <tr>
+                    <td class="missing">2. Вилимец Антон Олегович</td>
+                    <td>
+                        <input type="radio" name="studentState" checked> -
+                        <input type="radio" name="studentState"> -
+                        <input type="radio" name="studentState">
+                    </td>
+                    <td><input></td>
+                    <td>
+                        <select>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </td>
+                    <td class="A">A</td>
+                </tr>
+                <tr class="blueTr">
+                    <td class="admitted">3. Гаврилов Андрей Владимирович</td>
+                    <td>
+                        <input type="radio" name="studentState" checked> -
+                        <input type="radio" name="studentState"> -
+                        <input type="radio" name="studentState">
+                    </td>
+                    <td><input></td>
+                    <td>
+                        <select>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </td>
+                    <td class="A">A</td>
+                </tr>
+                <tr>
+                    <td class="admitted">4. Денисов Алексей Анатольевич</td>
+                    <td>
+                        <input type="radio" name="studentState" checked> -
+                        <input type="radio" name="studentState"> -
+                        <input type="radio" name="studentState">
+                    </td>
+                    <td><input></td>
+                    <td>
+                        <select>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </td>
+                    <td class="A">A</td>
+                </tr>
+                <tr class="blueTr">
+                    <td class="default">5. Ермолина Анна Николаевна</td>
+                    <td>
+                        <input type="radio" name="studentState" checked> -
+                        <input type="radio" name="studentState"> -
+                        <input type="radio" name="studentState">
+                    </td>
+                    <td><input></td>
+                    <td>
+                        <select>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </td>
+                    <td class="A">A</td>
+                </tr>
+                <tr>
+                    <td class="default">6. Костев Александр Аркадиевич</td>
+                    <td>
+                        <input type="radio" name="studentState" checked> -
+                        <input type="radio" name="studentState"> -
+                        <input type="radio" name="studentState">
+                    </td>
+                    <td><input></td>
+                    <td>
+                        <select>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </td>
+                    <td class="A">A</td>
+                </tr>
+                <tr class="blueTr">
+                    <td class="default">7. Мальцев Михаил Сергеевич</td>
+                    <td>
+                        <input type="radio" name="studentState" checked> -
+                        <input type="radio" name="studentState"> -
+                        <input type="radio" name="studentState">
+                    </td>
+                    <td><input></td>
+                    <td>
+                        <select>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </td>
+                    <td class="A">A</td>
+                </tr>
+                <tr>
+                    <td class="missing">8. Новиков Владислав Русланович</td>
+                    <td>
+                        <input type="radio" name="studentState" checked> -
+                        <input type="radio" name="studentState"> -
+                        <input type="radio" name="studentState">
+                    </td>
+                    <td><input></td>
+                    <td>
+                        <select>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </td>
+                    <td class="A">A</td>
+                </tr>
+                <tr class="blueTr">
+                    <td class="admitted">9. Ручка Анатолий Олегович</td>
+                    <td>
+                        <input type="radio" name="studentState" checked> -
+                        <input type="radio" name="studentState"> -
+                        <input type="radio" name="studentState">
+                    </td>
+                    <td><input></td>
+                    <td>
+                        <select>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </td>
+                    <td class="A">A</td>
+                </tr>
+                <tr>
+                    <td class="default">10. Терешко Артем Вячеславович</td>
+                    <td>
+                        <input type="radio" name="studentState" checked> -
+                        <input type="radio" name="studentState"> -
+                        <input type="radio" name="studentState">
+                    </td>
+                    <td><input></td>
+                    <td>
+                        <select>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </td>
+                    <td class="A">A</td>
+                </tr>
+            </table>
+            <span id="noTape">Не было ленты</span>
+            <a href="#">Отметить всех</a>
+        </main>
+    </div>
+</body>
+</head>

@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\19et7\Desktop\Chess_31\Chess\obj\Debug\net6.0-windows\
+C:\Users\OMON\Desktop\ITStep_PD111\WPF\Chess_31\Chess\obj\Debug\net6.0-windows\
 Chess
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\19et7\Desktop\Chess_31\Chess\App.xaml
+C:\Users\OMON\Desktop\ITStep_PD111\WPF\Chess_31\Chess\App.xaml
 5-1743120926
 
 10218198827
-2001442166170
+200187498584
 ChessBoardForm.xaml;ChooseSettingsBeforeGame.xaml;Menu.xaml;Settings.xaml;Transformation.xaml;
 
 False

@@ -1,0 +1,278 @@
+body, html
+{
+    background-color: rgb(247,247,247);
+    margin: 0px;
+    height: calc(100% - 30px);
+}
+
+header
+{
+    margin: 0px;
+}
+
+main
+{
+    display: flex;
+    margin: 0px;
+    height: 100%;
+}
+
+p
+{
+    color :gray;
+}
+
+#logoimage
+{
+    width: 150px;
+    height: 75px;
+}
+
+table
+{
+    margin-left: 10px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    height: 100%;
+}
+
+tr
+{
+    border-bottom: 1px solid gray;
+}
+
+ul
+{
+    background-color: black;
+    padding: 15px;
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+}
+
+li
+{
+    display: inline;
+}
+
+li a
+{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul li:not(:last-child)::after {
+  content: "|";
+  margin-left: 15px; 
+  margin-right: 15px; 
+  color: white; 
+}
+
+#allMatches
+{
+    background-image: url("img/bg.png");
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.sectionHeader
+{
+    font-size: 25px;
+    height: 5%;
+    margin: 0px;
+}
+
+.teamImg
+{
+    display: inline;
+    width: 40px;
+    height: 40px;
+}
+
+.teamName
+{
+    color: rgb(148,148,148);
+}
+
+.country
+{
+    color: rgb(199,199,199);
+}
+
+.country::after
+{
+    content: ')';
+}
+.country::before
+{
+    content: '(';
+}
+
+.range
+{
+    width: 80px;
+    text-align: center;
+}
+
+.team
+{
+    text-align: right;
+}
+
+.team + td + td + td + td
+{
+    text-align: left;
+}
+
+#container1
+{
+    display: flex;
+    justify-content: center;
+    height: 60%;
+}
+
+#container2
+{
+    display: flex;
+    justify-content: center;
+    height: calc(35% - 10px);
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#europeLeague
+{
+    background-image: url('img/tottenham_hotspur_v_pfc_ludogorets_razgrad_group_j_-_uefa_europa_league.png');
+    width: 45%;
+    display: flex;
+    flex-direction: column-reverse;
+    background-size: cover;
+}
+
+#europeLeague p
+{
+    color: white;
+    text-align: left;
+    vertical-align: bottom;
+    width: 100%;
+    margin-left: 20px;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#goThrough
+{
+    background-image: url('img/UEFA-Champions-League.png');
+    width: 45%;
+    display: flex;
+    flex-direction: column-reverse;
+    background-size: cover;
+}
+
+#goThrough p
+{
+    color: white;
+    text-align: left;
+    vertical-align: bottom;
+    width: 100%;
+    margin-left: 20px;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#teamOfTheWeak
+{
+    background-image: url('img/totw_promo.png');
+    width: 95%;
+    display: flex;
+    flex-direction: column-reverse;
+    background-size: cover;
+}
+
+#teamOfTheWeak p
+{
+    color: white;
+    text-align: left;
+    vertical-align: bottom;
+    width: 100%;
+    margin-left: 20px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+#teamOfTheWeak p + p
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#previewUCL
+{
+    background-color: rgb(43,110,157);
+    color: white;
+    width: 35px;
+    height: 20px;
+    text-align: center;
+
+    order: 1;
+    margin-bottom: 496px;
+    position:absolute;
+}
+
+#featured
+{
+    flex: 3;
+}
+
+#clubRankings
+{
+    flex: 1;
+    background-color: white;
+}
+
+#rankingHeader
+{
+    text-align: left;
+    color: gray;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 5%;
+}
+
+#clubRankings table tr td:nth-child(2)
+{
+    width: 200px;
+}
+
+#clubRankings table
+{
+    height: 75%;
+}
+.rankingTeamImg
+{
+    width: 50px;
+    height: 50px;
+}
+
+.rank
+{
+    color: darkgray;
+    font-weight: bold;
+}
+
+button
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 5%;
+    background-color: transparent;
+    border: 1px rgb(83,210,247) solid;
+    color: rgb(83,210,247);
+}

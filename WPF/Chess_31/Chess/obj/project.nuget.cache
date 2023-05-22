@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ieSgwTct6N5ik8YYckCygS/LKpanHlEEgWta9h6UUx7tEm/WcVf+6p6gfEg92mdhBeR0YV/cIi793tZNvek3nw==",
+  "dgSpecHash": "QtywX+Vlp5XJ8FHyDWUVDfyGAnUefg0q2K9kvT+9O3jQAd4N3tXdPeMP/Pcz4juPtC0aINWmTRrEirKPBfqi4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\19et7\\Desktop\\WPF\\Chess_31\\Chess\\Chess.csproj",
+  "projectFilePath": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\WPF\\Chess_31\\Chess\\Chess.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\19et7\\.nuget\\packages\\extended.wpf.toolkit\\4.5.0\\extended.wpf.toolkit.4.5.0.nupkg.sha512",
-    "C:\\Users\\19et7\\.nuget\\packages\\stockfish.net\\1.0.7\\stockfish.net.1.0.7.nupkg.sha512"
+    "C:\\Users\\OMON\\.nuget\\packages\\extended.wpf.toolkit\\4.5.0\\extended.wpf.toolkit.4.5.0.nupkg.sha512",
+    "C:\\Users\\OMON\\.nuget\\packages\\stockfish.net\\1.0.7\\stockfish.net.1.0.7.nupkg.sha512"
   ],
   "logs": []
 }

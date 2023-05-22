@@ -1,0 +1,228 @@
+header
+{
+    margin: 10px
+}
+
+body
+{
+    background: rgb(198,209,220);
+}
+
+hr
+{
+    margin: 20px;
+}
+
+a
+{
+    color: rgb(102,102,172);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:red;
+}
+
+#page
+{
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 1px rgb(59,82,109) solid; 
+    background: linear-gradient(to bottom, rgb(202, 200, 200), white 30%);
+
+}
+
+#columns
+{
+    column-count: 2;
+    width: 300px;
+}
+
+#columns p
+{
+    color: rgb(78, 97, 152);
+    font-weight: bold;
+    margin: 4px;
+    float: left;
+}
+
+#logo
+{
+    border: 1px gray solid;
+    float:left;
+    margin: 9px;
+    margin-right: 30px;
+    height: 90px;
+    width: 150px;
+    background: linear-gradient(to top, rgb(240,241,243) 50%, white 50%);
+}
+
+#logo p
+{
+    text-align: center;
+    padding: 0px;
+}
+
+#logo p::first-line
+{
+    color:deepskyblue;
+    font-size:37px;
+}
+
+#dateDiv
+{
+    margin: 10px;
+    float: left;
+}
+
+#dateInput
+{
+    margin: 10px;
+}
+
+#tapes
+{
+    float: right;
+    margin: 10px;
+}
+
+#groupName
+{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#subjectName
+{
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#subjectName::before
+{
+    content:"("
+}
+#subjectName::after
+{
+    content:")"
+}
+
+#audienceNumb
+{
+    font-style: italic;
+}
+
+#missing
+{
+    margin: 20px;
+    margin-top: 0px;
+    float:left;
+}
+
+#missing > p
+{
+    font-weight: bold;
+    color: gray;
+}
+
+input, select
+{
+    margin-left: 20px;
+    background-color: rgb(235,233,237);
+    border: 1px gray solid;
+}
+#missing span
+{
+    font-weight: bold;
+    color: gray;
+}
+#missing div
+{
+    margin-bottom: 3px;
+}
+
+#admitted
+{
+    margin-bottom: 32px;
+}
+
+#admitted > p
+{
+    font-weight: bold;
+    color: gray;
+}
+
+#admitted > div > p
+{
+    margin: 0px;
+    color: red;
+}
+
+#write
+{
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom: 3px;
+}
+
+#headerTr
+{
+    border: 1px solid black;
+    background-color: rgb(235,233,237);
+    font-weight: bold;
+    color: rgb(85,85,85);
+}
+
+table
+{
+    width: 98%;
+    margin: 20px;
+}
+
+.A
+{
+    color:rgb(102,102,153);
+    font-weight: bold;
+}
+
+.missing
+{
+    font-weight: bold;
+    color: gray;
+}
+
+.admitted
+{
+    font-weight: bold;
+    color: red;
+}
+
+.default
+{
+    font-weight: bold;
+}
+
+.blueTr
+{
+    background-color: rgb(224,240,255);
+}
+
+#noTape
+{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right: 400px;
+    color: red;
+    font-style: italic;
+}
+
+#test
+{
+    width: 90%;
+}

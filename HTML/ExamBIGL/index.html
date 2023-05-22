@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <body>
+            <header>
+                <ul>
+                    <li><img style="height: 100%;" src="imgs/logo.png"></li>
+                    <li><select>
+                        <option>Категории</option>
+                    </select></li>
+                    <li><input placeholder="Введите запрос"></li>
+                    <li>
+                        <ol>
+                            <li>
+                                <div id="flag"></div>
+                                <a href="#">Укр</a>
+                            </li>
+                            <li><span id="beta">BETA</span></li>
+                        </ol>
+                    </li>
+                    <li>Рус</li>
+                    <li>
+                        <ol>
+                            <li><a href="#">Вход</a></li>
+                            <li><a href="#">Регистрация</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <svg>
+                            <path d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0ZM9,0A2,2,0,1,1,7,2,2,2,
+                               0,0,1,9,0Zm7,4a2,2,0,1,1,2-2A2,2,0,0,1,16,4ZM2,7A2,2,0,
+                               1,1,0,9,2,2,0,0,1,2,7ZM9,7A2,2,0,1,1,7,9,2,2,0,0,1,9,7Zm7,
+                               0a2,2,0,1,1-2,2A2,2,0,0,1,16,7ZM2,14a2,2,0,1,1-2,2A2,2,0,0,
+                               1,2,14Zm7,0a2,2,0,1,1-2,2A2,2,0,0,1,9,14Zm7,0a2,2,0,1,1-2,
+                               2A2,2,0,0,1,16,14Z"></path>
+                        </svg>
+                    </li>
+                    <li class="counter">
+                        <svg>
+                            <path d="m12.01 21-.428-.224C11.19 20.572 2 15.608 2 8.633 2 
+                            5.531 4.673 3 7.964 3c1.527 0 2.954.545 4.045 1.511 1.236-1.09
+                            2.891-1.636 4.61-1.484C19.735 3.304 22 5.852 22 9.08c0
+                            6.653-9.173 11.49-9.564 11.696L12.01 21ZM7.963 4.788c-2.282
+                            0-4.146 1.726-4.146 3.845 0 5.142 6.455 9.3 8.2 10.32 1.736-.993
+                            8.164-5.026 8.164-9.873 0-2.289-1.573-4.086-3.727-4.283-1.455-.134-2.846.456-3.728
+                            1.565l-.718.903-.718-.903C10.5 5.361 9.28 4.788 7.964 4.788Z"></path>
+                        </svg>
+                        <span>0</span>
+                    </li>
+                    
+                    <li class="counter">
+                        <svg>
+                            <path d="M17.466 6H12a1 1 0 1 0 0 2h5.466A2.537 2.537 0 0 1 20
+                            10.534v2.933A2.537 2.537 0 0 1 17.466 16h-5.932A2.537 2.537 0 0
+                            1 9 13.467V6.534A4.54 4.54 0 0 0 4.466 2H3a1 1 0 1 0 0
+                            2h1.466A2.537 2.537 0 0 1 7 6.534v6.933C7 15.967 9.034 18 11.534
+                            18h5.933c2.5 0 4.534-2.033 4.534-4.533v-2.933A4.54 4.54 0 0 0
+                            17.466 6ZM9.991 19.032a1.483 1.483 0 1 0-.001 2.967 1.483 1.483 0
+                            0 0 .001-2.967Zm6.533 1.484a1.483 1.483 0 1 1 2.967-.001 1.483
+                            1.483 0 0 1-2.967.001Z"></path>
+                       </svg>
+                        <span>0</span>
+                    </li>
+                </ul>
+            </header>
+
+            <main>
+
+                <div id="container" >
+                    <section id="menu" style="flex: 1">
+                        <ul>
+                            <li>
+                                <img src="imgs/gift.png">
+                                <a href="#">Новогодние подарки</a>
+                            </li>
+                            <li>
+                                <img src="imgs/toy.png">
+                                <a href="#">Новогодний декор</a>
+                            </li>
+                            <li>
+                                <img src="imgs/discont.png">
+                                <a href="#">Новогодняя распродажа</a>
+                            </li>
+                            <li><a href="#">Одежда и обувь</a></li>
+                            <li><a href="#">Техника и электроника</a></li>
+                            <li><a href="#">Дом и сад</a></li>
+                            <li><a href="#">Авто, мото</a></li>
+                            <li><a href="#">Товары для детей</a></li>
+                            <li><a href="#">Спорт и отдых</a></li>
+                            <li><a href="#">Красота и здоровье</a></li>
+                            <li><a href="#">Инструмент</a></li>
+                            <li><a href="#">Материалы для ремонта</a></li>
+                            <li><a href="#">Подарки, хобби, книги</a></li>
+                        </ul>
+                    </section>
+
+                    <img id="previewImg">
+
+                    <section id="about">
+                        <div>
+                            <img src="imgs/pets.png">
+                            <p>Защищаем покупку</p>
+                            <span style="font-size:20px;color: orange;">на 
+                                <span style="font-size:30px">5000</span> 
+                                грн</span>
+                        </div>
+                        
+                        <div>
+                            <p>Огромный ассортимент</p>
+                            <span style="font-size:30px">45 362 968</span> 
+                            <span style="font-size:20px;">товаров</span>
+                        </div>
+                        
+                        <div>
+                            <p>Отзывов на сайте</p>
+                            <span style="font-size:30px">1 124 443</span> 
+                        </div>
+                    </section>
+                </div>
+
+                <section id="lastSeen">
+                    <p>Вы просматривали</p>
+                    <ul>
+                        <li>
+                            <img src="imgs/asrock.png">
+                            <p>AsRock B85 Pro4 (Rev. 1.03) Socket 1150 - в идеале!!!</p>
+                            <p>В наличии</p>
+                            <p>1800 грн</p>
+                        </li>
+                        <li>
+                            <img src="imgs/asus.png">
+                            <p>Материнская плата Asus B85M-G (s1150/B85/4xDDR3)</p>
+                            <p>В наличии</p>
+                            <p>1600 грн</p>
+                        </li>
+                        <li>
+                            <img src="imgs/lenovo.png">
+                            <p>Материнская плата Lenovo IS8XM (s1150/Q87/4xDDR3) БУ</p>
+                            <p>В наличии</p>
+                            <p>1100 грн</p>
+                        </li>
+
+                        <li>
+                            <img src="imgs/interE5.jpg">
+                            <p>Процессор Intel Xeon E5 2689 CPU SR0HD/SR0L6</p>
+                            <p>В наличии</p>
+                            <p>1750 грн</p>
+                        </li>
+
+                        <li>
+                            <img src="imgs/intelE3.jpg">
+                            <p>Процессор Intel Xeon E3-1246 v3, LGA1150 up to 3.90GHz</p>
+                            <p>В наличии</p>
+                            <p>2699 грн</p>
+                        </li>
+                    </ul>
+                </section>
+            
+            </main>
+
+        </body>
+    </head>
+</html>
