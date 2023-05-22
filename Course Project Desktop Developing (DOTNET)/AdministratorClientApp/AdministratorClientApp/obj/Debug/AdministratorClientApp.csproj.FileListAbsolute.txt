@@ -1,0 +1,164 @@
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\bin\Debug\AdministratorClientApp.exe.config
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\bin\Debug\AdministratorClientApp.exe
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\bin\Debug\AdministratorClientApp.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\obj\Debug\MainWindow.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\obj\Debug\App.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp_MarkupCompile.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp_MarkupCompile.lref
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\obj\Debug\App.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\obj\Debug\MainWindow.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.g.resources
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.Properties.Resources.resources
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.csproj.GenerateResource.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.csproj.CopyComplete
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.exe
+C:\Users\19et7\Desktop\Course Project Desktop Developing\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\AdministratorClientApp.exe.config
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\AdministratorClientApp.exe
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\AdministratorClientApp.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\MainWindow.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\RegeditForm.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\App.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp_MarkupCompile.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp_MarkupCompile.lref
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\App.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\MainWindow.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\RegeditForm.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.g.resources
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.Properties.Resources.resources
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.csproj.GenerateResource.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.csproj.CopyComplete
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.exe
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\RegisterForm.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\RegisterForm.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\LogInForm.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\LogInForm.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\SendMessageboxForm.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\SendMessageboxForm.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\TaskManagerForm.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\TaskManagerForm.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\FindFilesForm.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\FindFilesForm.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Buffers.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Memory.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Text.Json.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.ValueTuple.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Buffers.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Memory.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Text.Json.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.ValueTuple.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\Explorer.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\Explorer.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\RenameForm.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\RenameForm.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\Telnet.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\Telnet.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Cake.Powershell.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Management.Automation.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Cake.Powershell.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Cake.Powershell.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\Screen.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\Screen.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\AdministratorClientApp.exe.config
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\AdministratorClientApp.exe
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\AdministratorClientApp.pdb
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Cake.Powershell.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Buffers.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Management.Automation.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Memory.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Text.Json.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.ValueTuple.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Cake.Powershell.pdb
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Cake.Powershell.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Buffers.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Memory.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Text.Json.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\bin\Debug\System.ValueTuple.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.csproj.AssemblyReference.cache
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\Explorer.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\FindFilesForm.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\LogInForm.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\MainWindow.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\RegeditForm.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\RegisterForm.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\RenameForm.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\Screen.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\SendMessageboxForm.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\TaskManagerForm.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\Telnet.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\App.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp_MarkupCompile.cache
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp_MarkupCompile.lref
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\App.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\Explorer.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\FindFilesForm.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\LogInForm.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\MainWindow.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\RegeditForm.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\RegisterForm.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\RenameForm.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\Screen.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\SendMessageboxForm.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\TaskManagerForm.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\Telnet.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.g.resources
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.Properties.Resources.resources
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.csproj.GenerateResource.cache
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.csproj.CoreCompileInputs.cache
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.csproj.CopyComplete
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.exe
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\AdministratorClientApp\AdministratorClientApp\obj\Debug\AdministratorClientApp.pdb

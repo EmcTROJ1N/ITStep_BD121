@@ -1,0 +1,55 @@
+﻿<Window x:Class="AdministratorClientApp.Explorer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdministratorClientApp"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+        Title="Explorer" Height="450" Width="800" WindowState="Maximized" Icon="/AdminIcon.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.3*"/>
+            <ColumnDefinition Width="0.6*"/>
+        </Grid.ColumnDefinitions>
+
+        <TreeView Grid.Row="0" Grid.Column="0" x:Name="FoldersTree" MouseRightButtonDown="MouseRightButtonDown">
+            <TreeView.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Open" Click="OpenClick"/>
+                    <MenuItem Header="Rename" Click="RenameClick"/>
+                    <MenuItem Header="Copy" Click="CopyClick"/>
+                    <MenuItem Header="Paste" Click="PasteClick"/>
+                    <MenuItem Header="Delete" Click="DeleteClick"/>
+                </ContextMenu>
+            </TreeView.ContextMenu>
+        </TreeView>
+
+        <DataGrid Grid.Row="0" Grid.Column="1" x:Name="FolderDataGrid" 
+                  CellEditEnding="FolderDataGrid_CellEditEnding" IsReadOnly="True"
+                  MouseRightButtonDown="MouseRightButtonDown" AutoGenerateColumns="False"
+                  CanUserAddRows="False" CanUserDeleteRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Last write time" Binding="{Binding LastWriteTime, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Last access time" Binding="{Binding LastAccessTime, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Size" Binding="{Binding Length, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridCheckBoxColumn Header="Is read only" Binding="{Binding IsReadOnly, UpdateSourceTrigger=PropertyChanged}"/>
+            </DataGrid.Columns>
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Open" Click="OpenClick"/>
+                    <MenuItem Header="Rename" Click="RenameClick"/>
+                    <MenuItem Header="Copy" Click="CopyClick"/>
+                    <MenuItem Header="Paste" Click="PasteClick"/>
+                    <MenuItem Header="Delete" Click="DeleteClick"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+        </DataGrid>
+        <TextBlock Margin="10" FontSize="15" Grid.Row="2" Grid.ColumnSpan="2" x:Name="PathTextBlock" Height="30"/>
+    </Grid>
+</Window>

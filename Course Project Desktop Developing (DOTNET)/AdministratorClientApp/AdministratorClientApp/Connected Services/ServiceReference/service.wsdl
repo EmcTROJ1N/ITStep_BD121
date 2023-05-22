@@ -1,0 +1,785 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="AdminService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_IAdminService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/ServerService" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Microsoft.Win32" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAdminService_RemoveAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveAdmin" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_RemoveAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_LogInAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:LogInAdmin" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_LogInAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogInAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_RegisterAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterAdmin" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_RegisterAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_LogOutAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:LogOutAdmin" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_LogOutAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogOutAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsers" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_SendMessageBox_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendMessageBox" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_SendMessageBox_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendMessageBoxResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetProcesses_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProcesses" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetProcesses_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProcessesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_TerminateProcesses_InputMessage">
+    <wsdl:part name="parameters" element="tns:TerminateProcesses" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_TerminateProcesses_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TerminateProcessesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_SuspendProcesses_InputMessage">
+    <wsdl:part name="parameters" element="tns:SuspendProcesses" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_SuspendProcesses_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SuspendProcessesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_ResumeProcesses_InputMessage">
+    <wsdl:part name="parameters" element="tns:ResumeProcesses" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_ResumeProcesses_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ResumeProcessesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_BeginSearchFiles_InputMessage">
+    <wsdl:part name="parameters" element="tns:BeginSearchFiles" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_BeginSearchFiles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BeginSearchFilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetSearchingStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSearchingStatus" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetSearchingStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSearchingStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_PauseSearch_InputMessage">
+    <wsdl:part name="parameters" element="tns:PauseSearch" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_PauseSearch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PauseSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_ResumeSearch_InputMessage">
+    <wsdl:part name="parameters" element="tns:ResumeSearch" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_ResumeSearch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ResumeSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_StopSearch_InputMessage">
+    <wsdl:part name="parameters" element="tns:StopSearch" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_StopSearch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StopSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_StartProcess_InputMessage">
+    <wsdl:part name="parameters" element="tns:StartProcess" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_StartProcess_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StartProcessResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_LockStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:LockStation" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_LockStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LockStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_SuspendStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:SuspendStation" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_SuspendStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SuspendStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetLogicalDrives_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLogicalDrives" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetLogicalDrives_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLogicalDrivesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetFolders_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFolders" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetFolders_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoldersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetFiles_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFiles" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetFiles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_DeleteObject_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteObject" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_DeleteObject_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteObjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_RenameObject_InputMessage">
+    <wsdl:part name="parameters" element="tns:RenameObject" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_RenameObject_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RenameObjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_CopyObject_InputMessage">
+    <wsdl:part name="parameters" element="tns:CopyObject" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_CopyObject_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CopyObjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetRegistryKeys_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegistryKeys" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetRegistryKeys_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegistryKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetRegistryKeyValues_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegistryKeyValues" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetRegistryKeyValues_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegistryKeyValuesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_RenameRegistryKeyValue_InputMessage">
+    <wsdl:part name="parameters" element="tns:RenameRegistryKeyValue" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_RenameRegistryKeyValue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RenameRegistryKeyValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_RenameRegistryKey_InputMessage">
+    <wsdl:part name="parameters" element="tns:RenameRegistryKey" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_RenameRegistryKey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RenameRegistryKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_DeleteRegistryKeyValue_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRegistryKeyValue" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_DeleteRegistryKeyValue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRegistryKeyValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_DeleteRegistryKey_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRegistryKey" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_DeleteRegistryKey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRegistryKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_SendCommand_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendCommand" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_SendCommand_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendCommandResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetScreenshot_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetScreenshot" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetScreenshot_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetScreenshotResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_SendMessageBoxBroadcast_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendMessageBoxBroadcast" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_SendMessageBoxBroadcast_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendMessageBoxBroadcastResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_StartProcessBroadcast_InputMessage">
+    <wsdl:part name="parameters" element="tns:StartProcessBroadcast" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_StartProcessBroadcast_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StartProcessBroadcastResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_LockStationBroadcast_InputMessage">
+    <wsdl:part name="parameters" element="tns:LockStationBroadcast" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_LockStationBroadcast_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LockStationBroadcastResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_SuspendStationBroadcast_InputMessage">
+    <wsdl:part name="parameters" element="tns:SuspendStationBroadcast" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_SuspendStationBroadcast_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SuspendStationBroadcastResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_UpdateData_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:UpdateData" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_UpdateData_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetFile_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetFile" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetFile_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetFileResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAdminService">
+    <wsdl:operation name="RemoveAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/RemoveAdmin" message="tns:IAdminService_RemoveAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/RemoveAdminResponse" message="tns:IAdminService_RemoveAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LogInAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/LogInAdmin" message="tns:IAdminService_LogInAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/LogInAdminResponse" message="tns:IAdminService_LogInAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/RegisterAdmin" message="tns:IAdminService_RegisterAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/RegisterAdminResponse" message="tns:IAdminService_RegisterAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LogOutAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/LogOutAdmin" message="tns:IAdminService_LogOutAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/LogOutAdminResponse" message="tns:IAdminService_LogOutAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/GetUsers" message="tns:IAdminService_GetUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/GetUsersResponse" message="tns:IAdminService_GetUsers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageBox">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/SendMessageBox" message="tns:IAdminService_SendMessageBox_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/SendMessageBoxResponse" message="tns:IAdminService_SendMessageBox_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProcesses">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/GetProcesses" message="tns:IAdminService_GetProcesses_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/GetProcessesResponse" message="tns:IAdminService_GetProcesses_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TerminateProcesses">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/TerminateProcesses" message="tns:IAdminService_TerminateProcesses_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/TerminateProcessesResponse" message="tns:IAdminService_TerminateProcesses_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SuspendProcesses">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/SuspendProcesses" message="tns:IAdminService_SuspendProcesses_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/SuspendProcessesResponse" message="tns:IAdminService_SuspendProcesses_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ResumeProcesses">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/ResumeProcesses" message="tns:IAdminService_ResumeProcesses_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/ResumeProcessesResponse" message="tns:IAdminService_ResumeProcesses_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BeginSearchFiles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/BeginSearchFiles" message="tns:IAdminService_BeginSearchFiles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/BeginSearchFilesResponse" message="tns:IAdminService_BeginSearchFiles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSearchingStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/GetSearchingStatus" message="tns:IAdminService_GetSearchingStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/GetSearchingStatusResponse" message="tns:IAdminService_GetSearchingStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PauseSearch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/PauseSearch" message="tns:IAdminService_PauseSearch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/PauseSearchResponse" message="tns:IAdminService_PauseSearch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ResumeSearch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/ResumeSearch" message="tns:IAdminService_ResumeSearch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/ResumeSearchResponse" message="tns:IAdminService_ResumeSearch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StopSearch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/StopSearch" message="tns:IAdminService_StopSearch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/StopSearchResponse" message="tns:IAdminService_StopSearch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StartProcess">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/StartProcess" message="tns:IAdminService_StartProcess_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/StartProcessResponse" message="tns:IAdminService_StartProcess_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LockStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/LockStation" message="tns:IAdminService_LockStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/LockStationResponse" message="tns:IAdminService_LockStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SuspendStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/SuspendStation" message="tns:IAdminService_SuspendStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/SuspendStationResponse" message="tns:IAdminService_SuspendStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLogicalDrives">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/GetLogicalDrives" message="tns:IAdminService_GetLogicalDrives_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/GetLogicalDrivesResponse" message="tns:IAdminService_GetLogicalDrives_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFolders">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/GetFolders" message="tns:IAdminService_GetFolders_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/GetFoldersResponse" message="tns:IAdminService_GetFolders_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFiles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/GetFiles" message="tns:IAdminService_GetFiles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/GetFilesResponse" message="tns:IAdminService_GetFiles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteObject">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/DeleteObject" message="tns:IAdminService_DeleteObject_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/DeleteObjectResponse" message="tns:IAdminService_DeleteObject_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RenameObject">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/RenameObject" message="tns:IAdminService_RenameObject_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/RenameObjectResponse" message="tns:IAdminService_RenameObject_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CopyObject">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/CopyObject" message="tns:IAdminService_CopyObject_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/CopyObjectResponse" message="tns:IAdminService_CopyObject_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/GetRegistryKeys" message="tns:IAdminService_GetRegistryKeys_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/GetRegistryKeysResponse" message="tns:IAdminService_GetRegistryKeys_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryKeyValues">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/GetRegistryKeyValues" message="tns:IAdminService_GetRegistryKeyValues_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/GetRegistryKeyValuesResponse" message="tns:IAdminService_GetRegistryKeyValues_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RenameRegistryKeyValue">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/RenameRegistryKeyValue" message="tns:IAdminService_RenameRegistryKeyValue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/RenameRegistryKeyValueResponse" message="tns:IAdminService_RenameRegistryKeyValue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RenameRegistryKey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/RenameRegistryKey" message="tns:IAdminService_RenameRegistryKey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/RenameRegistryKeyResponse" message="tns:IAdminService_RenameRegistryKey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegistryKeyValue">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/DeleteRegistryKeyValue" message="tns:IAdminService_DeleteRegistryKeyValue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/DeleteRegistryKeyValueResponse" message="tns:IAdminService_DeleteRegistryKeyValue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegistryKey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/DeleteRegistryKey" message="tns:IAdminService_DeleteRegistryKey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/DeleteRegistryKeyResponse" message="tns:IAdminService_DeleteRegistryKey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendCommand">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/SendCommand" message="tns:IAdminService_SendCommand_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/SendCommandResponse" message="tns:IAdminService_SendCommand_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScreenshot">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/GetScreenshot" message="tns:IAdminService_GetScreenshot_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/GetScreenshotResponse" message="tns:IAdminService_GetScreenshot_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageBoxBroadcast">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/SendMessageBoxBroadcast" message="tns:IAdminService_SendMessageBoxBroadcast_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/SendMessageBoxBroadcastResponse" message="tns:IAdminService_SendMessageBoxBroadcast_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StartProcessBroadcast">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/StartProcessBroadcast" message="tns:IAdminService_StartProcessBroadcast_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/StartProcessBroadcastResponse" message="tns:IAdminService_StartProcessBroadcast_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LockStationBroadcast">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/LockStationBroadcast" message="tns:IAdminService_LockStationBroadcast_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/LockStationBroadcastResponse" message="tns:IAdminService_LockStationBroadcast_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SuspendStationBroadcast">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/SuspendStationBroadcast" message="tns:IAdminService_SuspendStationBroadcast_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/SuspendStationBroadcastResponse" message="tns:IAdminService_SuspendStationBroadcast_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateData">
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/UpdateData" message="tns:IAdminService_UpdateData_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/UpdateDataResponse" message="tns:IAdminService_UpdateData_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFile">
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/GetFile" message="tns:IAdminService_GetFile_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/GetFileResponse" message="tns:IAdminService_GetFile_InputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NetTcpBinding_IAdminService" type="tns:IAdminService">
+    <wsp:PolicyReference URI="#NetTcpBinding_IAdminService_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="RemoveAdmin">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/RemoveAdmin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogInAdmin">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/LogInAdmin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterAdmin">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/RegisterAdmin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogOutAdmin">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/LogOutAdmin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUsers">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/GetUsers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageBox">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/SendMessageBox" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProcesses">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/GetProcesses" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TerminateProcesses">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/TerminateProcesses" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SuspendProcesses">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/SuspendProcesses" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResumeProcesses">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/ResumeProcesses" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BeginSearchFiles">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/BeginSearchFiles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSearchingStatus">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/GetSearchingStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PauseSearch">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/PauseSearch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResumeSearch">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/ResumeSearch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StopSearch">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/StopSearch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartProcess">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/StartProcess" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LockStation">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/LockStation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SuspendStation">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/SuspendStation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLogicalDrives">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/GetLogicalDrives" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolders">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/GetFolders" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFiles">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/GetFiles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteObject">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/DeleteObject" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RenameObject">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/RenameObject" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CopyObject">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/CopyObject" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryKeys">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/GetRegistryKeys" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryKeyValues">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/GetRegistryKeyValues" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RenameRegistryKeyValue">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/RenameRegistryKeyValue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RenameRegistryKey">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/RenameRegistryKey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegistryKeyValue">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/DeleteRegistryKeyValue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegistryKey">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/DeleteRegistryKey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendCommand">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/SendCommand" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetScreenshot">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/GetScreenshot" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageBoxBroadcast">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/SendMessageBoxBroadcast" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartProcessBroadcast">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/StartProcessBroadcast" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LockStationBroadcast">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/LockStationBroadcast" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SuspendStationBroadcast">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/SuspendStationBroadcast" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateData">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/UpdateData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFile">
+      <soap12:operation soapAction="http://tempuri.org/IAdminService/GetFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AdminService">
+    <wsdl:port name="NetTcpBinding_IAdminService" binding="tns:NetTcpBinding_IAdminService">
+      <soap12:address location="net.tcp://localhost:8733/Design_Time_Addresses/ServerService/Admin/" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:8733/Design_Time_Addresses/ServerService/Admin/</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>localhost</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

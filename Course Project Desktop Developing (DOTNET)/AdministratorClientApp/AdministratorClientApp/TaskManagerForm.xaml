@@ -1,0 +1,39 @@
+﻿<Window x:Class="AdministratorClientApp.TaskManagerForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdministratorClientApp"
+        mc:Ignorable="d"
+        Title="TaskManagerForm" Height="550" Width="900" Icon="/AdminIcon.ico">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <TextBlock Text="Filter:" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="3"/>
+            <TextBox x:Name="FilterBox" Width="100" Margin="3"/>
+        </StackPanel>
+        <DataGrid Grid.Row="1" x:Name="ProcessGrid" AutoGenerateColumns="False" IsReadOnly="True" 
+                  EnableColumnVirtualization="True" EnableRowVirtualization="True" ItemsSource="{Binding IsAsync=True}"
+                  >
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Terminate" Click="Terminate"/>
+                    <MenuItem Header="Suspend" Click="Suspend"/>
+                    <MenuItem Header="Resume" Click="Resume"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="PID" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Memory usage" Binding="{Binding PagedMemory64}"/>
+                <DataGridCheckBoxColumn Header="Responding" Binding="{Binding Responding}"/>
+                <DataGridTextColumn Header="Window" Binding="{Binding WindowTitle}"/>
+                <DataGridTextColumn Header="Prior" Binding="{Binding BasePriority}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

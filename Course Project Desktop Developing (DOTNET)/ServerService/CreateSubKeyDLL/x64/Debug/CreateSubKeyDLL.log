@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  dllmain.cpp
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\ServerService\CreateSubKeyDLL\dllmain.cpp(35,10): warning C4101: lResult: неиспользованная локальная переменная
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\ServerService\CreateSubKeyDLL\dllmain.cpp(11): warning C4715: GetRootKey: значение возвращается не при всех путях выполнения
+     Создается библиотека C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\ServerService\x64\Debug\CreateSubKeyDLL.lib и объект C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\ServerService\x64\Debug\CreateSubKeyDLL.exp
+  CreateSubKeyDLL.vcxproj -> C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\ServerService\x64\Debug\CreateSubKeyDLL.dll

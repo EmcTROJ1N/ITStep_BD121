@@ -1,0 +1,160 @@
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\bin\Debug\UserClientApp.exe.config
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\bin\Debug\UserClientApp.exe
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\bin\Debug\UserClientApp.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\MainWindow.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\App.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\UserClientApp_MarkupCompile.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\UserClientApp_MarkupCompile.lref
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\MainWindow.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\UserClientApp.g.resources
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\UserClientApp.Properties.Resources.resources
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.GenerateResource.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\UserClientApp.exe
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\UserClientApp.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\App.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.CopyComplete
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\AuthForm.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing\UserClientApp\UserClientApp\obj\Debug\AuthForm.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\UserClientApp.exe.config
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\UserClientApp.exe
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\UserClientApp.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.AssemblyReference.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\MainWindow.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\App.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp_MarkupCompile.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp_MarkupCompile.lref
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\App.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\MainWindow.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.g.resources
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.Properties.Resources.resources
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.GenerateResource.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.CoreCompileInputs.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.CopyComplete
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.exe
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\RegisterForm.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\RegisterForm.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\LogInForm.g.cs
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\LogInForm.baml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Cake.Powershell.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Management.Automation.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Cake.Powershell.pdb
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Cake.Powershell.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Hardcodet.NotifyIcon.Wpf.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Hardcodet.NotifyIcon.Wpf.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.ResolveComReference.cache
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\zh-Hant\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Buffers.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Memory.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Text.Json.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.ValueTuple.dll
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Buffers.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Memory.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Text.Json.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\19et7\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.ValueTuple.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\UserClientApp.exe.config
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\UserClientApp.exe
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\UserClientApp.pdb
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Cake.Powershell.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Hardcodet.NotifyIcon.Wpf.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Buffers.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Management.Automation.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Memory.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Text.Json.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.ValueTuple.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Cake.Powershell.pdb
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Cake.Powershell.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Hardcodet.NotifyIcon.Wpf.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Buffers.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Memory.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Text.Json.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\System.ValueTuple.xml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\bin\Debug\zh-Hant\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.AssemblyReference.cache
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.ResolveComReference.cache
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\LogInForm.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\MainWindow.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\RegisterForm.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\App.g.cs
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp_MarkupCompile.cache
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp_MarkupCompile.lref
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\App.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\LogInForm.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\MainWindow.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\RegisterForm.baml
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.g.resources
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.Properties.Resources.resources
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.GenerateResource.cache
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.CoreCompileInputs.cache
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.csproj.CopyComplete
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.exe
+C:\Users\OMON\Desktop\Course Project Desktop Developing (DOTNET)\UserClientApp\UserClientApp\obj\Debug\UserClientApp.pdb

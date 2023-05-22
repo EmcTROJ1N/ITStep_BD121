@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="UserService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_IUserService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/ServerService" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Microsoft.Win32" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IUserService_RegistrateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegistrateUser" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_RegistrateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegistrateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_LogInUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:LogInUser" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_LogInUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogInUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_LogOutUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:LogOutUser" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_LogOutUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogOutUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_RemoveUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveUser" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_RemoveUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetAdministratorById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdministratorById" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetAdministratorById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdministratorByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetAdministratorByLog_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdministratorByLog" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetAdministratorByLog_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdministratorByLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUser" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_SendFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendFile" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_SendFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetSearchingStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSearchingStatus" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetSearchingStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSearchingStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_SendMessageBoxCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:SendMessageBoxCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_SendMessageBoxCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:SendMessageBoxCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetProcessesCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetProcessesCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetProcessesCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetProcessesCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_TerminateProcessesCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:TerminateProcessesCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_TerminateProcessesCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:TerminateProcessesCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_SuspendProcessesCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:SuspendProcessesCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_SuspendProcessesCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:SuspendProcessesCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_ResumeProcessesCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ResumeProcessesCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_ResumeProcessesCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ResumeProcessesCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_BeginFindFiles_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:BeginFindFiles" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_BeginFindFiles_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:BeginFindFilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_StartProcessCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:StartProcessCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_StartProcessCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:StartProcessCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetLogicalDrivesCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetLogicalDrivesCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetLogicalDrivesCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetLogicalDrivesCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetFoldersCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetFoldersCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetFoldersCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetFoldersCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetFilesCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetFilesCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetFilesCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetFilesCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_DeleteObjectCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:DeleteObjectCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_DeleteObjectCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:DeleteObjectCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_RenameObjectCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:RenameObjectCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_RenameObjectCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:RenameObjectCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_CopyObjectCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:CopyObjectCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_CopyObjectCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:CopyObjectCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_LockStationCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:LockStationCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_LockStationCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:LockStationCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_SuspendStationCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:SuspendStationCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_SuspendStationCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:SuspendStationCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetRegistryKeysCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetRegistryKeysCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetRegistryKeysCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetRegistryKeysCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetRegistryKeyValuesCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetRegistryKeyValuesCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetRegistryKeyValuesCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetRegistryKeyValuesCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_RenameRegistryKeyValueCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:RenameRegistryKeyValueCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_RenameRegistryKeyValueCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:RenameRegistryKeyValueCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_RenameRegistryKeyCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:RenameRegistryKeyCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_RenameRegistryKeyCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:RenameRegistryKeyCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_DeleteRegistryKeyValueCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRegistryKeyValueCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_DeleteRegistryKeyValueCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRegistryKeyValueCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_DeleteRegistryKeyCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRegistryKeyCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_DeleteRegistryKeyCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRegistryKeyCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_SendCommandCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:SendCommandCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_SendCommandCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:SendCommandCallbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetScreenshotCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetScreenshotCallback" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetScreenshotCallback_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GetScreenshotCallbackResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IUserService">
+    <wsdl:operation name="RegistrateUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/RegistrateUser" message="tns:IUserService_RegistrateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/RegistrateUserResponse" message="tns:IUserService_RegistrateUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LogInUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/LogInUser" message="tns:IUserService_LogInUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/LogInUserResponse" message="tns:IUserService_LogInUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LogOutUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/LogOutUser" message="tns:IUserService_LogOutUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/LogOutUserResponse" message="tns:IUserService_LogOutUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/RemoveUser" message="tns:IUserService_RemoveUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/RemoveUserResponse" message="tns:IUserService_RemoveUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdministratorById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/GetAdministratorById" message="tns:IUserService_GetAdministratorById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/GetAdministratorByIdResponse" message="tns:IUserService_GetAdministratorById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdministratorByLog">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/GetAdministratorByLog" message="tns:IUserService_GetAdministratorByLog_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/GetAdministratorByLogResponse" message="tns:IUserService_GetAdministratorByLog_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/GetUser" message="tns:IUserService_GetUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/GetUserResponse" message="tns:IUserService_GetUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendFile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/SendFile" message="tns:IUserService_SendFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/SendFileResponse" message="tns:IUserService_SendFile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSearchingStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/GetSearchingStatus" message="tns:IUserService_GetSearchingStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/GetSearchingStatusResponse" message="tns:IUserService_GetSearchingStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageBoxCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/SendMessageBoxCallback" message="tns:IUserService_SendMessageBoxCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/SendMessageBoxCallbackResponse" message="tns:IUserService_SendMessageBoxCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProcessesCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/GetProcessesCallback" message="tns:IUserService_GetProcessesCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/GetProcessesCallbackResponse" message="tns:IUserService_GetProcessesCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TerminateProcessesCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/TerminateProcessesCallback" message="tns:IUserService_TerminateProcessesCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/TerminateProcessesCallbackResponse" message="tns:IUserService_TerminateProcessesCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SuspendProcessesCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/SuspendProcessesCallback" message="tns:IUserService_SuspendProcessesCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/SuspendProcessesCallbackResponse" message="tns:IUserService_SuspendProcessesCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ResumeProcessesCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/ResumeProcessesCallback" message="tns:IUserService_ResumeProcessesCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/ResumeProcessesCallbackResponse" message="tns:IUserService_ResumeProcessesCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BeginFindFiles">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/BeginFindFiles" message="tns:IUserService_BeginFindFiles_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/BeginFindFilesResponse" message="tns:IUserService_BeginFindFiles_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StartProcessCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/StartProcessCallback" message="tns:IUserService_StartProcessCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/StartProcessCallbackResponse" message="tns:IUserService_StartProcessCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLogicalDrivesCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/GetLogicalDrivesCallback" message="tns:IUserService_GetLogicalDrivesCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/GetLogicalDrivesCallbackResponse" message="tns:IUserService_GetLogicalDrivesCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFoldersCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/GetFoldersCallback" message="tns:IUserService_GetFoldersCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/GetFoldersCallbackResponse" message="tns:IUserService_GetFoldersCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFilesCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/GetFilesCallback" message="tns:IUserService_GetFilesCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/GetFilesCallbackResponse" message="tns:IUserService_GetFilesCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteObjectCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/DeleteObjectCallback" message="tns:IUserService_DeleteObjectCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/DeleteObjectCallbackResponse" message="tns:IUserService_DeleteObjectCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RenameObjectCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/RenameObjectCallback" message="tns:IUserService_RenameObjectCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/RenameObjectCallbackResponse" message="tns:IUserService_RenameObjectCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CopyObjectCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/CopyObjectCallback" message="tns:IUserService_CopyObjectCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/CopyObjectCallbackResponse" message="tns:IUserService_CopyObjectCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LockStationCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/LockStationCallback" message="tns:IUserService_LockStationCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/LockStationCallbackResponse" message="tns:IUserService_LockStationCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SuspendStationCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/SuspendStationCallback" message="tns:IUserService_SuspendStationCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/SuspendStationCallbackResponse" message="tns:IUserService_SuspendStationCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryKeysCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/GetRegistryKeysCallback" message="tns:IUserService_GetRegistryKeysCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/GetRegistryKeysCallbackResponse" message="tns:IUserService_GetRegistryKeysCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryKeyValuesCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/GetRegistryKeyValuesCallback" message="tns:IUserService_GetRegistryKeyValuesCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/GetRegistryKeyValuesCallbackResponse" message="tns:IUserService_GetRegistryKeyValuesCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RenameRegistryKeyValueCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/RenameRegistryKeyValueCallback" message="tns:IUserService_RenameRegistryKeyValueCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/RenameRegistryKeyValueCallbackResponse" message="tns:IUserService_RenameRegistryKeyValueCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RenameRegistryKeyCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/RenameRegistryKeyCallback" message="tns:IUserService_RenameRegistryKeyCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/RenameRegistryKeyCallbackResponse" message="tns:IUserService_RenameRegistryKeyCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegistryKeyValueCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/DeleteRegistryKeyValueCallback" message="tns:IUserService_DeleteRegistryKeyValueCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/DeleteRegistryKeyValueCallbackResponse" message="tns:IUserService_DeleteRegistryKeyValueCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegistryKeyCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/DeleteRegistryKeyCallback" message="tns:IUserService_DeleteRegistryKeyCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/DeleteRegistryKeyCallbackResponse" message="tns:IUserService_DeleteRegistryKeyCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendCommandCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/SendCommandCallback" message="tns:IUserService_SendCommandCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/SendCommandCallbackResponse" message="tns:IUserService_SendCommandCallback_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScreenshotCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/GetScreenshotCallback" message="tns:IUserService_GetScreenshotCallback_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/GetScreenshotCallbackResponse" message="tns:IUserService_GetScreenshotCallback_InputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NetTcpBinding_IUserService" type="tns:IUserService">
+    <wsp:PolicyReference URI="#NetTcpBinding_IUserService_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="RegistrateUser">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/RegistrateUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogInUser">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/LogInUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogOutUser">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/LogOutUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveUser">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/RemoveUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdministratorById">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/GetAdministratorById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdministratorByLog">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/GetAdministratorByLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUser">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/GetUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendFile">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/SendFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSearchingStatus">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/GetSearchingStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageBoxCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/SendMessageBoxCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProcessesCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/GetProcessesCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TerminateProcessesCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/TerminateProcessesCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SuspendProcessesCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/SuspendProcessesCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResumeProcessesCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/ResumeProcessesCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BeginFindFiles">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/BeginFindFiles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartProcessCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/StartProcessCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLogicalDrivesCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/GetLogicalDrivesCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFoldersCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/GetFoldersCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFilesCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/GetFilesCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteObjectCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/DeleteObjectCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RenameObjectCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/RenameObjectCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CopyObjectCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/CopyObjectCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LockStationCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/LockStationCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SuspendStationCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/SuspendStationCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryKeysCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/GetRegistryKeysCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryKeyValuesCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/GetRegistryKeyValuesCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RenameRegistryKeyValueCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/RenameRegistryKeyValueCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RenameRegistryKeyCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/RenameRegistryKeyCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegistryKeyValueCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/DeleteRegistryKeyValueCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegistryKeyCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/DeleteRegistryKeyCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendCommandCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/SendCommandCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetScreenshotCallback">
+      <soap12:operation soapAction="http://tempuri.org/IUserService/GetScreenshotCallback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UserService">
+    <wsdl:port name="NetTcpBinding_IUserService" binding="tns:NetTcpBinding_IUserService">
+      <soap12:address location="net.tcp://localhost:8733/Design_Time_Addresses/ServerService/User/" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:8733/Design_Time_Addresses/ServerService/User/</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>localhost</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

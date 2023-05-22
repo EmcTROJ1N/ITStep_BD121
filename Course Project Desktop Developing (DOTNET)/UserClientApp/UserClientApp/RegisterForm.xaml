@@ -1,0 +1,30 @@
+﻿<Window x:Class="UserClientApp.RegisterForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserClientApp"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+        Title="Register" Height="270" Width="480" ResizeMode="NoResize" Icon="/UserIcon.ico">
+
+    <materialDesign:Card Padding="6" Margin="30">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Login:" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+            <TextBox Grid.Row="0" Grid.Column="1" x:Name="LoginTextBox" FontSize="15"/>
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="Connector ID" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+            <TextBox Grid.Row="1" Grid.Column="1" x:Name="ConnectorTextBox" FontSize="15"/>
+            <Button Grid.Row="2" Grid.ColumnSpan="2" Content="Connect" Click="Button_Click"/>
+        </Grid>
+    </materialDesign:Card>
+</Window>

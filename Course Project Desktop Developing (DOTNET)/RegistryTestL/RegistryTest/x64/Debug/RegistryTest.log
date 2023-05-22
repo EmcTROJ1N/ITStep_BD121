@@ -1,0 +1,4 @@
+﻿  RegistryTest.cpp
+C:\Users\19et7\Desktop\RegistryTestL\RegistryTest\RegistryTest.cpp(100,10): warning C4101: lResult: неиспользованная локальная переменная
+C:\Users\19et7\Desktop\RegistryTestL\RegistryTest\RegistryTest.cpp(13): warning C4715: GetRootKey: значение возвращается не при всех путях выполнения
+  RegistryTest.vcxproj -> C:\Users\19et7\Desktop\RegistryTestL\x64\Debug\RegistryTest.exe

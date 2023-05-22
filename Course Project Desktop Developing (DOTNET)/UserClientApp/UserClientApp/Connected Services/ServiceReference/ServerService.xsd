@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ServerService" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ServerService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/Microsoft.Win32" />
+  <xs:complexType name="User">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClientStatus" type="tns:Resources.NetworkStatus" />
+      <xs:element minOccurs="0" name="ConnectorID" type="xs:int" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="_clientStatus" type="tns:Resources.NetworkStatus" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="User" nillable="true" type="tns:User" />
+  <xs:simpleType name="Resources.NetworkStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Online" />
+      <xs:enumeration value="Offline" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Resources.NetworkStatus" nillable="true" type="tns:Resources.NetworkStatus" />
+  <xs:complexType name="Administrator">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClientStatus" type="tns:Resources.NetworkStatus" />
+      <xs:element minOccurs="0" name="ConnectorID" type="xs:int" />
+      <xs:element minOccurs="0" name="FindStatus" type="tns:Resources.SearchingStatus" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="_clientStatus" type="tns:Resources.NetworkStatus" />
+      <xs:element minOccurs="0" name="_connectorID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Administrator" nillable="true" type="tns:Administrator" />
+  <xs:simpleType name="Resources.SearchingStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="WaitingForStart" />
+      <xs:enumeration value="Searching" />
+      <xs:enumeration value="Completed" />
+      <xs:enumeration value="Paused" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Resources.SearchingStatus" nillable="true" type="tns:Resources.SearchingStatus" />
+  <xs:complexType name="FileContainer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsReadOnly" type="xs:boolean" />
+      <xs:element minOccurs="0" name="LastAccessTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastWriteTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Length" type="xs:long" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FileContainer" nillable="true" type="tns:FileContainer" />
+  <xs:complexType name="ArrayOfProcessContainer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProcessContainer" nillable="true" type="tns:ProcessContainer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProcessContainer" nillable="true" type="tns:ArrayOfProcessContainer" />
+  <xs:complexType name="ProcessContainer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BasePriority" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Responding" type="xs:boolean" />
+      <xs:element minOccurs="0" name="WindowTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="_PagedMemory" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProcessContainer" nillable="true" type="tns:ProcessContainer" />
+  <xs:complexType name="ArrayOfFolderContainer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FolderContainer" nillable="true" type="tns:FolderContainer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFolderContainer" nillable="true" type="tns:ArrayOfFolderContainer" />
+  <xs:complexType name="FolderContainer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CreationTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Files" nillable="true" type="tns:ArrayOfFileContainer" />
+      <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FolderContainer" nillable="true" type="tns:FolderContainer" />
+  <xs:complexType name="ArrayOfFileContainer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FileContainer" nillable="true" type="tns:FileContainer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFileContainer" nillable="true" type="tns:ArrayOfFileContainer" />
+  <xs:complexType name="ArrayOfRegistryKeyContainer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RegistryKeyContainer" nillable="true" type="tns:RegistryKeyContainer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRegistryKeyContainer" nillable="true" type="tns:ArrayOfRegistryKeyContainer" />
+  <xs:complexType name="RegistryKeyContainer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SubKeys" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element minOccurs="0" name="Values" nillable="true" type="tns:ArrayOfValueContainer" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="RegistryKeyContainer" nillable="true" type="tns:RegistryKeyContainer" />
+  <xs:complexType name="ArrayOfValueContainer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ValueContainer" nillable="true" type="tns:ValueContainer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfValueContainer" nillable="true" type="tns:ArrayOfValueContainer" />
+  <xs:complexType name="ValueContainer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Parent" nillable="true" type="tns:RegistryKeyContainer" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Microsoft.Win32" minOccurs="0" name="Type" type="q2:RegistryValueKind" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:anyType" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="ValueContainer" nillable="true" type="tns:ValueContainer" />
+</xs:schema>

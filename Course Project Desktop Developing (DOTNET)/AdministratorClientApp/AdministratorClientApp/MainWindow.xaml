@@ -1,0 +1,67 @@
+﻿<Window x:Class="AdministratorClientApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdministratorClientApp"
+        mc:Ignorable="d"
+        Title="Admin client" Height="600" Width="800" Icon="/AdminIcon.ico">
+    <Window.Resources>
+        <local:StatusToBrushConverter x:Key="StatusToBrushConverter"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <Menu Grid.Row="0" Height="25">
+            <MenuItem Header="Log In" Click="LogInClick" Height="25"/>
+            <MenuItem Header="Registrate" Click="Registrate" Height="25"/>
+            <MenuItem Header="Log Out" Click="LogOut" Height="25"/>
+        </Menu>
+
+        <DockPanel Grid.Row="1">
+            <materialDesign:Card Margin="10">
+                <TabControl DockPanel.Dock="Left">
+                    <TabItem Header="Tasks">
+                        <ListView x:Name="TasksListView" MouseLeftButtonUp="TasksListView_MouseDown"/>
+                    </TabItem>
+                    <TabItem Header="Members">
+                        <ListView x:Name="MembersListView" MouseLeftButtonUp="MembersListView_MouseDown">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Ellipse Width="10" Height="10" 
+                                                Fill="{Binding ClientStatus, Converter={StaticResource StatusToBrushConverter}}" 
+                                                Margin="5"/>
+                                        <TextBlock Text="{Binding Login}" Margin="5"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </TabItem>
+                </TabControl>
+            </materialDesign:Card>
+
+            <materialDesign:Card Margin="10">
+                <Grid DockPanel.Dock="Right">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" x:Name="PCNameTextBlock"  FontSize="20"/>
+                    <ListView Grid.Row="1" x:Name="UserTasksListView" MouseLeftButtonUp="UserTasksListView_MouseDown"/>
+                </Grid>
+            </materialDesign:Card>
+        </DockPanel>
+
+        <Menu Grid.Row="2" Height="25">
+            <MenuItem Header="Logged as:" x:Name="LoggedAsItem" Height="25"/>
+            <MenuItem Header="Connector ID: (Click to copy)" x:Name="ConnectorIDItem" Click="ConnectorIDItem_Click" Height="25"/>
+        </Menu>
+    </Grid>
+</Window>
