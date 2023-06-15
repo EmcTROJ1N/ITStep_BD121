@@ -1,0 +1,51 @@
+html, body
+{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#board
+{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: bisque;
+}
+
+header
+{
+    background-color: #e3e8ee;
+    height: 10%;
+    box-shadow: inset 0px -10px 10px gray;
+    display: flex;
+    align-items: center;
+}
+
+header *
+{
+    margin-left: 30px;
+    height: 60%;
+    width: 5%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#scaling
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+
+section
+{
+    height: 90%;
+    margin: 0px;
+    padding: 0px;
+}

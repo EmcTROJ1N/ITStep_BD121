@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Grapher</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+        <body>
+            <header>
+                    <button onclick="Board.Status = CursorStatus.Draw;">Draw</button>
+                    <button onclick="Board.Status = CursorStatus.MoveBoard;">Move</button>
+                    <button onclick="Board.clearOverlay()">Clear canvas</button>
+                    <span id="scaling">100%</span>
+            </header>
+            <section>
+                <canvas id="board"></canvas>
+            </section>
+        </body>
+    </head>
+</html>

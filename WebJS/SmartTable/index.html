@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            html, body
+            {
+                margin: 0px;
+                padding: 0px;
+                height: 100%;
+            }
+            #employeesTable
+            {
+                border-collapse: collapse;
+                margin: 10px;
+            }
+
+            #employeesTable td, th
+            {
+                border: 1px solid black;
+                width: 150px;
+                text-align: center;
+            }
+
+            #employeesTable td:first-child, th:first-child
+            {
+                width: auto;
+                border: none;
+            }
+
+            #employeesTable img
+            {
+                width: 100px;
+            }
+
+            body
+            {
+                display: flex;
+                overflow-x: hidden;
+                background-color:whitesmoke;
+            }
+
+            #menu
+            {
+                position: relative;
+                width: 300px;
+                /* right: -300px; */
+                border: 5px solid darkgray;
+                transition: all 1s ease-in-out;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: bisque;
+            }
+
+            #menu > button:not(#showHideButton)
+            {
+                margin: 10px;
+                width: 80%;
+                height: 40px;
+                border-radius: 10px;
+                font-size: large;
+            }
+
+            #showHideButton
+            {
+                position: relative;
+                left: -155px;
+                top: 50%;
+                border-radius: 15px;
+                border: none;
+                width: 40px;
+                height: 40px;
+                background-image: url("Imgs/menu.png");
+                background-size: cover;
+                cursor: pointer;
+            }
+        </style>
+
+        <script>
+
+            class ValidationError extends Error
+            {
+                constructor(message)
+                {
+                    super(message);
+                    this.name = "ValidationError";
+                }
+            }
+
+            class Employee
+            {
+                PhotoPath;
+                Address;
+                _FullName;
+                _Phone;
+                _Salary;
+             
+                set FullName(value)
+                {
+                    if (typeof value !== "string")
+                        throw new TypeError("fullname must be string");
+                    if (/^\w{3,}\s+\w{3,}\s+\w{3,}$/.test(value))
+                        this._FullName = value;
+                    else throw new ValidationError("Invalid fullname")
+                }
+                get FullName() { return this._FullName };
+                set Phone(value)
+                {
+                    if (typeof value !== "string")
+                        throw new TypeError("phone must be string");
+                    if (/^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/.test(value))
+                        this._Phone = value;
+                }
+                get Phone() { return this._Phone };
+                
+                set Salary(value)
+                {
+                    if (["string", "int", "number"].includes(typeof value))
+                        this._Salary = value.toString();
+                    else throw new TypeError("salary must be string or int");
+                }
+                get Salary() { return this._Salary };
+
+                constructor(photo, fullname, address, phone, salary)
+                {
+                    this.PhotoPath = photo;
+                    this.FullName = fullname;
+                    this.Address = address;
+                    this.Phone = phone;
+                    this.Salary = salary;
+                }
+            }
+            
+            class SmartTable
+            {
+                #_View;
+                #_ItemsSource;
+
+                set View(value)
+                {
+                    if (value.tagName.toLowerCase() !== "table")
+                        throw new TypeError("should pass a link to the table element")
+                    this._View = value;
+                }
+                get View() { return this._View; }
+
+                set ItemsSource(value)
+                {
+                    if (Array.isArray(value) == false)
+                        throw new TypeError("should pass a link to the array")
+                    this._ItemsSource = value;
+                    this.update();
+                }
+                get ItemsSource() { return this._ItemsSource; }
+                
+                constructor(table, objects)
+                {
+                    this.View = table;
+                    this.ItemsSource = objects;
+                }
+
+                update()
+                {
+                    let rows = this.View.rows.length;
+                    for(let i = 0; i < rows; i++)
+                        this.View.deleteRow(0);
+                    if (this.ItemsSource.length == 0)
+                        return;
+
+                    let header = this.View.createTHead();
+                    let headerRow = header.insertRow(0);
+                    headerRow.insertCell(-1);
+                    
+                    let setters = Object.getOwnPropertyNames(Employee.prototype).filter(prop => typeof Employee[prop] !== 'function');
+                    let properties = Object.keys(this.ItemsSource[0]).filter(prop => prop[0] !== "_");
+                    let cols = [...setters, ...properties];
+                    for (let prop in cols)
+                    {
+                        let cell = headerRow.insertCell(-1);
+                        cell.innerText = cols[prop];
+                    }
+
+                    this.ItemsSource.forEach((object) =>
+                    {
+                        let row = this.View.insertRow(-1);
+                        let radioCell = row.insertCell(-1);
+                        radioCell.innerHTML = `<input type="radio" name="employee" value="${this.View.rows.length - 2}">`;
+                        cols.forEach((col) =>
+                        {
+                            let cell = row.insertCell(-1);
+                            // cell.innerText = object[col];
+                            if (object[col] == null)
+                                cell.innerText = "";
+                            else if (object[col].match(/\.(jpeg|jpg|gif|png)$/) != null)
+                                cell.innerHTML = `<img src="${object[col]}">`;
+                            else if (object[col] === true)
+                                cell.innerHTML = "<input type=\"checkbox\" value=\"isChecked\">";
+                            else if (object[col] === false)
+                                cell.innerHTML = "<input type=\"checkbox\">";
+                            else
+                                cell.innerText = object[col];
+                        });
+                    });
+                }
+
+                add(object)
+                {
+                    this._ItemsSource.push(object);
+                    this.update();
+                }
+
+                remove(idx)
+                {
+                    this._ItemsSource.splice(idx, 1);
+                    this.update();
+                }
+                
+                hide() { this.View.style.visibility = "hidden"; }
+                show() { this.View.style.visibility = "visible"; }
+            }
+
+            class MenuItem
+            {
+                Text;
+                Button;
+                OnClick;
+
+                constructor(text, onclick)
+                {
+                    this.Text = text;
+                    this.OnClick = onclick;
+                    this.Button = document.createElement("button");
+                    this.Button.innerText = this.Text;
+                    this.Button.onclick = this.OnClick;
+                }
+            }
+
+            class Menu
+            {
+                ItemsSource;
+                Container;
+
+                constructor(sourceDiv, collection)
+                {
+                    this.ItemsSource = collection;
+                    this.Container = sourceDiv;
+                    
+                    collection.forEach((menuItem) =>
+                    {
+                        if (menuItem instanceof MenuItem)
+                            this.Container.appendChild(menuItem.Button);
+                    });
+                }
+
+                show() { this.Container.style.visibility = "visible"; }
+                hide() { this.Container.style.visibility = "hidden"; }
+                add(menuItem)
+                {
+                    if (menuItem instanceof MenuItem)
+                    {
+                        this.Container.appendChild(menuItem.Button);
+                        this.ItemsSource.push(menuItem);
+                    }
+                }
+
+                remove(menuItem)
+                {
+                    if (menuItem instanceof MenuItem)
+                    {
+                        this.Container.removeChild(menuItem.Button);
+                        this.ItemsSource.splice(this.ItemsSource.indexOf(menuItem), 1);
+                    }
+                }
+            }
+
+            let employeeDialog;
+            let smartTable;
+
+            document.addEventListener("DOMContentLoaded", () =>
+            {
+                employeeDialog = document.getElementById("employeeDialog");
+                employeeDialog.addEventListener("close", addEmployeeClose);
+                document.employeeForm.addEventListener("submit", employeeDialogSubmit);
+
+                let employees = [
+                    new Employee("Imgs/1.jpg", "Ivanov Ivan Ivanovich", "Moscow, Pushkin Street, Kolotushkin House", "+79995555555", "100000"),
+                    new Employee("Imgs/2.jpg", "Petrov Petr Petrovich", "St. Petersburg, Nevsky Prospect, 1", "+7 999 444 44 44", 800000),
+                    new Employee("Imgs/3.jpeg", "Trofimov Dmitriy Anatolyevich", "Donetsk, Mira st. 6", "+7 949 123 33 66", 800000),
+                    new Employee("Imgs/jamal.jpg", "Sergeev Jamal Vicrorovich", "Krasnodar, Artema st., 65", "8 999 444 44 44", 2000000),
+                ];
+                smartTable = new SmartTable(document.getElementById("employeesTable"), employees);
+                
+                let menuItems = [
+                    new MenuItem("Add employee", () => employeeDialog.showModal()),
+                    new MenuItem("Remove selected employee", removeEmployeeClick),
+                    new MenuItem("Edit selected employee", editEmployeeClick),
+                ];
+                let menu = new Menu(document.getElementById("menu"), menuItems);
+            });
+
+
+            function employeeDialogSubmit()
+            {
+                event.preventDefault();
+                let employee;
+                try
+                {
+                    employee = new Employee(`Imgs/${employeeForm.photo.value.split("\\").pop()}`, 
+                                                    employeeForm.fullname.value,
+                                                    employeeForm.address.value,
+                                                    employeeForm.phone.value,
+                                                    employeeForm.salary.value);
+                }
+                catch (error) { alert(error.message); }
+                employeeDialog.close(JSON.stringify(employee));
+            }
+
+
+            function addEmployeeClose()
+            {
+                if (employeeDialog.returnValue == null ||
+                    employeeDialog.returnValue == "")
+                    return;
+                let obj = JSON.parse(employeeDialog.returnValue);
+                smartTable.add(new Employee(
+                    obj.PhotoPath,
+                    obj._FullName,
+                    obj.Address,
+                    obj._Phone,
+                    obj._Salary
+                ));
+                employeeDialog.returnValue = "";
+            }
+
+            function removeEmployeeClick()
+            {
+                let radios = document.getElementsByName("employee");
+                radios.forEach((radiobutton) =>
+                {
+                    if (radiobutton.checked)
+                        smartTable.remove(parseInt(radiobutton.value));
+                });
+            }
+            
+            function editEmployeeClick()
+            {
+                let currentEmployee;
+                let idx;
+                let radios = document.getElementsByName("employee");
+                radios.forEach((radiobutton) =>
+                {
+                    if (radiobutton.checked)
+                    {
+                        let idx = parseInt(radiobutton.value);
+                        currentEmployee = smartTable.ItemsSource[idx];
+                        return;
+                    }
+                });
+
+                employeeForm.fullname.value = currentEmployee.FullName;
+                employeeForm.address.value = currentEmployee.Address;
+                employeeForm.phone.value = currentEmployee.Phone;
+                employeeForm.salary.value = currentEmployee.Salary;
+
+                smartTable.remove(idx);
+
+                employeeDialog.showModal();
+            }
+
+            function showHideMenu()
+            {
+                let menu = document.getElementById("menu");
+                let css = window.getComputedStyle(menu);
+                let tt = css.getPropertyValue("right");
+                if (parseInt(tt) == 0) menu.style.right = "-300px";
+                else menu.style.right = "0px";
+            }
+        </script>
+        <body>
+            <section style="flex-grow: 10;">
+                <table id="employeesTable">
+                </table>
+
+                <dialog id="employeeDialog">
+                    <form name="employeeForm">
+                        <table>
+                            <tr>
+                                <td><label>Photo:</label></td>
+                                <td><input type="file" accept="image/jpeg" name="photo" required></td>
+                            </tr>
+                            <tr>
+                                <td><label>FullName:</label></td>
+                                <td><input type="text" name="fullname" required><br></td>
+                            </tr>
+                            <tr>
+                                <td><label>Adress:</label></td>
+                                <td><input type="text" name="address" required><br></td>
+                            </tr>
+                            <tr>
+                                <td><label>Phone:</label></td>
+                                <td><input type="text" name="phone" required><br></td>
+                            </tr>
+                            <tr>
+                                <td><label>Salary:</label></td>
+                                <td><input type="number" name="salary" required><br></td>
+                            </tr>
+                        </table>
+                        <button type="submit">Okay</button>
+                        <button type="reset">Reset</button>
+                    </form>
+                </dialog>
+            </section>
+            <section id="menu">
+                <button id="showHideButton" onclick="showHideMenu()"></button>
+            </section>
+        </body>
+    </head>
+</html>

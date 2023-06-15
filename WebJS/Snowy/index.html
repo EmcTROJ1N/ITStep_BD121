@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .wing
+            {
+                position: absolute;
+                left: 45%;
+                top: 0%;
+                width: 50px;
+                height: 50px;
+                transition: opacity 5s ease,
+                            top 5s ease-in-out;
+
+                opacity: 0;
+                background-image: url("wing.png");
+                background-position: center;
+                background-size: cover;
+            }
+        </style>
+
+        <script>
+            document.onmousedown = onMouseDown;
+            let timerRunning = false;
+
+            function onMouseDown()
+            {
+                if (timerRunning == false)
+                {
+                    timer = setInterval(createWing, 1000)
+                    timerRunning = true;
+                }
+            }
+
+            function createWing()
+            {
+                let isDragging = false;
+                let startX, startY, deltaX, deltaY;
+                let currentWing;
+                let isMovable = false;
+            
+                currentWing = document.createElement("div");
+                currentWing.className = "wing";
+                currentWing.style.left = getRandomNumber(0, 100) + "%";
+
+                document.body.appendChild(currentWing);
+                setTimeout(() => currentWing.style.opacity = 1, 100);
+                
+                currentWing.addEventListener("transitionend", () =>
+                {
+                    let topCords = "90%";
+                    if (currentWing.style.top != topCords && currentWing.style.opacity == 1)
+                        currentWing.style.top = topCords;
+                    else if (currentWing.style.top == topCords && currentWing.style.opacity == 1)
+                    {
+                        currentWing.style.opacity = 0;
+                        currentWing.style.cursor = "grab";
+                        currentWing.addEventListener('mousedown', wingMouseDown);
+                        currentWing.addEventListener('mousemove', wingMouseMove);
+                        currentWing.addEventListener('mouseup', wingMouseUp);
+                        isMovable = true;
+                    }
+                    else if (isMovable && currentWing.style.opacity == 0)
+                        document.body.removeChild(currentWing);
+                });
+
+                function wingMouseDown(e)
+                {
+                    deltaX = e.clientX - currentWing.offsetLeft;
+                    deltaY = e.clientY - currentWing.offsetTop;
+                    startX = e.clientX;
+                    startY = e.clientY;
+                    isDragging = true;
+                    event.stopPropagation();
+                }
+
+                function wingMouseMove(e)
+                {
+                    if (isDragging)
+                    {
+                        currentWing.style.transition = "opacity 1s ease";
+
+                        currentWing.style.left = (e.clientX - deltaX) + "px";
+                        currentWing.style.top = (e.clientY - deltaY) + "px";
+                        
+                        currentWing.style.transition = "opacity 1s ease, top 3s ease-in-out;";
+
+                        startX = e.clientX;
+                        startY = e.clientY;
+                    }
+                    event.stopPropagation();
+                }
+
+                function wingMouseUp(e)
+                {
+                    isDragging = false
+                    event.stopPropagation();
+                }
+            }
+
+            function getRandomNumber(min, max) 
+            {
+                return Math.floor(Math.random() * (max - min + 1)) + min;
+            }
+
+        </script>
+
+        <body style="background-color: black">
+        </body>
+    </head>
+</html>

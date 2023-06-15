@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html, body
+            {
+                height: 100%;
+                margin: 0px;
+                padding: 0px;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+            }
+
+            body
+            {
+                display: flex;
+            }
+
+            #menu
+            {
+                flex-grow: 1;
+                background-color:gray;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #menu img
+            {
+                width: 30px;
+                height: 30px;
+            }
+
+            #menu > div
+            {
+                border: 3px solid darkgray;
+                border-radius: 5%;
+                margin: 10px;
+                width: 80%;
+            }
+
+            .Category
+            {
+                display: block;
+                font-size: 25px;
+                margin: 10px;
+            }
+
+            .list *
+            {
+                margin: 3px;
+                vertical-align: middle;
+            }
+
+            #playground
+            {
+                flex-grow: 10;
+                background-color: black;
+                position: relative;
+            }
+
+            #playground div
+            {
+                position: absolute;
+                width: 32px;
+                height: 32px;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .brick
+            {
+                background-image: url("Sprites/brick.png");
+            }
+            .brickIron
+            {
+                background-image: url("Sprites/ironbrick.png");
+            }
+
+            .tankPlayer
+            {
+                left: 50%;
+                top: 50%;
+                background-image: url("Sprites/baseTank.png");
+            }
+
+            .bullet
+            {
+                background-image: url("Sprites/bullet.png");
+                width: 32px;
+                height: 32px;
+            }
+
+            .tankEnemy
+            {
+                background-image: url("Sprites/enemy.png");
+            }
+        </style>
+
+        <script>
+
+            let playerTank;
+            let tankData = new Map();
+            tankData.set("stepLen", 10);
+            tankData.set("angle", 0);
+            tankData.set("bulletSpeed", 30);
+            tankData.set("cooldownTime", 300);
+            tankData.set("cooldown", true);
+            let playground;
+            let selectedBlock = null;
+
+            document.addEventListener("DOMContentLoaded", () =>
+            {
+                playerTank = document.getElementById("tank");
+                playground = document.getElementById("playground");
+
+                let baseBrick = document.createElement("div");
+                baseBrick.className = "brickIron";
+                baseBrick.style.left = 0;
+                baseBrick.style.top = 0;
+                let brickSide = 0;
+
+                for (let top = 0; top < playground.offsetHeight - brickSide * .5; top += brickSide)
+                {
+                    let brick = baseBrick.cloneNode(true);
+                    brick.style.top = top + "px";
+                    
+                    let newBrick = brick.cloneNode(true);
+                    playground.appendChild(brick);
+
+                    if (brickSide == 0)
+                        brickSide = parseInt(window.getComputedStyle(brick).getPropertyValue("height"));
+                    
+                    newBrick.style.left = `calc(100% - ${brickSide}px)`;
+                    playground.appendChild(newBrick);
+                }
+
+                for (let left = 0, brickSide = 0; left < playground.offsetWidth - brickSide * 1.5; left += brickSide)
+                {
+                    let brick = baseBrick.cloneNode(true);
+                    brick.style.left = left + "px";
+                    
+                    let newBrick = brick.cloneNode(true);
+                    playground.appendChild(brick);
+
+                    if (brickSide == 0)
+                        brickSide = parseInt(window.getComputedStyle(brick).getPropertyValue("height"));
+                    
+                    newBrick.style.top = `calc(100% - ${brickSide}px)`;
+                    playground.appendChild(newBrick);
+                }
+            });
+
+            function onKeyPress()
+            {
+                let css = window.getComputedStyle(playerTank);
+
+                let tankCords = new Map();
+                tankCords.set("rotateDeg", 0);
+                tankCords.set("top", parseFloat(css.getPropertyValue("top")));
+                tankCords.set("left", parseFloat(css.getPropertyValue("left")));
+                tankCords.set("width", parseFloat(css.getPropertyValue("width")));
+                tankCords.set("height", parseFloat(css.getPropertyValue("height")));
+                switch (event.keyCode)
+                {
+                    case 100:
+                            tankCords.set("left", tankCords.get("left") + tankData.get("stepLen"));
+                            tankCords.set("rotateDeg", 90);
+                            break;
+                    case 97:
+                            tankCords.set("left", tankCords.get("left") - tankData.get("stepLen"));
+                            tankCords.set("rotateDeg", 270);
+                            break;
+                    case 115:
+                            tankCords.set("top", tankCords.get("top") + tankData.get("stepLen"));
+                            tankCords.set("rotateDeg", 180);
+                            break;
+                    case 119:
+                            tankCords.set("top", tankCords.get("top") - tankData.get("stepLen"));
+                            tankCords.set("rotateDeg", 0);
+                            break;
+                    case 32:
+                        shoot(playerTank, tankData);
+                        return;
+                }
+
+                playerTank.style.transform = `rotate(${tankCords.get("rotateDeg")}deg)`;
+                tankData.set("angle", tankCords.get("rotateDeg"));
+
+                let items = document.querySelectorAll("#playground div[class^=\"brick\"], #playground div[class^=\"tank\"]");
+                let canMove = true;
+                items.forEach((item) =>
+                {
+                    if (item != playerTank)
+                    {
+                        if (checkCollision(tankCords, item))
+                        {
+                            canMove = false;
+                            console.log("collision!");
+                        }
+                    }
+                });
+
+                if (canMove)
+                {
+                    playerTank.style.top = tankCords.get("top") + "px";
+                    playerTank.style.left = tankCords.get("left") + "px";
+                }
+            }
+        
+            function checkCollision(object1, object2)
+            {
+                object2 = window.getComputedStyle(object2);
+                let x1 = object1.get("left");
+                let x2 = parseFloat(object2.getPropertyValue("left"));
+                let y1 = object1.get("top");
+                let y2 = parseFloat(object2.getPropertyValue("top"));
+                let w1 = object1.get("width");
+                let w2 = parseFloat(object2.getPropertyValue("width"));
+                let h1 = object1.get("height");
+                let h2 = parseFloat(object2.getPropertyValue("height"));
+
+                if (x1 < x2 + w2 &&
+                    x1 + w1 > x2 &&
+                    y1 < y2 + h2 &&
+                    y1 + h1 > y2)
+                return true;
+                return false;
+            }
+            
+            function modeClick()
+            {
+
+                document.querySelectorAll("#playground *").forEach((element) =>
+                    element.onclick = null);
+
+                let selectedOption = null;
+                let radioButtons = document.querySelectorAll('input[name=radioButton]');
+                
+                for (const radioButton of radioButtons)
+                {
+                    if (radioButton.checked)
+                    {
+                        selectedOption = radioButton.value;
+                        break;
+                    }
+                }
+                if (selectedOption == null)
+                    return;
+                else if (selectedOption == "delete")
+                {
+                    playground.onclick = null;
+                    document.querySelectorAll("#playground *").forEach((element) =>
+                        element.onclick = () => playground.removeChild(event.target));
+                }
+                else if (selectedOption == "shoot")
+                    playground.onclick = () => shoot(playerTank, tankData);
+                else
+                {
+                    selectedBlock = selectedOption;
+                    playground.onclick = setObj;
+                }
+
+            }
+
+            function setObj()
+            {
+                let objCords = new Map();
+                let object = document.createElement("div");
+                if (event.button == 0)
+                    object.className = selectedBlock
+                else
+                    return;
+                
+                let rect = playground.getBoundingClientRect();
+
+                object.style.left = event.clientX - rect.left - 16 + "px";
+                object.style.top = event.clientY - rect.top - 16 + "px";
+
+                objCords.set("left", parseFloat(object.style.left));
+                objCords.set("top", parseFloat(object.style.top));
+                objCords.set("width", 32);
+                objCords.set("height", 32);
+
+                let items = document.querySelectorAll("#playground div[class^=\"brick\"], #playground div[class^=\"tank\"]");
+                let canSet = true;
+                items.forEach((item) =>
+                {
+                    if (checkCollision(objCords, item))
+                    {
+                        canSet = false;
+                        console.log("cannot set here");
+                    }
+                });
+                if (canSet)
+                {
+                    playground.appendChild(object);
+                    if (object.className == "tankEnemy")
+                        enemyBehavior(object);
+                }
+                else
+                    alert("Bad place for object");
+            }
+        
+            function shoot(tank, data)
+            {
+                if (data.get("cooldown") != true)
+                    return;
+                let bullet = document.createElement("div");
+                bullet.className = "bullet";
+                bullet.style.left = tank.offsetLeft + "px";
+                bullet.style.top = tank.offsetTop + "px";
+                bullet.style.transform = window.getComputedStyle(tank).getPropertyValue("transform");
+                playground.appendChild(bullet);
+
+                let css = window.getComputedStyle(bullet);
+                
+                let bulletCords = new Map();
+                bulletCords.set("rotateDeg", bullet.style.transform);
+                bulletCords.set("top", parseFloat(css.getPropertyValue("top")));
+                bulletCords.set("left", parseFloat(css.getPropertyValue("left")));
+                bulletCords.set("width", parseFloat(css.getPropertyValue("width")));
+                bulletCords.set("height", parseFloat(css.getPropertyValue("height")));
+
+                let bulletAngle = data.get("angle");
+                let timer = setInterval(moveBullet, data.get("bulletSpeed"));
+                data.set("cooldown", false);
+                
+                setTimeout(() => data.set("cooldown", true),
+                data.get("cooldownTime"));
+
+                function moveBullet()
+                {
+                    switch (bulletAngle)
+                    {
+                        case 0: 
+                            bulletCords.set("top", bulletCords.get("top") - data.get("stepLen"));
+                            break;
+                        case 90: 
+                            bulletCords.set("left", bulletCords.get("left") + data.get("stepLen"));
+                            break;
+                        case 270: 
+                            bulletCords.set("left", bulletCords.get("left") - data.get("stepLen"));
+                            break;
+                        case 180:
+                            bulletCords.set("top", bulletCords.get("top") + data.get("stepLen"));
+                            break;
+                    }
+
+                    let items = document.querySelectorAll("body div[class^=\"brick\"], body div[class^=\"tank\"]");
+                        
+                    items.forEach((item) =>
+                    {
+                        if (item != tank)
+                        {
+                            if (checkCollision(bulletCords, item))
+                            {
+                                try
+                                {
+                                    if (item.className != "brickIron")
+                                        playground.removeChild(item);
+                                    playground.removeChild(bullet);
+                                } catch { }
+                                
+                                console.log("shoot!");
+                                clearInterval(timer);
+                                return;
+                            }
+                        }
+                    });
+
+                    bullet.style.left = bulletCords.get("left") + "px";
+                    bullet.style.top = bulletCords.get("top") + "px";
+                }
+            }
+        
+            function enemyBehavior(enemyTank)
+            {
+                let enemyData = new Map();
+                enemyData.set("stepLen", 15);
+                enemyData.set("shootDistance", 500);
+                enemyData.set("bulletSpeed", 15);
+                enemyData.set("angle", 0);
+                enemyData.set("cooldown", true);
+                enemyData.set("cooldownTime", 300);
+
+                let timer = setInterval(() =>
+                {
+                    let contains = false;
+                    document.querySelectorAll("#playground div[class^=\"tank\"]").forEach((item) =>
+                    {
+                        if (item == enemyTank)
+                            contains = true;
+                    });
+                    if (contains == false || document.querySelectorAll("#playground .tankPlayer").length == 0)
+                        clearInterval(timer);
+                    
+                    let targetCords = new Map();
+
+
+                    if (Math.abs(enemyTank.offsetLeft - playerTank.offsetLeft) < 32 ||
+                        Math.abs(enemyTank.offsetTop - playerTank.offsetTop) < 32)
+                    {
+                        let checkShoot = false;
+                        if (Math.abs(enemyTank.offsetLeft - playerTank.offsetLeft) < 32)
+                        {
+                            enemyData.set("angle", enemyTank.offsetTop - playerTank.offsetTop < 0 ? 180 : 0);
+                            enemyTank.style.transform = `rotate(${enemyData.get("angle")}deg)`;
+                            targetCords.set("left", enemyTank.offsetLeft);
+                            targetCords.set("top", playerTank.offsetTop);
+                        }
+                        else if (Math.abs(enemyTank.offsetTop - playerTank.offsetTop) < 32)
+                        {
+                            enemyData.set("angle", enemyTank.offsetLeft - playerTank.offsetLeft < 0 ? 90 : 270);
+                            enemyTank.style.transform = `rotate(${enemyData.get("angle")}deg)`;
+                            targetCords.set("left", playerTank.offsetLeft);
+                            targetCords.set("top", enemyTank.offsetTop);
+                        }
+                        if (getDistance(enemyTank.offsetLeft, enemyTank.offsetTop,
+                                            playerTank.offsetLeft, playerTank.offsetTop) <= enemyData.get("shootDistance"))
+                        {
+                            shoot(enemyTank, enemyData);
+                            return;
+                        }
+                    }
+
+                    else
+                    {
+                        let dist1 = getDistance(enemyTank.offsetLeft, playerTank.offsetTop,
+                                                enemyTank.offsetLeft, enemyTank.offsetTop);
+                        let dist2 = getDistance(enemyTank.offsetTop, playerTank.offsetLeft,
+                                                enemyTank.offsetLeft, enemyTank.offsetTop);
+                        if (dist1 <= dist2)
+                        {
+                            targetCords.set("left", enemyTank.offsetLeft);
+                            targetCords.set("top", playerTank.offsetTop);
+                        }
+                        else
+                        {
+                            targetCords.set("left", playerTank.offsetLeft);
+                            targetCords.set("top", enemyTank.offsetTop);
+                        }
+                    }
+
+                    targetCords.set("width", enemyTank.offsetWidth);
+                    targetCords.set("height", enemyTank.offsetHeight);
+                    
+                    let switcher;
+                    if (targetCords.get("left") != enemyTank.offsetLeft)
+                    {
+                        switcher = targetCords.get("left") > enemyTank.offsetLeft ? 1 : -1;
+                        targetCords.set("left", enemyTank.offsetLeft + enemyData.get("stepLen") * switcher);
+                        enemyData.set("angle", switcher == 1 ? 90 : 270);
+                    }
+                    if (targetCords.get("top") != enemyTank.offsetTop)
+                    {
+                        switcher = targetCords.get("top") > enemyTank.offsetTop ? 1 : -1;
+                        targetCords.set("top", enemyTank.offsetTop + enemyData.get("stepLen") * switcher);
+                        enemyData.set("angle", switcher == 1 ? 180 : 0);
+                    }
+                    
+                    let items = document.querySelectorAll("#playground div[class^=\"brick\"], #playground div[class^=\"tank\"]");
+                    items.forEach((item) =>
+                    {
+                        if (item != enemyTank)
+                        {
+                            if (checkCollision(targetCords, item))
+                            {
+                                shoot(enemyTank, enemyData);
+                                return;
+                            }
+                        }
+                    });
+                    enemyTank.style.left = targetCords.get("left") + "px";
+                    enemyTank.style.top = targetCords.get("top") + "px";
+                    enemyTank.style.transform = `rotate(${enemyData.get("angle")}deg)`;
+ 
+                }, 100);
+
+
+                function getDistance(x1, y1, x2, y2)
+                {
+                    let width = Math.abs(x1 - x2);
+                    let height = Math.abs(y1 - y2);
+
+                    let diagonal = Math.sqrt(width ** 2 + height ** 2);
+                    return diagonal;
+                }
+            }
+        </script>
+
+        <body onkeypress="onKeyPress()">
+            <div id="playground">
+                <div id="tank" class="tankPlayer"></div>
+            </div>
+            
+            <div id="menu">
+                <div>
+                    <span class="Category">Spawn</span>
+                    <div class="list">
+                        <input type="radio" name="radioButton" value="brick" onclick="modeClick()"><img src="Sprites/brick.png"><span>Brick</span> <br>
+                        <input type="radio" name="radioButton" value="brickIron" onclick="modeClick()"><img src="Sprites/ironbrick.png"><span>Iron brick</span> <br>
+                        <input type="radio" name="radioButton" value="tankEnemy" onclick="modeClick()"><img src="Sprites/enemy.png"><span>Enemy</span> <br>
+                    </div>
+                </div>
+                <div>
+                    <span class="Category">Other</span>
+                    <div class="list">
+                        <input type="radio" name="radioButton" value="delete" onclick="modeClick()"><span>Delete</span> <br>
+                        <input type="radio" name="radioButton" value="shoot" onclick="modeClick()"><span>Shoot</span> <br>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </head>
+</html>
