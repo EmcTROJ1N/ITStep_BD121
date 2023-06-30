@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/style.css">
+        script.
+            function deleteSelectedRows()
+            {
+                ids = []
+                checkboxes = document.querySelectorAll('input[type="checkbox"][name="tableCheckBox"]');
+                
+                checkboxes.forEach((checkbox) =>
+                {
+                    if (checkbox.checked)
+                        ids.push(checkbox.value)
+                });
+
+                fetch("./delete", {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(ids)
+                }).then(response => response.json())
+                .then((result) => location.reload())
+                .catch((err) => alert(err));
+            }
+
+            function updateRows()
+            {
+                location.reload();
+            }
+
+            function appendRow()
+            {
+                let dialog = document.getElementById("appendDialog");
+                dialog.show();
+            }
+
+    </head>
+        <body>
+            <section style="flex-grow: 10;">
+                table
+                    thead
+                        tr
+                        th 
+                        th Title
+                        th Price
+                        th Type
+                        th Title ID
+                    tbody
+                        each title in titles
+                            tr
+                                td
+                                    input(type="checkbox" name="tableCheckBox" value=title.Title_id) 
+                                td= title.Title
+                                td= title.Price
+                                td= title.Type
+                                td= title.Title_id
+
+            </section>
+            <section id="menu">
+                <button onclick= deleteSelectedRows()>Delete selected rows</button>
+                <button onclick= updateRows()>Update</button>
+                <button onclick= appendRow()>Append row</button>
+            </section>
+
+            <dialog id="appendDialog">
+                <form action="/append" method="POST">
+                    <table>
+                        <tr>
+                            <td><label>Title id:</label></td>
+                            <td><input type="text" name="title_id" required><br></td>
+                        </tr>
+                        <tr>
+                            <td><label>Price:</label></td>
+                            <td><input type="text" name="price" required><br></td>
+                        </tr>
+                        <tr>
+                            <td><label>Type:</label></td>
+                            <td><input type="text" name="type" required><br></td>
+                        </tr>
+                        <tr>
+                            <td><label>Title:</label></td>
+                            <td><input type="number" name="title" required><br></td>
+                        </tr>
+                    </table>
+                    <button type="submit">Okay</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </dialog>
+        </body>
+</html>

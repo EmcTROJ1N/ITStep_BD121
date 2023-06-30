@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    style.
+        li
+        {
+          margin: 10px;
+        }
+
+        .folder::before
+        {
+          content: "FOLDER: ";
+        }
+
+        .file::before
+        {
+          content: "FILE: ";
+        }
+    body
+    ul
+      each file in data 
+        - let type = file.IsDirectory ? "folder" : "file"
+        li(class = type)
+          a(href=`.${url}/${file.FileName}`) #{file.FileName}

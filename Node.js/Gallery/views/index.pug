@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+        style.
+            body
+            {
+                margin: 10px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            img
+            {
+                width: 400px;
+                height: 200px;
+                margin: 30px;
+                background-size: cover;
+            }
+        body
+            each img in imgs
+                div
+                    a(href = `/${img.FileName}`)
+                        img(src = img.FileName)

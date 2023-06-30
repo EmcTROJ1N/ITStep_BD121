@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Форма для ввода диапазона чисел</title>
+    </head>
+    <body>
+        <h1>Введите диапазон чисел:</h1>
+
+        <form action="/display" method="post" name="form">
+            <label>Минимальное значение:</label>
+            <input type="number" name="min" required><br>
+
+            <label>Максимальное значение:</label>
+            <input type="number" name="max" required><br>
+
+            <input type="submit" value="Отправить">
+        </form>
+    </body>
+</html>

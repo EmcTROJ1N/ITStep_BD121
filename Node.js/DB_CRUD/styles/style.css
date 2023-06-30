@@ -1,0 +1,34 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+table td,
+th {
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+
+#menu {
+    outline: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu button {
+    margin: 5px;
+}
