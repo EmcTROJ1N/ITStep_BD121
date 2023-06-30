@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html, body
+            {
+                padding: 0px;
+                margin: 0px;
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+            }
+
+            #graphBoard
+            {
+                height: 100%;
+                width: 100%;
+                padding: 0px;
+                margin: 0px;
+                background-color: rgb(16,16,20);
+            }
+
+            header
+            {
+                background-color: rgb(63, 63, 71);
+                height: 10%;
+                box-shadow: inset 0px -10px 10px rgb(45,45,48);
+                display: flex;
+                align-items: center;
+            }
+
+            header *
+            {
+                margin-left: 30px;
+                height: 60%;
+                width: 5%;
+                border-radius: 20px;
+                text-align: center;
+            }
+        </style>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+
+        </header>
+    
+        <section style="height: 100%">
+            <svg id="graphBoard"></svg>
+        </section>
+    </body>
+</html>
