@@ -1,6 +1,8 @@
-// const LINE_COLOR = "rgb(201,209,217)"
 const LINE_COLOR = "white";
 const GRID_COLOR = "white";
+const SELECTED_COLOR = "yellow";
+const LINES_THICKNESS = 10;
+
 
 class Point
 {
@@ -32,23 +34,52 @@ class Point
                              this.y - source)
     }
 
+    InOverlay(sourceRect)
+    {
+        return this.x >= 0 && this.y >= 0 && 
+                this.x <= sourceRect.width && this.y <= sourceRect.height;
+    }
 }
 
-class SVGLine
+class SVGBase
 {
-    From;
-    To;
     SVGObject;
     Parent;
 
-    constructor(parent, from, to)
+    get Color() { this.SVGObject.getAttribute("stroke"); }
+    set Color(value)
+    {
+        this.SVGObject.setAttribute("fill", value);
+        this.SVGObject.setAttribute("stroke", value);
+    }
+
+    constructor(parent)
     {
         this.Parent = parent;
+    }
+
+    Update() { throw new Error("Method Update would be overrided"); }
+    Offset(offsetPoint) { throw new Error("Method Offset would be overrided"); }
+    InOverlay() { throw new Error("Method InOverlay would be overrided"); }
+}
+
+class SVGLine extends SVGBase
+{
+    From;
+    To;
+    
+    get StrokeWidth() { this.SVGObject.getAttribute("stroke-width"); }
+    set StrokeWidth(value) { this.SVGObject.setAttribute("stroke-width", value); }
+
+    constructor(parent, from, to)
+    {
+        super(parent);
         this.From = from;
         this.To = to;
         this.SVGObject = document.createElementNS("http://www.w3.org/2000/svg", "line");
-        this.SVGObject.setAttribute("fill", LINE_COLOR);
-        this.SVGObject.setAttribute("stroke", LINE_COLOR);
+        this.SVGObject.Tag = this;
+        this.StrokeWidth = LINES_THICKNESS;
+        this.Color = LINE_COLOR;
     }
     
     sub(source)
@@ -69,24 +100,24 @@ class SVGLine
 
     Update()
     {
-        this.From = this.From.add(this.Parent.DeltaPoint);
-        this.To = this.To.add(this.Parent.DeltaPoint);
-
         this.SVGObject.setAttribute("x1", this.From.x);
         this.SVGObject.setAttribute("y1", this.From.y);
         this.SVGObject.setAttribute("x2", this.To.x);
         this.SVGObject.setAttribute("y2", this.To.y);
     }
 
+    Offset(offsetPoint)
+    {
+        this.From = this.From.add(offsetPoint);
+        this.To = this.To.add(offsetPoint);
+    }
+
     InOverlay()
     {
         let flag = false;
-        let boundRect = this.Parent.Container.getBoundingClientRect();
-        [this.From, this.To].forEach((point) =>
+        [this.From, this.To].forEach(point =>
         {
-            // if (point.x > this.Parent.ZeroPoint.x && point.y > this.Parent.ZeroPoint.y &&
-            //     point.x < boundRect.width + this.Parent.ZeroPoint.x && point.y < boundRect.height + this.Parent.ZeroPoint.y)
-            if (point.x > 0 && point.y > 0 && point.x < boundRect.width && point.y < boundRect.height)
+            if (point.InOverlay(this.Parent.BoundingRect))
             {
                 flag = true;
                 return;
@@ -97,17 +128,62 @@ class SVGLine
 
 }
 
+class ObservableArray extends Array
+{
+    SelectFunction;
+    RemoveFunction;
+
+    constructor(selectFunc, removeFunc, ...values)
+    {
+        super(...values);
+        this.SelectFunction = selectFunc;
+        this.RemoveFunction = removeFunc;
+    }
+
+    push(...items)
+    {
+        super.push(...items);
+        this.SelectFunction(...items);
+    }
+
+    pop()
+    {
+        let popped = super.pop();
+        this.RemoveFunction(popped);
+        return popped;
+    }
+
+    splice(start, deletedCount, ...items)
+    {
+        let deleted = super.splice(start, deletedCount, ...items);
+        if ([...items].length != 0)
+            this.SelectFunction(...items)
+        this.RemoveFunction(...deleted);
+        return deleted;
+    }
+}
+
 class SVGBoard
 {
     Container;
-    Tapped = false;
+    #BoardTapped = false;
+    #FigureTapped = false;
     GridSpacing = 45;
-    Figures = []
-    GridLines = []
-    
-    get BoundingRect() { return this.Container.getBoundingClientRect() }
+    #Figures = []
+    #DraggableFigures;
+    #GridLines = [];
+    ScalingLabel;
 
-    BeginGrid = new Point(0, 0);
+    get BoundingRect()
+    { 
+        let rect = this.Container.getBoundingClientRect();
+        
+        rect.width /= this.Container.currentScale;
+        rect.height /= this.Container.currentScale;
+        
+        return rect;
+    }
+
     DeltaPoint = new Point(0, 0);
     StartPoint = new Point(0, 0);
     
@@ -115,64 +191,121 @@ class SVGBoard
     {
         this.Container = container;
         this.GridSpacing = spacing;
+        this.ScalingLabel = scalingLabel;
 
-        this.Container.addEventListener("mousedown", (e) => this.boardMouseDown(e));
-        this.Container.addEventListener("mousemove", (e) => this.boardMouseMove(e));
-        this.Container.addEventListener("mouseup", (e) => this.boardMouseUp(e));
-        // this.Container.addEventListener("wheel", (e) => this.boardScaling(e));
+        this.#DraggableFigures = new ObservableArray(this.selectDraggable, this.removeDraggable);
+
+        this.Container.addEventListener("mousedown", this.boardMouseDown);
+        this.Container.addEventListener("mousemove", this.areaMouseMove);
+        this.Container.addEventListener("mouseup", this.boardMouseUp);
+        this.Container.addEventListener("wheel", this.boardScaling);
 
         this.UpdateOverlay();
     }
 
-    boardMouseDown(e)
+    selectDraggable(...items)
     {
-        this.Tapped = true;
+        items.forEach(element =>
+        {
+            if (element instanceof SVGBase)
+                element.SVGObject.classList.add("selected");
+        });
+    }
+
+    removeDraggable(...items)
+    {
+        items.forEach(element =>
+        {
+            if (element instanceof SVGBase)
+                element.SVGObject.classList.remove("selected");
+        });
+    }
+
+    boardMouseDown = (e) =>
+    {
+        this.#BoardTapped = true;
         this.Container.style.cursor = "move";
-        // this.StartPoint = new Point(e.clientX - this.Canvas.offsetLeft, e.clientY - this.Canvas.offsetTop);
         this.StartPoint = new Point(e.clientX - this.BoundingRect.left, e.clientY - this.BoundingRect.top);
     }
 
-    boardMouseMove(e)
+    areaMouseMove = (e) =>
     {
-        if (this.Tapped != true)
+        if (this.#BoardTapped != true && this.#FigureTapped != true)
             return;
-
         
-        console.log(this.StartPoint);
-        console.log(this.BoundingRect.left, this.BoundingRect.top);
-        console.log(e.clientX, e.clientY);
-        console.log(this.StartPoint.y + this.BoundingRect.top - e.clientY);
-        console.log(this.DeltaPoint);
-
-        this.DeltaPoint = new Point(this.StartPoint.x + this.BoundingRect.left - e.clientX,
-                                    this.StartPoint.y + this.BoundingRect.top - e.clientY);
+        this.DeltaPoint = new Point((this.StartPoint.x + this.BoundingRect.left - e.clientX) / this.Container.currentScale,
+                                    (this.StartPoint.y + this.BoundingRect.top - e.clientY) / this.Container.currentScale);
         this.StartPoint = new Point(e.clientX - this.BoundingRect.left, e.clientY - this.BoundingRect.top);
-        this.UpdateOverlay();
+
+        if (this.#BoardTapped == true)
+        {
+            this.#Figures.forEach(figure => figure.Offset(this.DeltaPoint));
+            this.UpdateOverlay();
+        }
+        else if (this.#FigureTapped == true)
+        {
+            this.#DraggableFigures.forEach(figure =>
+            {
+                figure.Offset(this.DeltaPoint);
+                figure.Update();
+            });
+        }
     }
 
-    boardMouseUp(e)
+    boardMouseUp = (e) =>
     {
         this.Container.style.cursor = "default";
-        this.Tapped = false;
+        this.#BoardTapped = false;
     }
 
-    boardScaling(e)
+    boardScaling = (e) =>
     {
-        let direction = e.deltaY > 0 ? -.3 : .3;
-        let scale = 1 + direction;
+        let direction = e.deltaY > 0 ? -.03 : .03;
+        if ((this.Container.currentScale <= .3 && direction < 0) ||
+            (this.Container.currentScale >= 2 && direction > 0))
+            return;
+        
+        this.#GridLines.forEach(line => this.Container.removeChild(line.SVGObject));
+        this.#GridLines.splice(0, this.#GridLines.length);
+        
+        this.Container.currentScale += direction;
 
-        this.Scale += direction * 100;
+        this.#DrawGrid();
+        this.#UpdateGrid();
+        
+        this.ScalingLabel.innerText = `${Math.floor(this.Container.currentScale * 100)}%`;
+    }
+
+    figureMouseDown = (e) =>
+    {
+        this.#FigureTapped = true;
+        this.Container.style.cursor = "move";
+        this.StartPoint = new Point(e.clientX - this.BoundingRect.left, e.clientY - this.BoundingRect.top);
+        this.#DraggableFigures.push(e.target.Tag);
+        e.stopPropagation();
+    }
+
+    figureMouseUp = (e) =>
+    {
+        this.#FigureTapped = false;
+        this.Container.style.cursor = "default";
+        this.#DraggableFigures.splice(this.#DraggableFigures.indexOf(e.target.Tag), 1);
+        e.stopPropagation();
     }
 
     add(figure)
     {
-        this.Figures.push(figure);
+        this.#Figures.push(figure);
+        figure.SVGObject.addEventListener("mousedown", this.figureMouseDown);
+        figure.SVGObject.addEventListener("mouseup", this.figureMouseUp);
         this.UpdateOverlay();
     }
 
     remove(figure)
     {
-        this.Figures.remove(figure);
+        this.#Figures.remove(figure);
+        figure.SVGObject.removeEventListener("mousedown", this.figureMouseDown);
+        figure.SVGObject.removeEventListener("mouseup", this.figureMouseUp);
         this.UpdateOverlay();
     }
 
@@ -180,49 +313,165 @@ class SVGBoard
     {
         let drawLine = (from, to, strokeWidth) =>
         {
-            let line = document.createElementNS("http://www.w3.org/2000/svg", "line");
-            line.setAttribute("stroke", GRID_COLOR);
-            line.setAttribute("stroke-width", strokeWidth);
-
-            line.setAttribute("x1", from.x);
-            line.setAttribute("y1", from.y);
-            line.setAttribute("x2", to.x);
-            line.setAttribute("y2", to.y);
-
-            this.Container.appendChild(line);
-            this.GridLines.push(line);
+            let line = new SVGLine(this, from, to);
+            line.StrokeWidth = strokeWidth;
+            line.Color = GRID_COLOR;
+            line.Visible = true;
+            this.Container.appendChild(line.SVGObject);
+            this.#GridLines.push(line);
         }
 
-        let lineWidth = .1;
-        for (let w = this.BeginGrid.x; w < this.BoundingRect.width; w += this.GridSpacing)
+        let lineWidth = .7;
+
+        
+        for (let w = 0; w < this.BoundingRect.width; w += this.GridSpacing)
             drawLine(new Point(w, 0), new Point(w, this.BoundingRect.height), lineWidth);
-        for (let h = this.BeginGrid.y; h < this.BoundingRect.height; h += this.GridSpacing)
+        for (let h = 0; h < this.BoundingRect.height; h += this.GridSpacing)
             drawLine(new Point(0, h), new Point(this.BoundingRect.width, h), lineWidth);
     }
 
     #UpdateGrid()
     {
-        // if (this.BeginGrid == null)
-        //     this.BeginGrid = new Point(this.GridSpacing, this.GridSpacing);
-        // else
-        // {
-        //     this.BeginGrid.x = this.BeginGrid.x - this.DeltaPoint.x;
-        //     this.BeginGrid.y = this.BeginGrid.y - this.DeltaPoint.y;
+        let horizontalLinesCount = this.#GridLines.filter(line => line.From.y == line.To.y).length;
+        let verticalLinesCount = this.#GridLines.filter(line => line.From.x == line.To.x).length;
+
+        this.#GridLines.forEach(line =>
+        {
+            line.Offset(this.DeltaPoint);
             
-        //     if (this.BeginGrid.x < 0) this.BeginGrid.x = this.Spacing - Math.abs(this.BeginGrid.x);
-        //     if (this.BeginGrid.y < 0) this.BeginGrid.y = this.Spacing - Math.abs(this.BeginGrid.y);
-        //     if (this.BeginGrid.x > this.Spacing) this.BeginGrid.x = this.BeginGrid.x % this.Spacing;
-        //     if (this.BeginGrid.y > this.Spacing) this.BeginGrid.y = this.BeginGrid.y % this.Spacing;
-        // }
+            if (line.LastFrom != undefined)
+            {
+                line.LastFrom = line.LastFrom.add(this.DeltaPoint);
+                line.LastTo = line.LastTo.add(this.DeltaPoint);
+            }
+
+            let remainderHorizontal = horizontalLinesCount * this.GridSpacing - this.BoundingRect.height;
+            let remainderVertical   = verticalLinesCount   * this.GridSpacing - this.BoundingRect.width;
+
+            if (line.To.y == line.From.y)
+            {
+                if (line.From.y > this.BoundingRect.height && line.Visible == false && this.DeltaPoint.y < 0)
+                {
+                    let tmp = new Point(line.From.x, line.From.y);
+                    line.From = line.LastFrom;
+                    line.LastFrom = tmp;
+                    
+                    tmp = line.To;
+                    line.To = line.LastTo;
+                    line.LastTo = tmp;
+                }
+                if (line.From.y < 0 && line.Visible == false && this.DeltaPoint.y > 0)
+                {
+                    let tmp = new Point(line.From.x, line.From.y);
+                    line.From = line.LastFrom;
+                    line.LastFrom = tmp;
+                    
+                    tmp = line.To;
+                    line.To = line.LastTo;
+                    line.LastTo = tmp;
+                }
+
+                if (line.From.y < 0 && line.Visible)
+                {
+                    line.LastFrom = new Point(line.From.x, line.From.y);
+                    line.LastTo = new Point(line.To.x, line.To.y);
+
+                    line.From.y = horizontalLinesCount * this.GridSpacing - Math.abs(line.From.y);
+                    line.To.y = line.From.y;
+                    line.Visible = false;
+                }
+                if (line.From.y > this.BoundingRect.height && line.Visible)
+                {
+                    line.LastFrom = new Point(line.From.x, line.From.y);
+                    line.LastTo = new Point(line.To.x, line.To.y);
+
+                    line.To.y = -remainderHorizontal + Math.abs(line.From.y - this.BoundingRect.height);
+                    line.From.y = line.To.y;
+                    line.Visible = false;
+                }
+
+                if (line.From.x < 0)
+                {
+                    line.To.x += Math.abs(line.From.x);
+                    line.From.x += Math.abs(line.From.x);
+                }
+                if (line.To.x > this.BoundingRect.width)
+                {
+                    line.From.x -= line.To.x - this.BoundingRect.width;
+                    line.To.x -= line.To.x - this.BoundingRect.width;
+                }
+            }
+
+            else if (line.To.x == line.From.x)
+            {
+                if (line.From.x > this.BoundingRect.width && line.Visible == false && this.DeltaPoint.x < 0)
+                {
+                    let tmp = new Point(line.From.x, line.From.y);
+                    line.From = line.LastFrom;
+                    line.LastFrom = tmp;
+                    
+                    tmp = line.To;
+                    line.To = line.LastTo;
+                    line.LastTo = tmp;
+                }
+                if (line.From.x < 0 && line.Visible == false && this.DeltaPoint.x > 0)
+                {
+                    let tmp = new Point(line.From.x, line.From.y);
+                    line.From = line.LastFrom;
+                    line.LastFrom = tmp;
+                    
+                    tmp = line.To;
+                    line.To = line.LastTo;
+                    line.LastTo = tmp;
+                }
+
+                if (line.From.x < 0 && line.Visible)
+                {
+                    line.LastFrom = new Point(line.From.x, line.From.y);
+                    line.LastTo = new Point(line.To.x, line.To.y);
+
+                    line.From.x = verticalLinesCount * this.GridSpacing - Math.abs(line.From.x);
+                    line.To.x = line.From.x;
+                    line.Visible = false;
+                }
+                if (line.From.x > this.BoundingRect.width && line.Visible)
+                {
+                    line.LastFrom = new Point(line.From.x, line.From.y);
+                    line.LastTo = new Point(line.To.x, line.To.y);
+
+                    line.To.x = -remainderVertical + Math.abs(line.From.x - this.BoundingRect.width);
+                    line.From.x = line.To.x;
+                    line.Visible = false;
+                }
+
+                if (line.From.y < 0)
+                {
+                    line.To.y += Math.abs(line.From.y);
+                    line.From.y += Math.abs(line.From.y);
+                }
+                if (line.To.y > this.BoundingRect.height)
+                {
+                    line.From.y -= line.To.y - this.BoundingRect.height;
+                    line.To.y -= line.To.y - this.BoundingRect.height;
+                }
+            }
+
+            if (line.Visible != true)
+            {
+                if (line.InOverlay())
+                    line.Visible = true;
+            }
+            
+            line.Update();
+        });
     }
 
     UpdateOverlay()
     {
-        this.Figures.forEach((figure) =>
+        this.#Figures.forEach((figure) =>
         {
             if (figure.InOverlay())
             {
-                // console.log("in overlay");
                 figure.Update()
                 if ([...this.Container.children].includes(figure.SVGObject) == false)
                     this.Container.appendChild(figure.SVGObject);
@@ -234,7 +483,7 @@ class SVGBoard
             }
         });
         
-        if (this.GridLines.length == 0) this.#DrawGrid()
+        if (this.#GridLines.length == 0) this.#DrawGrid()
         else this.#UpdateGrid();
     }
 }
@@ -244,8 +493,10 @@ let Board;
 
 window.addEventListener("DOMContentLoaded", () =>
 {
-    Board = new SVGBoard(document.getElementById("graphBoard"));
-    // line = new Line(Board, new Point(1, 1), new Point(10, 10));
+    Board = new SVGBoard(document.getElementById("graphBoard"),
+                         document.getElementById("scaling"));
     Board.add(new SVGLine(Board, new Point(100, 100),
-                              new Point(300, 300)));
+                              new Point(300, 500)));
+    Board.add(new SVGLine(Board, new Point(500, 500),
+                              new Point(100, 600)));
 });

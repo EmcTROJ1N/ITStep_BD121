@@ -13,11 +13,12 @@
 
             #graphBoard
             {
-                height: 100%;
+                height: 90%;
                 width: 100%;
                 padding: 0px;
                 margin: 0px;
                 background-color: rgb(16,16,20);
+                /* outline: 3px solid red */
             }
 
             header
@@ -37,16 +38,51 @@
                 border-radius: 20px;
                 text-align: center;
             }
+
+            .selected
+            {
+                stroke: wheat;
+                opacity: .5;
+                transition: all 1s ease;
+            }
+
+            #scaling
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: xx-large;
+                color: white;
+            }
+
+            button
+            {
+                background-color: transparent;
+                color: white;
+                border-radius: 0px;
+                border: 1px solid gray;
+                transition: color 1s ease;
+                transition: border 1s ease;
+            }
+
+            button:hover
+            {
+                color: rgb(127,231,196);
+                border: 1px solid rgb(127,231,196);
+            }
         </style>
         <script src="script.js"></script>
     </head>
     <body>
         <header>
-
+            <button>Move</button>
+            <button>Select</button>
+            <span id="scaling">100%</span>
         </header>
     
         <section style="height: 100%">
-            <svg id="graphBoard"></svg>
+            <svg id="graphBoard">
+            </svg>
         </section>
     </body>
 </html>
