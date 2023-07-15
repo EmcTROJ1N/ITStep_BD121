@@ -1,0 +1,10 @@
+﻿<div class="text-center">
+    <h1>Enter path to your folder</h1>
+    <form action="Home/ShowFiles", method="POST" enctype="multipart/form-data">
+        @Html.AntiForgeryToken()
+        <div class="container">
+            <input class="form-text" type="text" name="path">
+            <button class="btn btn-primary">Show files</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,11 @@
+@model FileEditViewModel
+
+<form class="container form-control" action="./SaveFile" method="POST">
+    @Html.AntiForgeryToken();
+    @Html.LabelFor(f => f.File.FileName);
+    <textarea name="fileData" cols="50" rows="30">
+        @Model.Text
+    </textarea>
+    @Html.TextAreaFor(t => t.Text)
+    <button class="btn btn-primary">Save file</button>
+</form>

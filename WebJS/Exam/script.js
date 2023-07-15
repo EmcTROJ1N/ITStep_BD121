@@ -128,6 +128,88 @@ class SVGLine extends SVGBase
 
 }
 
+class SVGVertex extends SVGBase
+{
+    Cords;
+
+    #_PhotoUrl;
+    #_About;
+    
+    set PhotoUrl(url)
+    {
+        this.SVGPhoto.setAttributeNS(null, "href", url);
+        this.#_PhotoUrl = url;
+    }
+    get PhotoUrl() { return this.#_PhotoUrl; }
+
+    set About(text)
+    {
+        this.SVGText.innerText = text;
+        this.#_About = text;
+    }
+    get About() { return this.#_About; }
+    
+    Width = 100;
+    Height = 100;
+    SVGPhoto;
+    SVGText;
+
+    constructor(parent, cords, photoUrl, about)
+    {
+        super(parent);
+
+        this.SVGPhoto = document.createAttributeNS("http://www.w3.org/2000/svg", "image");
+        this.SVGPhoto.setAttribute("x", 1);
+        this.SVGPhoto.setAttributeNS(null, "width", 80);
+        this.SVGPhoto.setAttributeNS(null, "height", 90);
+        this.SVGPhoto.setAttributeNS(null, "x", cords.x);
+        this.SVGPhoto.setAttributeNS(null, "y", cords.y);
+
+        this.SVGText = document.createAttributeNS("http://www.w3.org/2000/svg", "text");
+        this.SVGText.setAttribute("y", this.Height + this.SVGPhoto.getAttribute("height"));
+
+        this.Cords = cords;
+        this.PhotoUrl = photoUrl;
+        this.About = about;
+
+        this.SVGObject = document.createElementNS("http://www.w3.org/2000/svg", "g");
+        this.SVGObject.setAttribute("x", cords.x);
+        this.SVGObject.setAttribute("y", cords.y);
+
+        this.SVGObject.appendChild(this.SVGText);
+        this.SVGObject.appendChild(this.SVGPhoto);
+    }
+
+    Update()
+    {
+        this.SVGObject.setAttribute("x", this.Cords.x);
+        this.SVGObject.setAttribute("y", this.Cords.y);
+    }
+
+    Offset(offsetPoint)
+    {
+        this.Cords.add(offsetPoint);
+    }
+
+    InOverlay()
+    {
+        let flag = false;
+        [this.Cords,
+         new Point(this.Cords.x + this.Width, this.Cords.y),
+         new Point(this.Cords.x, this.Cords.y + this.Height),
+         new Point(this.Cords.x + this.Width, this.Cords.y + this.Width),
+        ].forEach(point =>
+        {
+            if (point.InOverlay(this.Parent.BoundingRect))
+            {
+                flag = true;
+                return;
+            }
+        });
+        return flag;
+    }
+}
+
 class ObservableArray extends Array
 {
     SelectFunction;
@@ -499,4 +581,5 @@ window.addEventListener("DOMContentLoaded", () =>
                               new Point(300, 500)));
     Board.add(new SVGLine(Board, new Point(500, 500),
                               new Point(100, 600)));
+    Board.add(new SVGVertex(Board, new Point(700, 800), "https://i.stack.imgur.com/oUhG3.png", "German Pokrovskiy"));
 });
