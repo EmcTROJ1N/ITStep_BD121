@@ -1,31 +1,35 @@
 @using FileExplorer.Controllers
 @model List<FileModel>
+@{ Layout = "_Layout"; }
 
-<div class="text-center">
-    <table class="table table-striped table-bordered table-hover">
-        @foreach (FileModel file in Model)
-        {
-            <tr>
-                <td><input type="checkbox" name="fileCheckBox" value=@file.FullName></td>
-                <td>@file.FileName</td>
-                <td>@file.Extension</td>
-                <td>@file.Size</td>
-                <td>@file.CreationDate</td>
-            </tr>
-        }
-    </table>
-    
-    <div class="container">
-        <button style="margin: 10px" class="btn btn-primary" onclick="redirect()">Cancel</button>
-        <form style="margin: 10px" action="./CreateFile">
-            <button class="btn btn-primary">Create new file</button>
-        </form>
-        
-        <form class="container" style="margin: 10px" action="./UploadFile/" method="POST" enctype="multipart/form-data">
-            <input required class="form-control" name="files" type="file" multiple="multiple" name="files"/>
-            <button class="btn btn-primary" style="margin: 10px">Upload file</button>
-        </form>
-        
-        <button class="btn btn-primary" style="margin: 10px" onclick="deleteSelected()">Delete selected files</button>
+<section class="classtime-section class-time-table spad">
+    <div class="container text-center">
+        <div class="classtime-table">
+            <table class="table table-striped table-bordered table-hover">
+                @foreach (FileModel file in Model)
+                {
+                    <tr>
+                        <td class="hover-bg ts-item"><input type="checkbox" name="fileCheckBox" value=@file.FullName></td>
+                        <td class="hover-bg ts-item"><span>@file.FileName</span></td>
+                        <td class="hover-bg ts-item"><span>@file.Extension</span></td>
+                        <td class="hover-bg ts-item"><span>@file.Size</span></td>
+                        <td class="hover-bg ts-item"><span>@file.CreationDate</span></td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="container">
+            <button class="primary-btn" onclick="redirect()">Cancel</button>
+            <form style="margin: 10px" action="./CreateFile">
+                <button class="primary-btn">Create new file</button>
+            </form>
+
+            <form class="container" style="margin: 10px" action="./UploadFile/" method="POST" enctype="multipart/form-data">
+                <input required class="form-control" name="files" type="file" multiple="multiple" name="files"/>
+                <button class="primary-btn" style="margin: 10px">Upload file</button>
+            </form>
+
+            <button class="primary-btn" style="margin: 10px" onclick="deleteSelected()">Delete selected files</button>
+        </div>
     </div>
-</div>
+</section>

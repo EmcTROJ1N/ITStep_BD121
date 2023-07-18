@@ -1,6 +1,30 @@
 ﻿@{
     ViewData["Title"] = "Privacy Policy";
+    
+    string[] sliderImgs =
+    {
+        Url.Content("~/img/hero-slider/hero-1.jpg"),
+        Url.Content("~/img/hero-slider/hero-2.jpg"),
+        Url.Content("~/img/hero-slider/hero-3.png")
+    };
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<section class="hero-section">
+    <div class="hero-items owl-carousel" style="overflow: auto">
+        @foreach (string sliderImg in sliderImgs)
+        {
+            using (Html.CarouselItem(sliderImg))
+            {
+                <div class="text-center">
+                    <form action="./CreateFile" method="POST" enctype="multipart/form-data" id="showFiles">
+                        @Html.AntiForgeryToken()
+                        <div class="container">
+                            <h1>@ViewData["Title"]</h1>
+                            <p>Use this page to detail your site's privacy policy.</p>
+                        </div>
+                    </form>
+                </div>
+            }
+        }
+    </div>
+</section>

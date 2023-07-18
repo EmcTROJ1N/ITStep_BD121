@@ -1,6 +1,30 @@
-<form class="container form-control" action="./CreateFile" method="POST">
-    @Html.AntiForgeryToken();
-    <label class="form-control form-label">Enter file name:</label>
-    <input style="margin: 10px" required type="text" name="fileName" class="form-control form-text" placeholder="Test.txt"/>
-    <button class="btn btn-primary">Add file</button>
-</form>
+@{
+    string[] sliderImgs =
+    {
+        Url.Content("~/img/hero-slider/hero-1.jpg"),
+        Url.Content("~/img/hero-slider/hero-2.jpg"),
+        Url.Content("~/img/hero-slider/hero-3.png")
+    };
+}
+
+<section class="hero-section">
+    <div class="hero-items owl-carousel" style="overflow: auto">
+        @foreach (string sliderImg in sliderImgs)
+        {
+            using (Html.CarouselItem(sliderImg))
+            {
+                <div class="text-center">
+                    <form action="./CreateFile" method="POST" enctype="multipart/form-data" id="showFiles">
+                        @Html.AntiForgeryToken()
+                        <div class="container">
+                            <h2>Enter file name:</h2>
+                            <input style="margin: 10px" required type="text" name="fileName" placeholder="Test.txt"/>
+                            <br/>
+                            <button class="primary-btn">Add file</button>
+                        </div>
+                    </form>
+                </div>
+            }
+        }
+    </div>
+</section>

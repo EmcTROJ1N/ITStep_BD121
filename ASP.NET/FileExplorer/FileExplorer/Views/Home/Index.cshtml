@@ -1,10 +1,29 @@
-﻿<div class="text-center">
-    <h1>Enter path to your folder</h1>
-    <form action="Home/ShowFiles", method="POST" enctype="multipart/form-data">
-        @Html.AntiForgeryToken()
-        <div class="container">
-            <input class="form-text" type="text" name="path">
-            <button class="btn btn-primary">Show files</button>
-        </div>
-    </form>
-</div>
+﻿@{
+    string[] sliderImgs =
+    {
+        Url.Content("~/img/hero-slider/hero-1.jpg"),
+        Url.Content("~/img/hero-slider/hero-2.jpg"),
+        Url.Content("~/img/hero-slider/hero-3.png")
+    };
+}
+
+<section class="hero-section">
+    <div class="hero-items owl-carousel" style="overflow: auto">
+        @foreach (string sliderImg in sliderImgs)
+        {
+            using (Html.CarouselItem(sliderImg))
+            {
+                <div class="text-center">
+                    <h1>Enter path to your folder</h1>
+                    <form action="Home/ShowFiles" method="POST" enctype="multipart/form-data" id="showFiles">
+                        @Html.AntiForgeryToken()
+                        <div class="container">
+                            <input class="form-text" type="text" name="path"><br/>
+                            <button class="primary-btn">Show files</button>
+                        </div>
+                    </form>
+                </div>
+            }
+        }
+    </div>
+</section>
