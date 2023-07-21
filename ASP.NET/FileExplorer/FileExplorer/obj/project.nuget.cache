@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6D/HtqH9FR5xCaHRjzwuU0J7atDgjHW5yxGe5I1j73MkOVktJ252g8QqNOUwKts7LWrb5j4lo+cOlXdAhqWWEQ==",
+  "dgSpecHash": "bYL46SlseZPdVoYX7noZiKXvJD+zeMHmWZhXMdXtYjHUuFGxa+28+kgd1qlEoD44I2w/k7xZM3L06/TI4lYHCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\FileExplorer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/FileExplorer.csproj",
+  "expectedPackageFiles": [
+    "/home/omon/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.3/microsoft.aspnetcore.app.ref.7.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

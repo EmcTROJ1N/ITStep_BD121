@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Text.Json;
 using System.Windows.Markup;
 using Microsoft.AspNetCore.Mvc;
 using FileExplorer.Models;
@@ -10,9 +11,22 @@ public class HomeController : Controller
     private readonly ILogger<HomeController> _logger;
     private static string FolderPath;
 
-    public HomeController(ILogger<HomeController> logger)
-    {
+    public HomeController(ILogger<HomeController> logger) =>
         _logger = logger;
+
+    private List<FileModel> GetFiles(string? path = null)
+    {
+        if (path != null)
+            HomeController.FolderPath = path;
+        
+        List<FileModel> files = new List<FileModel>();
+        foreach (string fileName in Directory.GetFiles(HomeController.FolderPath).Concat(Directory.GetDirectories(HomeController.FolderPath)))
+        {
+            try { files.Add(new FileModel(fileName)); }
+            catch { }
+        }
+
+        return files;
     }
     public IActionResult Index() => View();
     public IActionResult Privacy() => View();
@@ -22,7 +36,13 @@ public class HomeController : Controller
 
     public IActionResult EditFile(FileModel model) =>
         View(model: new FileEditViewModel(model));
+    
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult ShowFiles(string? path) =>
+        View(this.GetFiles(path));
 
+    
     [HttpPost]
     [ValidateAntiForgeryToken]
     public IActionResult SaveFile(FileEditViewModel model)
@@ -42,7 +62,7 @@ public class HomeController : Controller
     public IActionResult CreateFile(string fileName)
     {
         System.IO.File.Create($"{HomeController.FolderPath}/{fileName}");
-        return RedirectToAction("Index");
+        return PartialView("Table", this.GetFiles());
     }
 
     [HttpPost]
@@ -57,7 +77,8 @@ public class HomeController : Controller
                 else if (System.IO.File.Exists(file))
                     System.IO.File.Delete(file);
             }
-            return Ok();
+
+            return Json(this.GetFiles(), new JsonSerializerOptions() { PropertyNamingPolicy = null });
         }
         catch { return BadRequest(); }
     }
@@ -81,22 +102,6 @@ public class HomeController : Controller
             }
         }
         catch { return BadRequest(500); }
-        return RedirectToAction("Index");
-    }
-
-    
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public IActionResult ShowFiles(string? path)
-    {
-        HomeController.FolderPath = path;
-        List<FileModel> files = new List<FileModel>();
-        foreach (string fileName in Directory.GetFiles(path).Concat(Directory.GetDirectories(path)))
-        {
-            try { files.Add(new FileModel(fileName)); }
-            catch { }
-        }
-        
-        return View(model: files);
+        return PartialView("Table", this.GetFiles());
     }
 }

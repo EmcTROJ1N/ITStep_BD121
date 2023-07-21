@@ -5,7 +5,7 @@
 <section class="classtime-section class-time-table spad">
     <div class="container text-center">
         <div class="classtime-table">
-            <table class="table table-striped table-bordered table-hover">
+            <table id="FilesTable" class="table table-striped table-bordered table-hover">
                 @foreach (FileModel file in Model)
                 {
                     <tr>
@@ -20,16 +20,16 @@
         </div>
         <div class="container">
             <button class="primary-btn" onclick="redirect()">Cancel</button>
-            <form style="margin: 10px" action="./CreateFile">
+            <form class="container" style="margin: 10px" data-ajax="true" data-ajax-method="post" data-ajax-url="Home/CreateFile/" data-ajax-update="#FilesTable">
                 <button class="primary-btn">Create new file</button>
             </form>
 
-            <form class="container" style="margin: 10px" action="./UploadFile/" method="POST" enctype="multipart/form-data">
-                <input required class="form-control" name="files" type="file" multiple="multiple" name="files"/>
+            <form class="container" style="margin: 10px" data-ajax="true" data-ajax-method="post" data-ajax-url="./UploadFile/" data-ajax-update="#FilesTable" enctype="multipart/form-data">
+                <input required class="form-control" name="files" type="file" multiple="multiple"/>
                 <button class="primary-btn" style="margin: 10px">Upload file</button>
             </form>
 
-            <button class="primary-btn" style="margin: 10px" onclick="deleteSelected()">Delete selected files</button>
+            <button class="primary-btn" style="margin: 10px" onclick="deleteFiles()">Delete selected files</button>
         </div>
     </div>
 </section>

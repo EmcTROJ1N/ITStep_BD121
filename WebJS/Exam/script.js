@@ -1,7 +1,10 @@
-const LINE_COLOR = "white";
+const ELEMENT_COLOR = "white";
 const GRID_COLOR = "white";
 const SELECTED_COLOR = "yellow";
 const LINES_THICKNESS = 10;
+const VERTEX_WIDTH = 400;
+const VERTEX_HEIGHT = 500;
+const FONT_SIZE = 30;
 
 
 class Point
@@ -79,7 +82,7 @@ class SVGLine extends SVGBase
         this.SVGObject = document.createElementNS("http://www.w3.org/2000/svg", "line");
         this.SVGObject.Tag = this;
         this.StrokeWidth = LINES_THICKNESS;
-        this.Color = LINE_COLOR;
+        this.Color = ELEMENT_COLOR;
     }
     
     sub(source)
@@ -137,58 +140,70 @@ class SVGVertex extends SVGBase
     
     set PhotoUrl(url)
     {
-        this.SVGPhoto.setAttributeNS(null, "href", url);
+        this.SVGPhoto.setAttribute("href", url);
         this.#_PhotoUrl = url;
     }
     get PhotoUrl() { return this.#_PhotoUrl; }
 
     set About(text)
     {
-        this.SVGText.innerText = text;
+        this.SVGText.innerHTML = text;
         this.#_About = text;
     }
     get About() { return this.#_About; }
     
-    Width = 100;
-    Height = 100;
+    Width;
+    Height;
     SVGPhoto;
     SVGText;
 
-    constructor(parent, cords, photoUrl, about)
+    constructor(parent, cords, photoUrl, about, width = VERTEX_WIDTH, height = VERTEX_HEIGHT)
     {
         super(parent);
+        
+        this.Width = width;
+        this.Height = height;
 
-        this.SVGPhoto = document.createAttributeNS("http://www.w3.org/2000/svg", "image");
-        this.SVGPhoto.setAttribute("x", 1);
-        this.SVGPhoto.setAttributeNS(null, "width", 80);
-        this.SVGPhoto.setAttributeNS(null, "height", 90);
-        this.SVGPhoto.setAttributeNS(null, "x", cords.x);
-        this.SVGPhoto.setAttributeNS(null, "y", cords.y);
+        this.SVGPhoto = document.createElementNS("http://www.w3.org/2000/svg", "image");
+        this.SVGPhoto.setAttribute("width", this.Width);
+        this.SVGPhoto.setAttribute("height", this.Height);
 
-        this.SVGText = document.createAttributeNS("http://www.w3.org/2000/svg", "text");
-        this.SVGText.setAttribute("y", this.Height + this.SVGPhoto.getAttribute("height"));
+        this.SVGText = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        this.SVGText.setAttribute("x", cords.x);
+        this.SVGText.setAttribute("y", cords.y + this.Height);
+        this.SVGText.setAttribute("font-size", FONT_SIZE);
+        this.SVGText.setAttribute("fill", ELEMENT_COLOR);
+        // this.SVGText.setAttribute("dominant-baseline", "middle");
+        // this.SVGText.setAttribute("text-anchor", "center");
 
         this.Cords = cords;
+        this.Update();
+
         this.PhotoUrl = photoUrl;
         this.About = about;
 
         this.SVGObject = document.createElementNS("http://www.w3.org/2000/svg", "g");
-        this.SVGObject.setAttribute("x", cords.x);
-        this.SVGObject.setAttribute("y", cords.y);
+        this.SVGObject.setAttribute("width", this.Width);
+        this.SVGObject.setAttribute("height", this.Height);
 
         this.SVGObject.appendChild(this.SVGText);
         this.SVGObject.appendChild(this.SVGPhoto);
+        
+        this.SVGObject.Tag = this;
     }
 
     Update()
     {
-        this.SVGObject.setAttribute("x", this.Cords.x);
-        this.SVGObject.setAttribute("y", this.Cords.y);
+        this.SVGPhoto.setAttribute("x", this.Cords.x);
+        this.SVGPhoto.setAttribute("y", this.Cords.y);
+    
+        this.SVGText.setAttribute("x", this.Cords.x);
+        this.SVGText.setAttribute("y", this.Cords.y + this.Height + FONT_SIZE + 5);
     }
 
     Offset(offsetPoint)
     {
-        this.Cords.add(offsetPoint);
+        this.Cords = this.Cords.add(offsetPoint);
     }
 
     InOverlay()
@@ -363,7 +378,7 @@ class SVGBoard
         this.#FigureTapped = true;
         this.Container.style.cursor = "move";
         this.StartPoint = new Point(e.clientX - this.BoundingRect.left, e.clientY - this.BoundingRect.top);
-        this.#DraggableFigures.push(e.target.Tag);
+        this.#DraggableFigures.push(e.currentTarget.Tag);
         e.stopPropagation();
     }
 
@@ -371,7 +386,7 @@ class SVGBoard
     {
         this.#FigureTapped = false;
         this.Container.style.cursor = "default";
-        this.#DraggableFigures.splice(this.#DraggableFigures.indexOf(e.target.Tag), 1);
+        this.#DraggableFigures.splice(this.#DraggableFigures.indexOf(e.currentTarget.Tag), 1);
         e.stopPropagation();
     }
 
@@ -581,5 +596,7 @@ window.addEventListener("DOMContentLoaded", () =>
                               new Point(300, 500)));
     Board.add(new SVGLine(Board, new Point(500, 500),
                               new Point(100, 600)));
-    Board.add(new SVGVertex(Board, new Point(700, 800), "https://i.stack.imgur.com/oUhG3.png", "German Pokrovskiy"));
+    Board.add(new SVGVertex(Board, new Point(700, 100),
+        "https://sun9-64.userapi.com/impg/HocP2Qk9Zls0LWakQqT-RbDm6MTbdZkEh5AsXQ/zjTT27po88E.jpg?size=1620x2160&quality=95&sign=17985558459b7dc33b57e0fc6b069488&type=album",
+        "German Pokrovskiy"));
 });
