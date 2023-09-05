@@ -1,0 +1,100 @@
+﻿@{
+    ViewData["Title"] = "Cars";
+}
+
+<h2>Cars</h2>
+
+<table id="ownersTable" class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Owner_id</th>
+            <th>FullName</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<br />
+<input type="button" class="btn btn-primary" id="show" value="Show" />
+<input type="button" class="btn" id="create" value="Create" />
+<br />
+
+<script>
+    $('#create').click(function (e) {
+        alert('create');
+        
+        $.ajax({
+            url: "/api/Owners/",
+            method: "POST",
+            data: JSON.stringify({
+                FullName: "Pokrovskiy Germam",
+            }),
+            dataType: 'JSON',
+            contentType: 'application/json',
+            success: function (data, textStatus, xhr) {
+                console.log(data);
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                console.error('Error in Operation');
+            }
+        });
+    });
+
+    $("#ownersTable").on("click", ".js-edit", function () {
+        var button = $(this);
+        window.location.href = '/Home/EditOwner/' + button.attr("data-owner-id");
+    });
+
+    $("#ownersTable").on("click", ".js-delete", function () {
+        var button = $(this);
+
+        //if (confirm("Are you sure you want to delete this author?"))
+        {
+            $.ajax({
+                url: "/api/Owners/" + button.attr("data-owner-id"),
+                method: "DELETE",
+                success: function () {
+
+                    // получить по кнопке удаляемой строки саму удаляемую строку
+                    var row = button[0].parentNode.parentNode;
+
+                    // удалить строку из таблицы
+                    row.parentNode.removeChild(row);
+                }
+            }).fail(function () {
+                alert('fail');
+            })
+        }
+    });
+
+    $('#show').click(function (e) {
+        //alert('show');
+
+        // подача Ajax-запроса на сервер при помощи JQuery
+        $.ajax({
+            url: '/api/Owners/',
+            method: "GET",
+            dataType: 'JSON',
+            contentType: 'application/json',
+            cache: false,
+            processData: false,
+            success: function (data) {
+                console.log(data);
+
+                // получить ссылку на таблицу с результатами
+                var table = $('#ownersTable');
+
+                // удалить все старые строки
+                table.find("tbody tr").remove();
+
+                // перебрать коллекцию в Json и создать новые строки таблицы на их основе
+                data.forEach(car => {
+                    table.append("<tr><td>" + car.ownerId +
+                        "</td><td>" + car.fullName +
+                        "</td><td><button class='btn-link js-edit' data-owner-id=" + car.ownerId + ">Edit</button>&nbsp;<button class='btn-link js-delete' data-owner-id=" + car.ownerId + ">Delete</button></td></tr>");
+                });
+            }
+        })
+    });
+
+</script>

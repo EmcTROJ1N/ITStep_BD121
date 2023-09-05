@@ -1,0 +1,107 @@
+﻿@model DBFirstWebApiCRUD.Models.CarsTable; 
+
+@{
+    ViewBag.Title = "Edit car";
+}
+
+<h2>@Model.Model</h2>
+
+<form id="validForm" action="" method="post">
+
+    @Html.ValidationSummary(true, "Please fix the following errors!")
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Model)
+        @Html.TextBoxFor(m => m.Model, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Model)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.OwnerId)
+        @Html.TextBoxFor(m => m.OwnerId, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.OwnerId)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.MaxSpeed)
+        @Html.TextBoxFor(m => m.MaxSpeed, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.MaxSpeed)
+    </div>
+    
+    @Html.HiddenFor(m => m.CarId)
+
+    <button class="btn btn-primary">Save</button>
+    <input class="btn" type="button" value="Cancel" onclick="@("window.location.href='/Home/Cars'");" />
+
+</form>
+
+<script>
+
+    function onError(data) {
+        console.log(data);
+        //alert(data);
+
+        // скрыть все ошибки, показанные на предыдущем шаге валидации
+        $("input").removeClass('input-validation-error');
+        $("select").removeClass('input-validation-error');
+        $("span[data-valmsg-for]").removeClass('field-validation-error');
+        $("span[data-valmsg-for]").addClass('field-validation-valid');
+        $("span[data-valmsg-for]").text("");
+
+        // если произошла ошибка валидации
+        if (data.status == 400) {
+            alert("400")
+            console.log(data.responseJSON);
+
+            // перебрать все полученные ошибки валидации
+            //$.each(data.responseJSON.ModelState, function (key, value) {
+            $.each(data.responseJSON.errors, function (key, value) {
+                //key = key.split('.')[1];
+
+                console.log(key);
+                console.log(value);
+
+                // выделить текстовое поле с ошибкой
+                var filter = "input[name='" + key + "']";
+                $(filter).addClass('input-validation-error');
+
+                // показать сообщение об ошибке для каждого текстового поля с ошибкой
+                var validationMessageElement = $('span[data-valmsg-for="' + key + '"]');
+                validationMessageElement.removeClass('field-validation-valid');
+                validationMessageElement.addClass('field-validation-error');
+                validationMessageElement.text(value[0]);
+            });
+        }
+    }
+
+    $('#validForm').submit(function (e) {
+
+        // предовратить отправку формы
+        e.preventDefault();
+
+        // подача Ajax-запроса на сервер при помощи JQuery
+        
+        $.ajax({
+            url: '/api/cars/' + $('#CarId').val(),
+            method: "PUT",
+            data: JSON.stringify({
+                CarId: $("#CarId").val(),
+                OwnerId: $('#OwnerId').val(),
+                Model: $('#Model').val(),
+                MaxSpeed: $('#MaxSpeed').val(),
+            }),
+            dataType: 'JSON',
+            contentType: 'application/json',
+            cache: false,
+            processData: false,
+            success: function (data) {
+                console.log(data);
+                document.location.href = "/Home/Cars";
+            },
+            error: function (data) {
+                onError(data);
+            }
+        })
+    });
+
+</script>

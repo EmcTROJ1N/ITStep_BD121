@@ -1,0 +1,40 @@
+﻿<Window x:Class="WPFWebApiCRUD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFWebApiCRUD"
+        xmlns:models="clr-namespace:WPFWebApiCRUD.Models"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+        <TabControl>
+                <TabItem Header="Cars">
+                        <DockPanel LastChildFill="True">
+                                <Menu DockPanel.Dock="Top" Height="22">
+                                        <MenuItem Tag="api/cars" Click="MenuItem_OnClick" Header="Update"/>
+                                        <MenuItem Tag="api/cars" Click="MenuItem_OnClick" Header="Edit"/>
+                                        <MenuItem Tag="api/cars" Click="MenuItem_OnClick" Header="Delete"/>
+                                        <MenuItem Tag="api/cars" Click="MenuItem_OnClick" Header="Create"/>
+                                </Menu>
+                                <DataGrid Margin="0, 0, 0, 0" Background="Azure" 
+                                          Name="CarsDataGrid" HorizontalGridLinesBrush="DarkGray"
+                                          RowBackground="LightGray" AlternatingRowBackground="White">
+                                </DataGrid>
+                        </DockPanel>
+                </TabItem>
+                <TabItem Header="Owners">
+                        <DockPanel LastChildFill="True">
+                                <Menu DockPanel.Dock="Top">
+                                        <MenuItem Tag="api/owners" Click="MenuItem_OnClick" Header="Update"/>
+                                        <MenuItem Tag="api/owners" Click="MenuItem_OnClick" Header="Edit"/>
+                                        <MenuItem Tag="api/owners" Click="MenuItem_OnClick" Header="Delete"/>
+                                        <MenuItem Tag="api/owners" Click="MenuItem_OnClick" Header="Create"/>
+                                </Menu>
+                                <DataGrid Margin="0, 0, 0, 0" Background="Azure" 
+                                          Name="OwnersDataGrid" HorizontalGridLinesBrush="DarkGray"
+                                          RowBackground="LightGray" AlternatingRowBackground="White">
+                                </DataGrid>
+                        </DockPanel>
+                </TabItem>
+        </TabControl>
+</Window>

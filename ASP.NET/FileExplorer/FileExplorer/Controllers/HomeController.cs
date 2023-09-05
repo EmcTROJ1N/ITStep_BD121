@@ -3,6 +3,7 @@ using System.Text.Json;
 using System.Windows.Markup;
 using Microsoft.AspNetCore.Mvc;
 using FileExplorer.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FileExplorer.Controllers;
 
@@ -66,6 +67,7 @@ public class HomeController : Controller
     }
 
     [HttpPost]
+    [Authorize]
     public IActionResult DeleteFiles([FromBody] string[] filesArr)
     {
         try
@@ -84,6 +86,7 @@ public class HomeController : Controller
     }
     
     [HttpPost]
+    [Authorize]
     public async Task<IActionResult> UploadFile(IFormFileCollection files)
     {
         try

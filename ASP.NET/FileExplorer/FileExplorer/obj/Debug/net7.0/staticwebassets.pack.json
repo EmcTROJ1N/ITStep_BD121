@@ -1,627 +1,627 @@
 {
   "Files": [
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/obj/Debug/net7.0/scopedcss/projectbundle/FileExplorer.bundle.scp.css",
-      "PackagePath": "staticwebassets/FileExplorer.bundle.scp.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\FileExplorer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FileExplorer.bundle.scp.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/css/elegant-icons.css",
-      "PackagePath": "staticwebassets/css/elegant-icons.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\css\\elegant-icons.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/css/font-awesome.min.css",
-      "PackagePath": "staticwebassets/css/font-awesome.min.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/css/magnific-popup.css",
-      "PackagePath": "staticwebassets/css/magnific-popup.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/css/nice-select.css",
-      "PackagePath": "staticwebassets/css/nice-select.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/css/owl.carousel.min.css",
-      "PackagePath": "staticwebassets/css/owl.carousel.min.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/css/slicknav.min.css",
-      "PackagePath": "staticwebassets/css/slicknav.min.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\css\\slicknav.min.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/fonts/ElegantIcons.eot",
-      "PackagePath": "staticwebassets/fonts/ElegantIcons.eot"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.eot"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/fonts/ElegantIcons.svg",
-      "PackagePath": "staticwebassets/fonts/ElegantIcons.svg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.svg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/fonts/ElegantIcons.ttf",
-      "PackagePath": "staticwebassets/fonts/ElegantIcons.ttf"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.ttf"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/fonts/ElegantIcons.woff",
-      "PackagePath": "staticwebassets/fonts/ElegantIcons.woff"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.woff"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/fonts/FontAwesome.otf",
-      "PackagePath": "staticwebassets/fonts/FontAwesome.otf"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/fonts/fontawesome-webfont.eot",
-      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.eot"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/fonts/fontawesome-webfont.svg",
-      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.svg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/fonts/fontawesome-webfont.ttf",
-      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.ttf"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/fonts/fontawesome-webfont.woff",
-      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.woff"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/fonts/fontawesome-webfont.woff2",
-      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.woff2"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/about-bread.jpg",
-      "PackagePath": "staticwebassets/img/about-bread.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\about-bread.jpg",
+      "PackagePath": "staticwebassets\\img\\about-bread.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/about-us.jpg",
-      "PackagePath": "staticwebassets/img/about-us.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\about-us.jpg",
+      "PackagePath": "staticwebassets\\img\\about-us.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/author-pic.png",
-      "PackagePath": "staticwebassets/img/author-pic.png"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\author-pic.png",
+      "PackagePath": "staticwebassets\\img\\author-pic.png"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/blog-single-1.jpg",
-      "PackagePath": "staticwebassets/img/blog-single-1.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\blog-single-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-single-1.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/blog-single-2.jpg",
-      "PackagePath": "staticwebassets/img/blog-single-2.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\blog-single-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-single-2.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/blog-single-3.jpg",
-      "PackagePath": "staticwebassets/img/blog-single-3.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\blog-single-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-single-3.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/blog-single-4.jpg",
-      "PackagePath": "staticwebassets/img/blog-single-4.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\blog-single-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-single-4.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/blog-single-hero.jpg",
-      "PackagePath": "staticwebassets/img/blog-single-hero.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\blog-single-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-single-hero.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/blog/blog-1.jpg",
-      "PackagePath": "staticwebassets/img/blog/blog-1.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-1.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/blog/blog-2.jpg",
-      "PackagePath": "staticwebassets/img/blog/blog-2.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-2.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/blog/blog-3.jpg",
-      "PackagePath": "staticwebassets/img/blog/blog-3.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-3.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/blog/blog-4.jpg",
-      "PackagePath": "staticwebassets/img/blog/blog-4.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-4.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/blog/blog-5.jpg",
-      "PackagePath": "staticwebassets/img/blog/blog-5.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-5.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/blog/blog-page-1.jpg",
-      "PackagePath": "staticwebassets/img/blog/blog-page-1.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\blog\\blog-page-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-page-1.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/blog/blog-page-2.jpg",
-      "PackagePath": "staticwebassets/img/blog/blog-page-2.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\blog\\blog-page-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-page-2.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/blog/blog-page-3.jpg",
-      "PackagePath": "staticwebassets/img/blog/blog-page-3.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\blog\\blog-page-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-page-3.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/blog/blog-page-4.jpg",
-      "PackagePath": "staticwebassets/img/blog/blog-page-4.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\blog\\blog-page-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-page-4.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/blog/blog-page-5.jpg",
-      "PackagePath": "staticwebassets/img/blog/blog-page-5.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\blog\\blog-page-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-page-5.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/br-recent-1.jpg",
-      "PackagePath": "staticwebassets/img/br-recent-1.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\br-recent-1.jpg",
+      "PackagePath": "staticwebassets\\img\\br-recent-1.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/br-recent-2.jpg",
-      "PackagePath": "staticwebassets/img/br-recent-2.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\br-recent-2.jpg",
+      "PackagePath": "staticwebassets\\img\\br-recent-2.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/br-recent-3.jpg",
-      "PackagePath": "staticwebassets/img/br-recent-3.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\br-recent-3.jpg",
+      "PackagePath": "staticwebassets\\img\\br-recent-3.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/br-recent-4.jpg",
-      "PackagePath": "staticwebassets/img/br-recent-4.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\br-recent-4.jpg",
+      "PackagePath": "staticwebassets\\img\\br-recent-4.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/classes-title-bg.jpg",
-      "PackagePath": "staticwebassets/img/classes-title-bg.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\classes-title-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\classes-title-bg.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/classes/class-1.jpg",
-      "PackagePath": "staticwebassets/img/classes/class-1.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\classes\\class-1.jpg",
+      "PackagePath": "staticwebassets\\img\\classes\\class-1.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/classes/class-2.jpg",
-      "PackagePath": "staticwebassets/img/classes/class-2.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\classes\\class-2.jpg",
+      "PackagePath": "staticwebassets\\img\\classes\\class-2.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/classes/class-3.jpg",
-      "PackagePath": "staticwebassets/img/classes/class-3.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\classes\\class-3.jpg",
+      "PackagePath": "staticwebassets\\img\\classes\\class-3.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/classes/class-4.jpg",
-      "PackagePath": "staticwebassets/img/classes/class-4.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\classes\\class-4.jpg",
+      "PackagePath": "staticwebassets\\img\\classes\\class-4.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/feature/feature-1.jpg",
-      "PackagePath": "staticwebassets/img/feature/feature-1.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\feature\\feature-1.jpg",
+      "PackagePath": "staticwebassets\\img\\feature\\feature-1.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/feature/feature-2.jpg",
-      "PackagePath": "staticwebassets/img/feature/feature-2.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\feature\\feature-2.jpg",
+      "PackagePath": "staticwebassets\\img\\feature\\feature-2.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/feature/feature-3.jpg",
-      "PackagePath": "staticwebassets/img/feature/feature-3.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\feature\\feature-3.jpg",
+      "PackagePath": "staticwebassets\\img\\feature\\feature-3.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/gallery/gallery-1.jpg",
-      "PackagePath": "staticwebassets/img/gallery/gallery-1.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\gallery\\gallery-1.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-1.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/gallery/gallery-2.jpg",
-      "PackagePath": "staticwebassets/img/gallery/gallery-2.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\gallery\\gallery-2.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-2.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/gallery/gallery-3.jpg",
-      "PackagePath": "staticwebassets/img/gallery/gallery-3.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\gallery\\gallery-3.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-3.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/gallery/gallery-4.jpg",
-      "PackagePath": "staticwebassets/img/gallery/gallery-4.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\gallery\\gallery-4.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-4.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/gallery/gallery-5.jpg",
-      "PackagePath": "staticwebassets/img/gallery/gallery-5.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\gallery\\gallery-5.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-5.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/gallery/gallery-6.jpg",
-      "PackagePath": "staticwebassets/img/gallery/gallery-6.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\gallery\\gallery-6.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-6.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/gallery/gallery-7.jpg",
-      "PackagePath": "staticwebassets/img/gallery/gallery-7.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\gallery\\gallery-7.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-7.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/gallery/gallery-8.jpg",
-      "PackagePath": "staticwebassets/img/gallery/gallery-8.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\gallery\\gallery-8.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-8.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/gallery/gallery-9.jpg",
-      "PackagePath": "staticwebassets/img/gallery/gallery-9.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\gallery\\gallery-9.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-9.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/hero-slider/hero-1.jpg",
-      "PackagePath": "staticwebassets/img/hero-slider/hero-1.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\hero-slider\\hero-1.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-slider\\hero-1.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/hero-slider/hero-1_old.jpg",
-      "PackagePath": "staticwebassets/img/hero-slider/hero-1_old.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\hero-slider\\hero-1_old.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-slider\\hero-1_old.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/hero-slider/hero-2.jpg",
-      "PackagePath": "staticwebassets/img/hero-slider/hero-2.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\hero-slider\\hero-2.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-slider\\hero-2.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/hero-slider/hero-2_old.jpg",
-      "PackagePath": "staticwebassets/img/hero-slider/hero-2_old.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\hero-slider\\hero-2_old.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-slider\\hero-2_old.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/hero-slider/hero-3.jpg",
-      "PackagePath": "staticwebassets/img/hero-slider/hero-3.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\hero-slider\\hero-3.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-slider\\hero-3.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/hero-slider/hero-3.png",
-      "PackagePath": "staticwebassets/img/hero-slider/hero-3.png"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\hero-slider\\hero-3.png",
+      "PackagePath": "staticwebassets\\img\\hero-slider\\hero-3.png"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/home-about.jpg",
-      "PackagePath": "staticwebassets/img/home-about.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\home-about.jpg",
+      "PackagePath": "staticwebassets\\img\\home-about.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/icons/chose-icon-1.png",
-      "PackagePath": "staticwebassets/img/icons/chose-icon-1.png"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\icons\\chose-icon-1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\chose-icon-1.png"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/icons/chose-icon-2.png",
-      "PackagePath": "staticwebassets/img/icons/chose-icon-2.png"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\icons\\chose-icon-2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\chose-icon-2.png"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/icons/chose-icon-3.png",
-      "PackagePath": "staticwebassets/img/icons/chose-icon-3.png"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\icons\\chose-icon-3.png",
+      "PackagePath": "staticwebassets\\img\\icons\\chose-icon-3.png"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/icons/chose-icon-4.png",
-      "PackagePath": "staticwebassets/img/icons/chose-icon-4.png"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\icons\\chose-icon-4.png",
+      "PackagePath": "staticwebassets\\img\\icons\\chose-icon-4.png"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/icons/chose-icon-5.png",
-      "PackagePath": "staticwebassets/img/icons/chose-icon-5.png"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\icons\\chose-icon-5.png",
+      "PackagePath": "staticwebassets\\img\\icons\\chose-icon-5.png"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/icons/chose-icon-6.png",
-      "PackagePath": "staticwebassets/img/icons/chose-icon-6.png"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\icons\\chose-icon-6.png",
+      "PackagePath": "staticwebassets\\img\\icons\\chose-icon-6.png"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/logo.png",
-      "PackagePath": "staticwebassets/img/logo.png"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/logo_old.png",
-      "PackagePath": "staticwebassets/img/logo_old.png"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\logo_old.png",
+      "PackagePath": "staticwebassets\\img\\logo_old.png"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/price-bg.jpg",
-      "PackagePath": "staticwebassets/img/price-bg.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\price-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\price-bg.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/recent-1.jpg",
-      "PackagePath": "staticwebassets/img/recent-1.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\recent-1.jpg",
+      "PackagePath": "staticwebassets\\img\\recent-1.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/recent-2.jpg",
-      "PackagePath": "staticwebassets/img/recent-2.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\recent-2.jpg",
+      "PackagePath": "staticwebassets\\img\\recent-2.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/recent-3.jpg",
-      "PackagePath": "staticwebassets/img/recent-3.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\recent-3.jpg",
+      "PackagePath": "staticwebassets\\img\\recent-3.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/sidebar-latest.jpg",
-      "PackagePath": "staticwebassets/img/sidebar-latest.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\sidebar-latest.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar-latest.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/testimonial-bg.jpg",
-      "PackagePath": "staticwebassets/img/testimonial-bg.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\testimonial-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-bg.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/trainer/trainer-1.jpg",
-      "PackagePath": "staticwebassets/img/trainer/trainer-1.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\trainer\\trainer-1.jpg",
+      "PackagePath": "staticwebassets\\img\\trainer\\trainer-1.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/trainer/trainer-2.jpg",
-      "PackagePath": "staticwebassets/img/trainer/trainer-2.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\trainer\\trainer-2.jpg",
+      "PackagePath": "staticwebassets\\img\\trainer\\trainer-2.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/trainer/trainer-3.jpg",
-      "PackagePath": "staticwebassets/img/trainer/trainer-3.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\trainer\\trainer-3.jpg",
+      "PackagePath": "staticwebassets\\img\\trainer\\trainer-3.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/trainer/trainer-4.jpg",
-      "PackagePath": "staticwebassets/img/trainer/trainer-4.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\trainer\\trainer-4.jpg",
+      "PackagePath": "staticwebassets\\img\\trainer\\trainer-4.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/img/video-bg.jpg",
-      "PackagePath": "staticwebassets/img/video-bg.jpg"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\img\\video-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\video-bg.jpg"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/js/bootstrap.min.js",
-      "PackagePath": "staticwebassets/js/bootstrap.min.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/js/jquery-3.3.1.min.js",
-      "PackagePath": "staticwebassets/js/jquery-3.3.1.min.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/js/jquery.magnific-popup.min.js",
-      "PackagePath": "staticwebassets/js/jquery.magnific-popup.min.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/js/jquery.nice-select.min.js",
-      "PackagePath": "staticwebassets/js/jquery.nice-select.min.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/js/jquery.slicknav.js",
-      "PackagePath": "staticwebassets/js/jquery.slicknav.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\js\\jquery.slicknav.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/js/main.js",
-      "PackagePath": "staticwebassets/js/main.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/js/masonry.pkgd.min.js",
-      "PackagePath": "staticwebassets/js/masonry.pkgd.min.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\js\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\masonry.pkgd.min.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/js/mixitup.min.js",
-      "PackagePath": "staticwebassets/js/mixitup.min.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\js\\mixitup.min.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/js/owl.carousel.min.js",
-      "PackagePath": "staticwebassets/js/owl.carousel.min.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/js/site.js",
-      "PackagePath": "staticwebassets/js/site.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/LICENSE",
-      "PackagePath": "staticwebassets/lib/bootstrap"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js",
-      "PackagePath": "staticwebassets/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/jquery-validation/LICENSE.md",
-      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/jquery-validation/dist/additional-methods.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/jquery/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/jquery/dist/jquery.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/jquery/dist/jquery.min.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "/home/omon/ITStep_PD111/ASP.NET/FileExplorer/FileExplorer/wwwroot/lib/jquery/dist/jquery.min.map",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+      "Id": "C:\\Users\\OMON\\Desktop\\ITStep_PD111\\ASP.NET\\FileExplorer\\FileExplorer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.FileExplorer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FileExplorer.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.FileExplorer.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FileExplorer.props",
       "PackagePath": "build\\FileExplorer.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.FileExplorer.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FileExplorer.props",
       "PackagePath": "buildMultiTargeting\\FileExplorer.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.FileExplorer.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FileExplorer.props",
       "PackagePath": "buildTransitive\\FileExplorer.props"
     }
   ],

@@ -1,0 +1,49 @@
+@page
+@model DBFirstCRUDRazorPage.Pages.Cars.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Car[0].Owner_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Car[0].Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Car[0].MaxSpeed)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Car) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Owner_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaxSpeed)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Car_id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Car_id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Car_id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
