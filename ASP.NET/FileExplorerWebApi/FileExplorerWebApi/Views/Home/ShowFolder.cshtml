@@ -1,0 +1,49 @@
+@model string
+
+@{
+    ViewBag.Title = "ShowFolder";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <h2>@Model</h2>
+    
+    <table id="files-table" class="table table-active table-bordered">
+        <thead>
+        <td>FileName</td>
+        <td>Extension</td>
+        <td>CreationDate</td>
+        <td>Size</td>
+        </thead>
+        <tbody>
+                
+        </tbody>
+    </table>
+    
+</div>
+
+<script>
+    $.ajax({
+        url: '/api/Explorer/@Model',
+        method: "GET",
+        dataType: 'JSON',
+        contentType: 'application/json',
+        cache: false,
+        processData: false,
+        success: data => {
+            console.log(data);
+
+            let table = $('#files-table');
+            table.find("tbody tr").remove();
+
+            data.forEach(file => 
+            {
+                table.append("<tr><td>" + file.fileName +
+                    "</td><td>" + file.extension +
+                    "</td><td>" + file.creationDate +
+                    "</td><td>" + file.size +
+                    "</td><td><button class='btn-link js-edit' data-file-full-name=" + file.fullName + ">Edit</button>&nbsp;<button class='btn-link js-delete' data-file-full-name=" + file.fullName + ">Delete</button></td></tr>");
+            });
+        }
+    });
+</script>

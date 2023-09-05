@@ -1,0 +1,17 @@
+<div class="container">
+    <form id="get_folder_path" name="get-folder-path" class="form-control" action="@Url.ActionLink("ShowFolder", "Home")">
+        <input type="text" name="folderPath" placeholder="Enter folder path" class="form-text input-group-text input-group form-check form-check-input">
+        <br/>
+        <button class="btn-primary form-control">Confirm</button>
+    </form>
+</div>
+
+<script>
+    $("#get_folder_path").submit(e =>
+    {
+        e.preventDefault();
+        alert("begin");
+        let path = document.getElementsByName("get-folder-path").folderPath;
+        console.log(path);
+    });
+</script>
