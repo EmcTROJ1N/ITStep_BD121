@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using FileExplorerWebApi.Models;
 
@@ -30,7 +31,8 @@ public class HomeController : Controller
 
     public IActionResult ShowFolder(string folderPath)
     {
-        return View(model: folderPath);
+        string encodedPath = WebUtility.UrlEncode(folderPath);
+        return View(model: encodedPath);
     }
     
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

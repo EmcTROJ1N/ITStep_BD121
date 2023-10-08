@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FileExplorerWebApi
 build_property.RootNamespace = FileExplorerWebApi
-build_property.ProjectDir = /home/omon/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/
+build_property.ProjectDir = C:\Users\OMON\Desktop\ITStep_PD111\ASP.NET\FileExplorerWebApi\FileExplorerWebApi\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/omon/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi
+build_property.MSBuildProjectDirectory = C:\Users\OMON\Desktop\ITStep_PD111\ASP.NET\FileExplorerWebApi\FileExplorerWebApi
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/omon/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/Home/GetFolderPath.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9HZXRGb2xkZXJQYXRoLmNzaHRtbA==
+[C:/Users/OMON/Desktop/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/Home/GetFolderPath.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZXRGb2xkZXJQYXRoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/omon/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/OMON/Desktop/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/omon/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Users/OMON/Desktop/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/omon/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/Home/ShowFolder.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TaG93Rm9sZGVyLmNzaHRtbA==
+[C:/Users/OMON/Desktop/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/Home/ShowFolder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93Rm9sZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/omon/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/OMON/Desktop/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/omon/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/OMON/Desktop/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/omon/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/OMON/Desktop/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/omon/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/OMON/Desktop/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/omon/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-joba61omg5
+[C:/Users/OMON/Desktop/ITStep_PD111/ASP.NET/FileExplorerWebApi/FileExplorerWebApi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zlc0k2875i

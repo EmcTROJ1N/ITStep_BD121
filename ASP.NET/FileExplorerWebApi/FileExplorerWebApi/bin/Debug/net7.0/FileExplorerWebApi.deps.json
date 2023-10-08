@@ -2971,7 +2971,7 @@
     "System.Configuration.ConfigurationManager/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-egyqkKEv09CxofGKrn6ngTIRGG809+7pNf+yfDRhxO/DgEpUEacxnh7pDZSc0QNJfCTAl8NQIOhNMzsI1E4x0Q==",
+      "sha512": "sha512-7T+m0kDSlIPTHIkPMIu6m6tV6qsMqJpvQWW2jIc2qi7sn40qxFo0q+7mEQAhMPXZHMKnWrnv47ntGlM/ejvw3g==",
       "path": "system.configuration.configurationmanager/6.0.0",
       "hashPath": "system.configuration.configurationmanager.6.0.0.nupkg.sha512"
     },
@@ -3223,7 +3223,7 @@
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JwupA+fGYPj8YQd4ub4WY+YWzJI+Ru5Aw17Mo0q8xpODUpU2dPye4QhngPImSRI7XeiANpbJxYuprNWUW1+pcA==",
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
@@ -3265,7 +3265,7 @@
     "System.Security.AccessControl/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LAbmQPuoLbKPozJ221s1kqk/mvnbdnVm6p+6oCFMg5SbMvh1xyyu251zr3OT7OU/1SCJP4hEM1M769n/6fqfHQ==",
+      "sha512": "sha512-AUADIc0LIEQe7MzC+I0cl0rAT8RrTAKFHl53yHjEUzNVIaUlhFY11vc2ebiVJzVBuOzun6F7FBA+8KAbGTTedQ==",
       "path": "system.security.accesscontrol/6.0.0",
       "hashPath": "system.security.accesscontrol.6.0.0.nupkg.sha512"
     },
@@ -3335,7 +3335,7 @@
     "System.Security.Permissions/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2em5LbBnEDM47lzfdMGz1oif39GMMpYqXfLWnrAycd3pZ+/EN/2QlJkNLqUXQQecQGjkQkdJjay7XVpdY1241g==",
+      "sha512": "sha512-T/uuc7AklkDoxmcJ7LGkyX1CcSviZuLCa4jg3PekfJ7SU0niF0IVTXwUiNVP9DSpzou2PpxJ+eNY2IfDM90ZCg==",
       "path": "system.security.permissions/6.0.0",
       "hashPath": "system.security.permissions.6.0.0.nupkg.sha512"
     },
@@ -3356,7 +3356,7 @@
     "System.Text.Encoding.CodePages/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XheLAoNsAVFh4uYXSuntGj9f4vc/rP1bVHhlqvYo+iGNTwa3E4loXMBOA9lY3O4h9vi4vHk+eLRnl5luQD3Dfw==",
+      "sha512": "sha512-ZFCILZuOvtKPauZ/j/swhvw68ZRi9ATCfvGbk1QfydmcXBkIWecWKn/250UH7rahZ5OoDBaiAudJtPvLwzw85A==",
       "path": "system.text.encoding.codepages/6.0.0",
       "hashPath": "system.text.encoding.codepages.6.0.0.nupkg.sha512"
     },
@@ -3370,7 +3370,7 @@
     "System.Text.Encodings.Web/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/ObblOC9Rc4QBy8x/V02DpUvs6eJt2kAekFqQSjGZ+95EWUA9Z6Pwh5w2UMCCHhW7cLfplK9Vucqtngq3riJfQ==",
+      "sha512": "sha512-Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
       "path": "system.text.encodings.web/6.0.0",
       "hashPath": "system.text.encodings.web.6.0.0.nupkg.sha512"
     },
@@ -3426,7 +3426,7 @@
     "System.Windows.Extensions/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-U9Nkdso1yv9cIGrTdyqeCsYFV0x1q61SiMwMx6qXt3I2xlCPIyPYrIajx2gwJ/hlGbzzM18vH2VhqDJWqfzaJQ==",
+      "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
