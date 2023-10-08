@@ -1,0 +1,42 @@
+@model List<Product>
+@using Microsoft.AspNetCore.Identity
+@using Exam.Areas.Identity.Data
+@inject UserManager<ExamUser> UserManager
+
+
+@{
+    ViewData["Title"] = "Create";
+    string? id = UserManager.GetUserId(User);
+    if (id == null)
+        throw new NullReferenceException();
+}
+
+<h1>Create</h1>
+
+<h4>Order</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <input type="hidden" name="ClientId" value="@id">
+            <div class="form-group">
+                <label class="control-label">Choose product</label>
+                <select name="ProductId" class="form-control form-select">
+                    @foreach (Product item in Model)
+                    {
+                        <option value="@item.ProductId">@item.Model</option>
+                    }
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

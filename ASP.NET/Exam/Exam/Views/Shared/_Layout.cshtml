@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <title>@ViewData["Title"] - Exam</title>
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    
+        <!-- Additional CSS Files -->
+        <link rel="stylesheet" href="~/css/fontawesome.css">
+        <link rel="stylesheet" href="~/css/templatemo-lugx-gaming.css">
+        <link rel="stylesheet" href="~/css/owl.css">
+        <link rel="stylesheet" href="~/css/animate.css">
+        <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <!-- ***** Preloader Start ***** -->
+        <div id="js-preloader" class="js-preloader">
+            <div class="preloader-inner">
+                <span class="dot"></span>
+                <div class="dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Preloader End ***** -->
+
+        <!-- ***** Header Area Start ***** -->
+        <header class="header-area header-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="main-nav">
+                            <!-- ***** Logo Start ***** -->
+                            <h3 id="logo">Remontka pro</h3>
+                            <!-- ***** Logo End ***** -->
+                            <!-- ***** Menu Start ***** -->
+                            <ul class="nav">
+                                <li><a href="@Url.Action("Index", "Home")" class="active">Home</a></li>
+                                @if (User?.Identity?.IsAuthenticated == true)
+                                {
+                                    if (User.IsInRole("Admin"))
+                                    {
+                                        <li><a href="@Url.Action("Index", "Products")">Products</a></li>
+                                        <li><a href="@Url.Action("Index", "Users")">Users</a></li>
+                                        <li><a href="@Url.Action("Index", "Categories")">Categories</a></li>
+                                        <li><a href="@Url.Action("Index", "Orders")">All orders CRUD</a></li>
+                                    }
+                                    else
+                                    {
+                                        <li><a href="@Url.Action("Index", "Orders")">Own orders</a></li>
+                                    }
+                                }
+                                <li><a href="@Url.Action("Privacy", "Home")">Privacy</a></li>
+                        
+                                <partial name="_LoginPartial"/>
+                            </ul>   
+                            <a class='menu-trigger'>
+                                <span>Menu</span>
+                            </a>
+                            <!-- ***** Menu End ***** -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ***** Header Area End ***** -->
+    
+        <div class="main-banner">
+            <div class="container">
+                <div class="row">
+                    @await RenderSectionAsync("Header", false)
+                </div>
+            </div>
+        </div>
+    
+        <div class="section">
+            @RenderBody()
+        </div>
+    
+        <footer>
+        <div class="container">
+            <div class="col-lg-12">
+                <p>&copy; 2023 - Exam - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></p>
+            </div>
+        </div>
+        </footer>
+
+        <!-- Scripts -->
+        <!-- Bootstrap core JavaScript -->
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="~/js/isotope.min.js"></script>
+        <script src="~/js/owl-carousel.js"></script>
+        <script src="~/js/counter.js"></script>
+        <script src="~/js/custom.js"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
+</html>

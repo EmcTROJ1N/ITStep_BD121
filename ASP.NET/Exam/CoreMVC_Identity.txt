@@ -1,0 +1,16 @@
+﻿1. Создать проект MVC
+2. Выбрать для проекта New scaffolded item и добавить Views для Identity (установить и обновить пакеты)
+3. Создать начальную миграцию
+4. Добавить поля FirstName, LastName в класс ApplicationUser
+5. Добавить миграцию с новыми полями
+6. Добавить поля FirstName, LastName на форму Register.cshtml
+7. Добавить поля FirstName, LastName в код регистрации в файл Register.cshtml.cs
+8. Добавить методы для настройки Identity в файл Startup.cs
+9. Добавить код для добавления нового пользователя в роль Admin
+10. Добавить миграцию для добавления учётных записей пользователей в Identity
+11. Добавить модель для Authors
+12. Добавить контроллер и View для Authors
+13. Создать миграции AddAuthors, SeedAuthors
+14. Добавить метод services.ConfigureApplicationCookie для правильной работы атрибута [Authorize]
+15. Добавить ViewModel для администрирования пользователей
+16. Добавить ClaimCheckAttribute, контроллер и представления для администрирования пользователей
