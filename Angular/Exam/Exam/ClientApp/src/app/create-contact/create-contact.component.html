@@ -1,0 +1,136 @@
+<h1 mat-dialog-title>Contact creating</h1>
+<div mat-dialog-content>
+
+  <mat-stepper orientation="vertical" [linear]="isLinear" #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>First last name</ng-template>
+        <mat-form-field>
+          <mat-label>Name</mat-label>
+          <input matInput placeholder="First last name"
+                 formControlName="firstCtrl"
+                 required
+                 [(ngModel)]="newData.name"
+          >
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="secondFormGroup">
+      <form [formGroup]="secondFormGroup">
+        <ng-template matStepLabel>Fill out your address</ng-template>
+        <mat-form-field>
+          <mat-label>Address</mat-label>
+          <input matInput formControlName="secondCtrl" placeholder="Ex. 1 Main St, New York, NY"
+                [(ngModel)]="newData.address" required>
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="thirdFormGroup">
+      <form [formGroup]="thirdFormGroup">
+        <ng-template matStepLabel>Fill out your email</ng-template>
+        <mat-form-field>
+          <mat-label>email</mat-label>
+          <input matInput formControlName="thirdCtrl" placeholder="xxxx@mail.ru"
+                [(ngModel)]="newData.email" required
+          type="email">
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="fourthFormGroup">
+      <form [formGroup]="fourthFormGroup">
+        <ng-template matStepLabel>Fill out your birthday</ng-template>
+        <mat-form-field>
+          <mat-label>email</mat-label>
+          <input matInput formControlName="fourthCtrl" placeholder="01.01.1970"
+                [(ngModel)]="newData.birthday" required
+                 type="date">
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+
+    <mat-step [stepControl]="sixthFormGroup">
+      <form [formGroup]="sixthFormGroup">
+        <ng-template matStepLabel>Choose out your phone number</ng-template>
+        <mat-form-field>
+          <mat-label>Phone number</mat-label>
+          <mat-select [(value)]="newData.phoneId" formControlName="sixthCtrl" required>
+            <ng-container *ngFor="let phone of phones">
+              <mat-option [value]="phone.id">{{phone.phoneNumber}}</mat-option>
+            </ng-container>
+          </mat-select>
+
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="seventhFormGroup">
+      <form [formGroup]="seventhFormGroup">
+        <ng-template matStepLabel>Choose out your contact category</ng-template>
+        <mat-form-field>
+          <mat-label>Category</mat-label>
+          <mat-select [(value)]="newData.categoryId" formControlName="sixthCtrl" required>
+            <ng-container *ngFor="let category of categories">
+              <mat-option [value]="category.id">{{category.categoryName}}</mat-option>
+            </ng-container>
+          </mat-select>
+
+
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+
+
+    <mat-step [stepControl]="eighthFormGroup">
+      <form [formGroup]="eighthFormGroup">
+        <ng-template matStepLabel>Notes</ng-template>
+        <mat-form-field>
+          <mat-label>Notes</mat-label>
+          <input matInput formControlName="eighthCtrl" placeholder="Note"
+                [(ngModel)]="newData.notes" required>
+
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+
+    <mat-step>
+      <ng-template matStepLabel>Done</ng-template>
+      <p>You are now done.</p>
+      <div>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button (click)="stepper.reset()">Reset</button>
+      </div>
+    </mat-step>
+  </mat-stepper>
+
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="newData" cdkFocusInitial>Ok</button>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+</div>

@@ -1,0 +1,15 @@
+<mat-selection-list [multiple]="false" #category>
+  <div mat-subheader>Folders</div>
+
+  <div *ngFor="let category of categories">
+    <mat-list-option value="{{category.id}}">
+      <mat-icon matListItemIcon>folder</mat-icon>
+      <div matListItemTitle>{{category.categoryName}}</div>
+      <div matListItemLine>{{category.id}}</div>
+    </mat-list-option>
+    <mat-divider/>
+  </div>
+</mat-selection-list>
+
+<button mat-button color="primary" (click)="onDeleteCategory($event, category.selectedOptions.hasValue() ? category.selectedOptions.selected[0].value: null)">Delete selected category</button>
+<button mat-button color="primary" (click)="onOpenDialog($event)">Create new category</button>

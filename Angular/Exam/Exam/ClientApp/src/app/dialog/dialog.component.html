@@ -1,0 +1,14 @@
+<h1 mat-dialog-title>{{data.header}}</h1>
+<div mat-dialog-content>
+  <mat-form-field *ngFor="let field of data.fields"
+                  [ngStyle]="{display: 'flex', flexDirection: 'column'}">
+    <mat-label>{{field.description}}</mat-label>
+    <input *ngIf="field.type == DataType.Text" matInput [(ngModel)]="newData[field.id]">
+    <input *ngIf="field.type == DataType.Date"  type="date" matInput [(ngModel)]="newData[field.id]">
+    <input *ngIf="field.type == DataType.Number" type="number" matInput [(ngModel)]="newData[field.id]">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="newData" cdkFocusInitial>Ok</button>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+</div>

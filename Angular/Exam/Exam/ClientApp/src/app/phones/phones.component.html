@@ -1,0 +1,6 @@
+<app-crud-api [ItemsSource]="Phones"
+              [ColumnsDefinitions]="ColDefs"
+              (created)="onPhoneCreated($event)"
+              (deleted)="onPhoneDeleted($event)"
+              (edited)="onPhoneEdited($event)"
+/>

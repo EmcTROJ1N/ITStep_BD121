@@ -1,0 +1,60 @@
+.contacts-list {
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+}
+
+::ng-deep mat-list {
+  flex: 4;
+  margin-right: 30px !important;
+  width: 300px;
+}
+
+.account_box {
+  width: 50px !important;
+  height: 50px !important;
+  font-size: 50px !important;
+  margin: 25px 5px !important;
+}
+
+::ng-deep .contact-list-item .mat-mdc-list-item-unscoped-content {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+::ng-deep .contact-list-item .mdc-list-item__content {
+  display: flex;
+  align-items: center;
+}
+
+::ng-deep .contact-list-item .mdc-list-item__secondary-text::before {
+  display: none;
+}
+
+::ng-deep .contact-list-item .mdc-list-item__secondary-text {
+  margin-top: 5px
+}
+
+.example-card {
+  flex: 7;
+  height: min-content;
+}
+
+::ng-deep .example-card mat-card-header mat-icon {
+  width: 100%;
+  height: 100%;
+  font-size: 42px;
+}
+
+mat-grid-list {
+  width: 70%;
+}
+
+.add-contact {
+  position: absolute;
+  left: 95%;
+  top: 85%;
+}
