@@ -1,0 +1,47 @@
+<style>
+    div {
+        margin-bottom: 30px;
+    }
+    label {
+        font-size: large;
+    }
+</style>
+
+<form method="get" action="/18_11_23.php">
+    <div>
+        <label>Delete all txt files in path</label>
+        <br>
+        <input type="text" name="txtDeletePath">
+        <button>Delete</button>
+    </div>
+</form>
+
+<form method="get" action="/18_11_23.php">
+    <div>
+        <label>Copy all images from / to</label>
+        <br>
+        <input type="text" name="copyImagesSource">
+        <input type="text" name="copyImagesDest">
+        <button>Copy</button>
+    </div>
+</form>
+
+<form method="get" action="/18_11_23.php">
+    <div>
+        <label>Find files by mask</label>
+        <br>
+        <input type="text" name="pathToMaskFind">
+        <input type="text" name="fileMask">
+        <button>Find</button>
+    </div>
+</form>
+
+<form method="post" enctype="multipart/form-data" action="/18_11_23.php">
+    <div>
+        <label>Read file and remove duplicates</label>
+        <br>
+        <input type="file" name="filename">
+        <br>
+        <button>Upload</button>
+    </div>
+</form>
